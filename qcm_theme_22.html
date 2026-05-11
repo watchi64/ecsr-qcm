@@ -71,7 +71,7 @@
 <header>
   <div class="badge">Formation ECSR</div>
   <h1>Thème 22 — Feux obligatoires et facultatifs du véhicule</h1>
-  <p>15 questions · Sélectionne une réponse pour valider</p>
+  <p>15 questions · Sélectionne une réponse pour valider · v2</p>
 </header>
 
 <div class="progress-wrap">
@@ -145,16 +145,16 @@ const questions = [
     exp: "Les DRL n'éclairent qu'à l'avant et ne remplacent pas les feux de croisement. La nuit ou par mauvaise visibilité, il faut impérativement allumer les feux de croisement manuellement car l'arrière du véhicule reste sinon invisible."
   },
   {
-    q: "Pour quelle largeur de véhicule les feux de gabarit sont-ils obligatoires ?",
-    choices: ["Plus de 1,80 m","Plus de 2,00 m","Plus de 2,10 m","Plus de 2,50 m"],
-    answer: 2,
-    exp: "Les feux de gabarit sont obligatoires pour les véhicules de plus de 2,10 m de large (poids lourds, certains utilitaires). Leur couleur est blanche à l'avant et rouge à l'arrière."
+    q: "Le faisceau des feux de croisement est asymétrique. Comment éclaire-t-il ? (2 bonnes réponses — choisissez la plus complète)",
+    choices: ["Plus large à gauche et plus loin à droite","Plus large à droite et plus loin à gauche","Identique des deux côtés, mais court","Plus large à gauche uniquement"],
+    answer: 0,
+    exp: "Le faisceau de croisement est asymétrique par conception : il éclaire plus LARGE à gauche (pour voir les bords de chaussée) et plus LOIN à droite (le faisceau monte davantage côté droit pour voir les panneaux). La coupure nette est à gauche pour ne pas éblouir les véhicules venant en sens inverse."
   },
   {
-    q: "Quelle est la cadence légale des clignotants ?",
-    choices: ["30 à 60 clignotements par minute","60 à 120 clignotements par minute","90 à 150 clignotements par minute","120 à 180 clignotements par minute"],
-    answer: 1,
-    exp: "La réglementation impose une cadence de 60 à 120 clignotements par minute. Un rythme anormal peut indiquer une ampoule défectueuse (la cadence s'emballe généralement quand une ampoule est grillée)."
+    q: "L'oubli du clignotant lors d'un changement de direction est sanctionné par :",
+    choices: ["Une amende de 4ème classe (135 €) sans retrait de points","Une amende de 3ème classe (68 €) et 1 point retiré","Une amende de 2ème classe (35 €) et 3 points retirés","Une simple mise en garde sans amende"],
+    answer: 2,
+    exp: "L'oubli du clignotant est une contravention de 2ème classe : amende forfaitaire de 35 € (22 € minorée, 75 € majorée) et retrait de 3 points sur le permis. C'est une infraction plus légère que le défaut d'éclairage (4ème classe, 4 points) mais elle retire quand même des points."
   },
   {
     q: "À quelle distance minimale la plaque d'immatriculation arrière doit-elle être lisible de nuit ?",
@@ -169,10 +169,10 @@ const questions = [
     exp: "Les warnings signalent un danger immédiat : véhicule immobilisé sur la chaussée, ralentissement brutal sur autoroute, véhicule remorqué. Ils ne légitiment pas un arrêt en zone interdite et ne remplacent jamais les clignotants."
   },
   {
-    q: "Quelle couleur ont les feux de brouillard avant ?",
-    choices: ["Rouge uniquement","Orange uniquement","Blanche ou jaune sélectif","Blanche uniquement"],
-    answer: 2,
-    exp: "Les feux de brouillard avant peuvent être blancs ou jaune sélectif. Leur faisceau est large et court, plongeant vers le sol, pour éclairer sans renvoyer la lumière dans le brouillard."
+    q: "Lors du remplacement d'une ampoule halogène, pourquoi ne faut-il pas toucher le verre avec les doigts nus ?",
+    choices: ["Pour éviter les coupures sur le verre fragile","La graisse des doigts crée un point de chaleur qui réduit la durée de vie de l'ampoule","Pour des raisons d'hygiène uniquement","Cela n'a aucune importance pour une ampoule standard"],
+    answer: 1,
+    exp: "La graisse naturelle des doigts, déposée sur le verre d'une ampoule halogène, crée un point de surchauffe localisé lors de l'allumage. Cela fragilise le verre et peut provoquer l'éclatement ou réduire significativement la durée de vie de l'ampoule. Toujours manipuler avec un chiffon propre ou des gants."
   },
   {
     q: "Quel risque majeur présente l'oubli d'allumer les feux de croisement la nuit sur un véhicule équipé de DRL ?",
