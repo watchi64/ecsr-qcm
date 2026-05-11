@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Thème 08 — Les intersections non gérées</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: 'Segoe UI', system-ui, sans-serif;
+  background: #0f172a;
+  color: #f1f5f9;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.deck { flex: 1; position: relative; overflow: hidden; }
+
+.slide {
+  display: none;
+  position: absolute;
+  inset: 0;
+  padding: 52px 80px 44px;
+  flex-direction: column;
+  justify-content: center;
+}
+.slide.active { display: flex; }
+.slide.sep {
+  align-items: center;
+  text-align: center;
+  background: #080f1e;
+}
+
+/* Barre de couleur en haut selon objectif */
+.slide::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 5px;
+}
+.o0::before { background: linear-gradient(90deg, #60a5fa 0%, #34d399 50%, #fbbf24 100%); }
+.o1::before { background: #60a5fa; }
+.o2::before { background: #34d399; }
+.o3::before { background: #fbbf24; }
+
+/* Tags */
+.tag {
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  margin-bottom: 18px;
+}
+.t0 { color: #64748b; }
+.t1 { color: #60a5fa; }
+.t2 { color: #34d399; }
+.t3 { color: #fbbf24; }
+
+/* Titres */
+h1 { font-size: 3.8rem; font-weight: 800; line-height: 1.1; margin-bottom: 20px; }
+h2 { font-size: 2.6rem; font-weight: 700; line-height: 1.2; margin-bottom: 24px; }
+.sub { font-size: 1.55rem; color: #94a3b8; line-height: 1.4; }
+
+/* Couleurs */
+.c1 { color: #60a5fa; font-weight: 700; }
+.c2 { color: #34d399; font-weight: 700; }
+.c3 { color: #fbbf24; font-weight: 700; }
+.cr { color: #f87171; font-weight: 700; }
+.cw { font-weight: 700; }
+
+/* Blocs */
+.box {
+  background: #1e293b;
+  border-left: 6px solid;
+  border-radius: 0 12px 12px 0;
+  padding: 20px 28px;
+  margin: 10px 0;
+  font-size: 1.75rem;
+  line-height: 1.45;
+}
+.box.b1 { border-color: #60a5fa; }
+.box.b2 { border-color: #34d399; }
+.box.b3 { border-color: #fbbf24; }
+.box.br { border-color: #f87171; }
+.box.bw { border-color: #f1f5f9; }
+
+.warn {
+  background: #3b0a0a;
+  border: 2px solid #f87171;
+  border-radius: 12px;
+  padding: 18px 28px;
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: #fca5a5;
+  margin: 14px 0;
+  text-align: center;
+  line-height: 1.35;
+}
+
+/* Listes */
+.list { list-style: none; }
+.list li {
+  font-size: 1.75rem;
+  padding: 13px 0;
+  border-bottom: 1px solid #1e293b;
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+  line-height: 1.4;
+}
+.list li:last-child { border-bottom: none; }
+.ar1 { color: #60a5fa; font-weight: 700; flex-shrink: 0; }
+.ar2 { color: #34d399; font-weight: 700; flex-shrink: 0; }
+.ar3 { color: #fbbf24; font-weight: 700; flex-shrink: 0; }
+.arr { color: #f87171; font-weight: 700; flex-shrink: 0; }
+
+/* Grid 2 colonnes */
+.grid2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  margin-top: 20px;
+}
+.card {
+  background: #1e293b;
+  border-radius: 12px;
+  padding: 22px 24px;
+}
+.card-label { font-size: 0.9rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; color: #475569; margin-bottom: 10px; }
+.card-value { font-size: 1.65rem; font-weight: 700; line-height: 1.3; }
+
+/* Badge panneau */
+.panneau {
+  display: inline-flex;
+  align-items: center;
+  gap: 14px;
+  background: #1e293b;
+  border-radius: 14px;
+  padding: 14px 28px;
+  font-size: 2.1rem;
+  font-weight: 900;
+  margin-bottom: 22px;
+}
+
+/* Steps A→E */
+.steps {
+  display: flex;
+  gap: 14px;
+  margin-top: 28px;
+}
+.step {
+  background: #1e293b;
+  border-radius: 14px;
+  padding: 22px 16px;
+  flex: 1;
+  text-align: center;
+  border-top: 4px solid #fbbf24;
+}
+.step-l { font-size: 3rem; font-weight: 900; color: #fbbf24; line-height: 1; }
+.step-n { font-size: 1.05rem; font-weight: 700; margin-top: 8px; color: #94a3b8; }
+
+/* Séparateur objectif */
+.obj-num { font-size: 9rem; font-weight: 900; line-height: 1; margin-bottom: 12px; }
+.obj-title { font-size: 2rem; font-weight: 700; max-width: 680px; line-height: 1.35; }
+
+/* Texte courant */
+p.body { font-size: 1.85rem; line-height: 1.5; margin-bottom: 16px; }
+
+/* Navigation */
+nav {
+  background: #080f1e;
+  border-top: 1px solid #1e293b;
+  padding: 14px 32px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-shrink: 0;
+}
+.btn {
+  background: #1e293b;
+  border: none;
+  color: #f1f5f9;
+  font-size: 1rem;
+  font-weight: 700;
+  padding: 10px 26px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-family: inherit;
+  transition: background 0.15s;
+}
+.btn:hover:not(:disabled) { background: #334155; }
+.btn:disabled { opacity: 0.22; cursor: not-allowed; }
+.counter { color: #475569; font-size: 0.92rem; font-weight: 600; }
+
+/* Barre de progression */
+.prog-bar { height: 3px; background: #1e293b; flex-shrink: 0; }
+.prog-fill { height: 100%; background: linear-gradient(90deg, #60a5fa, #34d399, #fbbf24); transition: width 0.3s ease; }
+
+.hint { position: absolute; bottom: 68px; right: 32px; color: #1e293b; font-size: 0.82rem; }
+</style>
+</head>
+<body>
+
+<div class="prog-bar"><div class="prog-fill" id="prog" style="width:3.33%"></div></div>
+
+<div class="deck">
+
+  <!-- 1 : TITRE -->
+  <div class="slide o0 active" id="s1">
+    <div class="tag t0">Formation ECSR — Thème 08</div>
+    <h1>Les intersections<br>non gérées</h1>
+    <p class="sub">3 objectifs pour maîtriser les carrefours sans feux tricolores</p>
+    <div class="hint">Touches fléchées pour naviguer</div>
+  </div>
+
+  <!-- 2 : PLAN -->
+  <div class="slide o0" id="s2">
+    <div class="tag t0">Au programme</div>
+    <h2>3 objectifs à maîtriser</h2>
+    <ul class="list">
+      <li><span class="ar1">01</span><span><span class="c1">Connaître la signalisation</span> — identifier le régime de priorité pour aborder les intersections en sécurité</span></li>
+      <li><span class="ar2">02</span><span><span class="c2">Détecter les indices</span> — percevoir l'intersection avant de la voir et anticiper</span></li>
+      <li><span class="ar3">03</span><span><span class="c3">Franchir en sécurité</span> — appliquer la séquence de franchissement en 5 étapes</span></li>
+    </ul>
+  </div>
+
+  <!-- ═══════════ OBJECTIF 1 ═══════════ -->
+
+  <!-- 3 : SEP OBJ1 -->
+  <div class="slide o1 sep" id="s3">
+    <div class="tag t1">Objectif</div>
+    <div class="obj-num" style="color:#60a5fa">1</div>
+    <div class="obj-title">Connaître la signalisation permettant d'identifier le régime de priorité</div>
+  </div>
+
+  <!-- 4 : DÉFINITION -->
+  <div class="slide o1" id="s4">
+    <div class="tag t1">Objectif 1 — Définition</div>
+    <h2>C'est quoi un régime de priorité ?</h2>
+    <div class="box b1">Tu arrives à un carrefour en même temps qu'un autre conducteur. <span class="c1">Qui passe en premier ?</span></div>
+    <p class="body" style="margin-top:20px">C'est le <span class="cw">régime de priorité</span> qui le décide. La signalisation te dit exactement quel rôle tu joues à chaque intersection.</p>
+    <div class="warn">À chaque carrefour : soit PRIORITAIRE, soit NON PRIORITAIRE. Pas d'entre-deux.</div>
+  </div>
+
+  <!-- 5 : RÈGLE PAR DÉFAUT -->
+  <div class="slide o1" id="s5">
+    <div class="tag t1">Objectif 1 — Signalisation</div>
+    <h2>Aucun panneau visible ?</h2>
+    <div class="box b1" style="font-size:2.3rem; font-weight:800">Règle de la <span class="c1">PRIORITÉ À DROITE</span></div>
+    <p class="body" style="margin-top:22px">Tu cèdes le passage à tout véhicule arrivant sur ta <span class="c1">droite</span>.</p>
+    <div class="warn">Cette règle EXISTE sans panneau. C'est la règle par défaut du Code de la route.</div>
+  </div>
+
+  <!-- 6 : AB2 -->
+  <div class="slide o1" id="s6">
+    <div class="tag t1">Objectif 1 — Signalisation</div>
+    <div class="panneau"><span class="c1">▲ AB2</span></div>
+    <h2>Rappel de priorité à droite</h2>
+    <ul class="list">
+      <li><span class="ar1">→</span>Triangle rouge avec pictogramme de deux routes qui se croisent</li>
+      <li><span class="ar1">→</span>Placé 50 à 150 m avant le carrefour</li>
+      <li><span class="ar1">→</span><span class="c1">Ne crée pas la règle</span> — il la rappelle seulement</li>
+      <li><span class="ar1">→</span>Comportement identique : céder aux véhicules venant de ta droite</li>
+    </ul>
+  </div>
+
+  <!-- 7 : B1 -->
+  <div class="slide o1" id="s7">
+    <div class="tag t1">Objectif 1 — Signalisation</div>
+    <div class="panneau"><span class="c1">▽ B1 — Cédez le passage</span></div>
+    <h2>Triangle pointe en bas, rouge et blanc</h2>
+    <div class="box b1">Je ralentis → j'observe → je cède si nécessaire</div>
+    <div class="grid2" style="margin-top:18px">
+      <div class="card">
+        <div class="card-label">Quelqu'un arrive</div>
+        <div class="card-value cr">J'attends qu'il passe</div>
+      </div>
+      <div class="card">
+        <div class="card-label">Voie libre</div>
+        <div class="card-value c2">Je passe sans m'arrêter</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 8 : B2 -->
+  <div class="slide o1" id="s8">
+    <div class="tag t1">Objectif 1 — Signalisation</div>
+    <div class="panneau"><span class="cr">STOP — B2</span></div>
+    <h2>Octogone rouge — arrêt complet</h2>
+    <div class="box br" style="font-size:2.2rem; font-weight:800; color:#fca5a5">Arrêt complet. Toujours. Même si la voie est libre.</div>
+    <p class="body" style="margin-top:18px">Je m'arrête derrière la ligne blanche continue, j'observe <span class="cw">gauche → droite → gauche</span>, puis je m'engage.</p>
+    <div class="warn" style="font-size:1.5rem">Rouler à 2 km/h ce n'est pas un arrêt. C'est une infraction. (135 €, 4 points)</div>
+  </div>
+
+  <!-- 9 : B15 -->
+  <div class="slide o1" id="s9">
+    <div class="tag t1">Objectif 1 — Signalisation</div>
+    <div class="panneau"><span class="c3">◆ B15 — Passage protégé</span></div>
+    <h2>Losange jaune à liseré blanc</h2>
+    <ul class="list">
+      <li><span class="ar1">→</span>Je suis sur une <span class="c1">route prioritaire</span></li>
+      <li><span class="ar1">→</span>Les voies qui me croisent ont obligatoirement un B1 ou un B2</li>
+      <li><span class="ar1">→</span>Ce panneau est répété avant <span class="cw">chaque carrefour</span> sur cette route</li>
+    </ul>
+    <div class="warn" style="margin-top:18px">Être prioritaire ne veut pas dire ne pas regarder. Un conducteur peut brûler son B2.</div>
+  </div>
+
+  <!-- 10 : EB10 -->
+  <div class="slide o1" id="s10">
+    <div class="tag t1">Objectif 1 — Signalisation</div>
+    <div class="panneau"><span style="color:#94a3b8">◆ EB10 — Fin de priorité</span></div>
+    <h2>Losange jaune barré de noir</h2>
+    <div class="box bw" style="font-size:1.9rem">La route prioritaire se termine ici.</div>
+    <p class="body" style="margin-top:22px">À partir de ce point, sans autre signalisation :<br><span class="c1">la priorité à droite reprend automatiquement.</span></p>
+  </div>
+
+  <!-- 11 : RÉCAP -->
+  <div class="slide o1" id="s11">
+    <div class="tag t1">Objectif 1 — Récapitulatif</div>
+    <h2>Les 5 situations à connaître</h2>
+    <ul class="list">
+      <li><span class="ar1">→</span><span><span class="c1">Aucun panneau</span> — je cède aux véhicules venant de ma droite</span></li>
+      <li><span class="ar1">→</span><span><span class="c1">AB2</span> — même chose, c'est juste un rappel</span></li>
+      <li><span class="ar1">→</span><span><span class="c1">B1</span> — je ralentis et je cède si nécessaire (arrêt seulement si besoin)</span></li>
+      <li><span class="arr">→</span><span><span class="cr">B2</span> — arrêt complet et absolu, toujours, même voie libre</span></li>
+      <li><span class="ar3">→</span><span><span class="c3">B15</span> — je suis prioritaire (mais je vérifie quand même)</span></li>
+    </ul>
+  </div>
+
+  <!-- 12 : LE PIÈGE -->
+  <div class="slide o1" id="s12">
+    <div class="tag t1">Objectif 1 — Le piège classique</div>
+    <h2>L'erreur que font beaucoup d'élèves</h2>
+    <div class="warn" style="font-size:2rem">"Pas de panneau = je suis prioritaire"</div>
+    <div class="box b2" style="margin-top:16px; font-size:2.2rem; font-weight:800; color:#34d399; text-align:center">
+      Pas de panneau = priorité à DROITE
+    </div>
+    <p class="body" style="margin-top:20px; text-align:center">Je dois céder à qui vient de ma droite, que je voie un panneau ou non.</p>
+  </div>
+
+  <!-- ═══════════ OBJECTIF 2 ═══════════ -->
+
+  <!-- 13 : SEP OBJ2 -->
+  <div class="slide o2 sep" id="s13">
+    <div class="tag t2">Objectif</div>
+    <div class="obj-num" style="color:#34d399">2</div>
+    <div class="obj-title">Détecter l'intersection avant de la voir pour anticiper et assurer sa sécurité</div>
+  </div>
+
+  <!-- 14 : DÉFINITION -->
+  <div class="slide o2" id="s14">
+    <div class="tag t2">Objectif 2 — Définition</div>
+    <h2>La route parle avant le carrefour</h2>
+    <div class="grid2">
+      <div class="card">
+        <div class="card-label">Conducteur débutant</div>
+        <div class="card-value cr">Voit le carrefour au dernier moment</div>
+      </div>
+      <div class="card">
+        <div class="card-label">Conducteur expérimenté</div>
+        <div class="card-value c2">Le perçoit 100 à 200 m avant</div>
+      </div>
+    </div>
+    <div class="box b2" style="margin-top:22px; font-size:1.85rem">La différence : il lit <span class="c2">tous les indices</span> que l'environnement lui envoie.</div>
+    <p class="body" style="margin-top:16px">Ce n'est pas de la magie. C'est une compétence qui s'apprend.</p>
+  </div>
+
+  <!-- 15 : INDICE 1 -->
+  <div class="slide o2" id="s15">
+    <div class="tag t2">Objectif 2 — 5 indices à lire</div>
+    <h2>Indice 1 — La signalisation avancée</h2>
+    <ul class="list">
+      <li><span class="ar2">→</span><span><span class="c2">AB2 / AB3 / AB4</span> — placés 50 à 150 m avant le carrefour</span></li>
+      <li><span class="ar2">→</span><span><span class="c2">Panneaux de direction</span> (flèches, noms de villes) — souvent = carrefour à venir</span></li>
+      <li><span class="ar2">→</span><span><span class="c2">Balises de virage</span> — changement de direction à venir</span></li>
+    </ul>
+    <div class="box b2" style="margin-top:22px">Dès que je vois un indice : je <span class="c2">lève le pied</span> de l'accélérateur.</div>
+  </div>
+
+  <!-- 16 : INDICE 2 -->
+  <div class="slide o2" id="s16">
+    <div class="tag t2">Objectif 2 — 5 indices à lire</div>
+    <h2>Indice 2 — Le marquage au sol</h2>
+    <ul class="list">
+      <li><span class="ar2">→</span><span><span class="c2">Tirets larges transversaux</span> — ligne de cédez le passage (B1 à venir)</span></li>
+      <li><span class="ar2">→</span><span><span class="c2">Ligne continue transversale</span> — ligne de stop (B2 à venir)</span></li>
+      <li><span class="ar2">→</span><span><span class="c2">Triangle blanc au sol</span> — renforce le B1</span></li>
+      <li><span class="ar2">→</span><span><span class="c2">STOP inscrit au sol</span> — renforce le B2</span></li>
+    </ul>
+  </div>
+
+  <!-- 17 : INDICE 3 -->
+  <div class="slide o2" id="s17">
+    <div class="tag t2">Objectif 2 — 5 indices à lire</div>
+    <h2>Indice 3 — L'environnement</h2>
+    <ul class="list">
+      <li><span class="ar2">→</span><span><span class="c2">Bâtiment en angle</span> — souvent placé au coin d'une rue = intersection</span></li>
+      <li><span class="ar2">→</span><span><span class="c2">Mur / haie / clôture</span> — crée un angle mort : je ralentis pour compenser</span></li>
+      <li><span class="ar2">→</span><span><span class="c2">Allée / parking / chemin</span> — débouché imprévu possible sur la route</span></li>
+      <li><span class="ar2">→</span><span><span class="c2">Entrée en agglomération</span> — multiplication des carrefours à prévoir</span></li>
+    </ul>
+  </div>
+
+  <!-- 18 : INDICE 4 -->
+  <div class="slide o2" id="s18">
+    <div class="tag t2">Objectif 2 — 5 indices à lire</div>
+    <h2>Indice 4 — Les autres usagers</h2>
+    <ul class="list">
+      <li><span class="ar2">→</span><span><span class="c2">Véhicule devant qui ralentit</span> sans raison apparente → intersection probable</span></li>
+      <li><span class="ar2">→</span><span><span class="c2">Clignotant allumé</span> → il va tourner → il y a une voie pour tourner</span></li>
+      <li><span class="ar2">→</span><span><span class="c2">Piéton qui traverse</span> → voie secondaire probable</span></li>
+      <li><span class="ar2">→</span><span><span class="c2">Cycliste qui dévie</span> → il voit quelque chose que tu ne vois pas encore</span></li>
+    </ul>
+  </div>
+
+  <!-- 19 : INDICE 5 -->
+  <div class="slide o2" id="s19">
+    <div class="tag t2">Objectif 2 — 5 indices à lire</div>
+    <h2>Indice 5 — La logique de la route</h2>
+    <ul class="list">
+      <li><span class="ar2">→</span><span><span class="c2">Route qui rétrécit</span> → voie secondaire → priorité à droite probable</span></li>
+      <li><span class="ar2">→</span><span><span class="c2">Crête de côte / virage serré</span> → intersection possible juste après, sans visibilité</span></li>
+      <li><span class="ar2">→</span><span><span class="c2">Changement de revêtement</span> → souvent = changement de type de voie</span></li>
+    </ul>
+    <div class="box b2" style="margin-top:20px">Ces indices se lisent <span class="c2">avant</span> le carrefour. C'est ça, l'anticipation.</div>
+  </div>
+
+  <!-- 20 : LES 3 ZONES -->
+  <div class="slide o2" id="s20">
+    <div class="tag t2">Objectif 2 — Organisation</div>
+    <h2>Avant l'intersection, 3 zones</h2>
+    <ul class="list">
+      <li><span class="ar2">1</span><span><span class="c2">Zone de détection (&gt; 100 m)</span><br>Je repère un indice → je lève le pied de l'accélérateur</span></li>
+      <li><span class="ar2">2</span><span><span class="c2">Zone d'approche (30 à 100 m)</span><br>Je lis la signalisation complète → j'adapte ma vitesse</span></li>
+      <li><span class="ar2">3</span><span><span class="c2">Zone de franchissement (&lt; 30 m)</span><br>J'observe et je décide → je m'engage ou j'attends</span></li>
+    </ul>
+  </div>
+
+  <!-- ═══════════ OBJECTIF 3 ═══════════ -->
+
+  <!-- 21 : SEP OBJ3 -->
+  <div class="slide o3 sep" id="s21">
+    <div class="tag t3">Objectif</div>
+    <div class="obj-num" style="color:#fbbf24">3</div>
+    <div class="obj-title">Comprendre comment franchir une intersection afin d'assurer la sécurité</div>
+  </div>
+
+  <!-- 22 : DÉFINITION -->
+  <div class="slide o3" id="s22">
+    <div class="tag t3">Objectif 3 — Définition</div>
+    <h2>Franchir, c'est décider — pas juste passer</h2>
+    <div class="box b3">Franchir un carrefour, c'est une <span class="c3">séquence de 5 étapes</span> qui se prennent l'une après l'autre.</div>
+    <p class="body" style="margin-top:20px">Rater une étape, c'est prendre un risque.<br>Les maîtriser toutes, c'est rouler en sécurité.</p>
+    <div class="warn">Avoir la priorité ne veut pas dire passer sans regarder.</div>
+  </div>
+
+  <!-- 23 : LA SÉQUENCE -->
+  <div class="slide o3" id="s23">
+    <div class="tag t3">Objectif 3 — Vue d'ensemble</div>
+    <h2>5 étapes à chaque carrefour</h2>
+    <div class="steps">
+      <div class="step"><div class="step-l">A</div><div class="step-n">Anticiper</div></div>
+      <div class="step"><div class="step-l">B</div><div class="step-n">Réduire</div></div>
+      <div class="step"><div class="step-l">C</div><div class="step-n">Observer</div></div>
+      <div class="step"><div class="step-l">D</div><div class="step-n">Décider</div></div>
+      <div class="step"><div class="step-l">E</div><div class="step-n">Franchir</div></div>
+    </div>
+  </div>
+
+  <!-- 24 : A -->
+  <div class="slide o3" id="s24">
+    <div class="tag t3">Objectif 3 — Étape A</div>
+    <div class="panneau"><span class="c3" style="font-size:3rem; line-height:1">A</span><span>Anticiper</span></div>
+    <ul class="list">
+      <li><span class="ar3">→</span>Identifier le régime de priorité dès la détection d'un indice</li>
+      <li><span class="ar3">→</span>Se placer sur la bonne voie si nécessaire</li>
+      <li><span class="ar3">→</span>Mettre le clignotant si on va tourner</li>
+      <li><span class="ar3">→</span>Main droite prête à freiner — pied levé de l'accélérateur</li>
+    </ul>
+    <div class="box b3" style="margin-top:18px">Dès que je perçois un indice : mon cerveau est en mode <span class="c3">intersection</span>.</div>
+  </div>
+
+  <!-- 25 : B -->
+  <div class="slide o3" id="s25">
+    <div class="tag t3">Objectif 3 — Étape B</div>
+    <div class="panneau"><span class="c3" style="font-size:3rem; line-height:1">B</span><span>Réduire la vitesse</span></div>
+    <div class="box b3" style="font-size:2.1rem; font-weight:800">Même sur une route prioritaire, je ralentis.</div>
+    <ul class="list" style="margin-top:16px">
+      <li><span class="ar3">→</span>Route prioritaire → décélération modérée, vigilance maximale</li>
+      <li><span class="ar3">→</span>Approche B1 → décélération franche, prêt à stopper</li>
+      <li><span class="ar3">→</span>Approche B2 → décélération jusqu'à l'arrêt complet</li>
+    </ul>
+    <div class="warn" style="font-size:1.6rem; margin-top:14px">La priorité ne supprime pas le danger.</div>
+  </div>
+
+  <!-- 26 : C -->
+  <div class="slide o3" id="s26">
+    <div class="tag t3">Objectif 3 — Étape C</div>
+    <div class="panneau"><span class="c3" style="font-size:3rem; line-height:1">C</span><span>Observer</span></div>
+    <div class="box b3" style="font-size:2.5rem; font-weight:900; text-align:center; letter-spacing:0.05em">GAUCHE — DROITE — GAUCHE</div>
+    <ul class="list" style="margin-top:18px">
+      <li><span class="ar3">→</span>Gauche en premier : les véhicules de gauche croisent ta trajectoire en premier</li>
+      <li><span class="ar3">→</span>Vérifier les angles morts (haies, bâtiments, véhicules garés)</li>
+      <li><span class="ar3">→</span>Visibilité nulle → avancer très lentement jusqu'à voir, puis observer</li>
+    </ul>
+  </div>
+
+  <!-- 27 : D -->
+  <div class="slide o3" id="s27">
+    <div class="tag t3">Objectif 3 — Étape D</div>
+    <div class="panneau"><span class="c3" style="font-size:3rem; line-height:1">D</span><span>Décider</span></div>
+    <p class="body">Avant de m'engager, je réponds à <span class="c3">3 questions</span> :</p>
+    <ul class="list" style="margin-top:12px">
+      <li><span class="ar3">1</span>Est-ce que j'ai la priorité ?</li>
+      <li><span class="ar3">2</span>La voie est-elle libre ?</li>
+      <li><span class="ar3">3</span>Les autres respectent-ils leur obligation ?</li>
+    </ul>
+    <div class="warn" style="margin-top:14px">Un seul "non" ou "je ne sais pas" → je n'avance pas.</div>
+  </div>
+
+  <!-- 28 : E -->
+  <div class="slide o3" id="s28">
+    <div class="tag t3">Objectif 3 — Étape E</div>
+    <div class="panneau"><span class="c3" style="font-size:3rem; line-height:1">E</span><span>Franchir</span></div>
+    <ul class="list">
+      <li><span class="ar3">→</span>Engagement <span class="c3">progressif</span> — capacité à freiner si quelqu'un surgit au dernier moment</li>
+      <li><span class="ar3">→</span>Observation maintenue <span class="c3">pendant</span> tout le franchissement</li>
+      <li><span class="ar3">→</span>Pas d'accélération brutale à l'entrée du carrefour</li>
+      <li><span class="ar3">→</span>Ne pas bloquer le carrefour si la sortie n'est pas libre</li>
+    </ul>
+  </div>
+
+  <!-- 29 : CAS PARTICULIERS -->
+  <div class="slide o3" id="s29">
+    <div class="tag t3">Objectif 3 — Cas particuliers</div>
+    <h2>3 cas qui changent tout</h2>
+    <ul class="list">
+      <li><span class="arr">TRAM</span><span>Toujours prioritaire sur tous les véhicules. Même si tu es sur une route prioritaire B15.</span></li>
+      <li><span class="arr">URGENCE</span><span>Gyrophare + sirène → tu t'écartes et tu laisses passer. Quelle que soit ta priorité.</span></li>
+      <li><span class="arr">FEUX ÉTEINTS</span><span>Panne de feux → la priorité à droite reprend automatiquement. Tu traites comme non réglementé.</span></li>
+    </ul>
+  </div>
+
+  <!-- 30 : SYNTHÈSE -->
+  <div class="slide o0" id="s30">
+    <div class="tag t0">Thème 08 — Synthèse</div>
+    <h2>Ce que tu dois retenir</h2>
+    <ul class="list">
+      <li><span class="ar1">01</span><span><span class="c1">Je LIS la route</span> — la signalisation me dit qui a la priorité</span></li>
+      <li><span class="ar2">02</span><span><span class="c2">Je VOIS la route</span> — les indices m'annoncent le carrefour avant de le voir</span></li>
+      <li><span class="ar3">03</span><span><span class="c3">Je TRAVERSE la route</span> — la séquence A→B→C→D→E me guide à chaque fois</span></li>
+    </ul>
+    <div class="box bw" style="margin-top:28px; font-size:2.3rem; font-weight:900; text-align:center">
+      La clé de tout : <span class="cw">L'ANTICIPATION</span>
+    </div>
+  </div>
+
+</div>
+
+<nav>
+  <button class="btn" id="btn-prev" disabled>← Précédent</button>
+  <span class="counter" id="counter">1 / 30</span>
+  <button class="btn" id="btn-next">Suivant →</button>
+</nav>
+
+<script>
+var slides = document.querySelectorAll('.slide');
+var total = slides.length;
+var cur = 0;
+
+function go(n) {
+  slides[cur].classList.remove('active');
+  cur = n;
+  slides[cur].classList.add('active');
+  document.getElementById('counter').textContent = (cur + 1) + ' / ' + total;
+  document.getElementById('btn-prev').disabled = cur === 0;
+  document.getElementById('btn-next').disabled = cur === total - 1;
+  document.getElementById('prog').style.width = ((cur + 1) / total * 100) + '%';
+}
+
+document.getElementById('btn-prev').addEventListener('click', function() { if (cur > 0) go(cur - 1); });
+document.getElementById('btn-next').addEventListener('click', function() { if (cur < total - 1) go(cur + 1); });
+
+document.addEventListener('keydown', function(e) {
+  if (e.key === 'ArrowRight' || e.key === 'ArrowDown' || e.key === ' ') {
+    e.preventDefault();
+    if (cur < total - 1) go(cur + 1);
+  }
+  if (e.key === 'ArrowLeft' || e.key === 'ArrowUp') {
+    e.preventDefault();
+    if (cur > 0) go(cur - 1);
+  }
+  if (e.key === 'Home') { e.preventDefault(); go(0); }
+  if (e.key === 'End') { e.preventDefault(); go(total - 1); }
+});
+</script>
+</body>
+</html>
