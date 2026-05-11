@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>QCM ECSR — Formation Enseignant de la Conduite</title>
+<style>
+  :root { --primary:#1a56db; --bg:#f9fafb; --card:#fff; --border:#e5e7eb; --text:#111827; --muted:#6b7280; }
+  * { box-sizing:border-box; margin:0; padding:0; }
+  body { font-family:'Segoe UI',system-ui,sans-serif; background:var(--bg); color:var(--text);
+    min-height:100vh; display:flex; flex-direction:column; align-items:center; padding:32px 16px; }
+  header { text-align:center; margin-bottom:40px; }
+  .badge { display:inline-block; background:#dbeafe; color:#1e40af; font-size:12px; font-weight:600;
+    letter-spacing:.05em; text-transform:uppercase; padding:4px 12px; border-radius:99px; margin-bottom:12px; }
+  h1 { font-size:1.8rem; font-weight:800; margin-bottom:8px; }
+  header p { color:var(--muted); font-size:.95rem; }
+  .grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(280px,1fr)); gap:16px; max-width:700px; width:100%; }
+  .qcm-card { background:var(--card); border:1px solid var(--border); border-radius:12px;
+    padding:24px; text-decoration:none; color:inherit; display:flex; flex-direction:column;
+    gap:8px; box-shadow:0 1px 4px rgba(0,0,0,.06); transition:transform .15s, box-shadow .15s; }
+  .qcm-card:hover { transform:translateY(-2px); box-shadow:0 4px 12px rgba(0,0,0,.1); }
+  .qcm-tag { font-size:.75rem; font-weight:700; text-transform:uppercase; letter-spacing:.06em; color:var(--primary); }
+  .qcm-title { font-size:1.05rem; font-weight:700; line-height:1.4; }
+  .qcm-meta { font-size:.85rem; color:var(--muted); }
+  .qcm-arrow { margin-top:auto; padding-top:12px; font-size:.9rem; color:var(--primary); font-weight:600; }
+</style>
+</head>
+<body>
+<header>
+  <div class="badge">Formation ECSR</div>
+  <h1>QCM Interactifs</h1>
+  <p>Entraîne-toi aux 57 thèmes du programme ECSR</p>
+</header>
+
+<div class="grid">
+  <a class="qcm-card" href="qcm_theme_04.html">
+    <div class="qcm-tag">Thème 04 · Réglementation</div>
+    <div class="qcm-title">L'autoroute</div>
+    <div class="qcm-meta">15 questions · Vitesses, accès, panne, priorités</div>
+    <div class="qcm-arrow">Commencer →</div>
+  </a>
+  <a class="qcm-card" href="qcm_theme_22.html">
+    <div class="qcm-tag">Thème 22 · Réglementation véhicule</div>
+    <div class="qcm-title">Feux obligatoires et facultatifs</div>
+    <div class="qcm-meta">15 questions · Portées, voyants, sanctions</div>
+    <div class="qcm-arrow">Commencer →</div>
+  </a>
+</div>
+</body>
+</html>
