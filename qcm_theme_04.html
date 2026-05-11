@@ -109,10 +109,10 @@ const questions = [
     exp: "La vitesse maximale est de 130 km/h par temps sec pour les conducteurs confirmés (hors période probatoire). Elle est réduite à 110 km/h par temps de pluie, et à 110 km/h pour les conducteurs en période probatoire (3 ans voie classique, 2 ans conduite accompagnée)."
   },
   {
-    q: "Quelle est la vitesse maximale autorisée sur autoroute par temps de pluie pour un conducteur confirmé ?",
-    choices: ["90 km/h","100 km/h","110 km/h","130 km/h"],
-    answer: 2,
-    exp: "Par temps de pluie ou mauvaise visibilité, la vitesse est limitée à 110 km/h sur autoroute pour un conducteur confirmé. Cette limite est aussi celle des conducteurs en période probatoire par temps sec."
+    q: "À quelle distance minimale les aires de repos sont-elles implantées sur autoroute ?",
+    choices: ["Toutes les 5 km","Toutes les 10 km","Toutes les 20 km","Toutes les 40 km"],
+    answer: 1,
+    exp: "Les aires de repos sont implantées toutes les 10 km sur autoroute (obligation réglementaire). Elles permettent aux conducteurs de faire une pause sans quitter le réseau autoroutier. À distinguer des aires de service (carburant, restauration) qui sont plus espacées."
   },
   {
     q: "Quelle est la vitesse minimale imposée sur la voie de gauche d'une autoroute (en dehors des encombrements) ?",
@@ -151,28 +151,33 @@ const questions = [
     exp: "Le demi-tour est strictement interdit sur autoroute, de même que la marche arrière. En cas d'erreur, il faut prendre la prochaine sortie et revenir par le réseau secondaire ou l'autoroute dans l'autre sens."
   },
   {
-    q: "Sur quelle voie le dépassement est-il autorisé sur autoroute ?",
-    choices: ["Par la droite uniquement","Par la gauche uniquement","Par la droite ou la gauche selon la densité de trafic","Le dépassement est libre sur toutes les voies"],
+    q: "Quelle est la définition légale d'une autoroute ?",
+    choices: [
+      "Toute route à deux chaussées séparées et sans feux tricolores",
+      "Une voie routière à destination spéciale, sans croisement, accessible uniquement par des échangeurs ou des péages",
+      "Une route nationale dont la vitesse est limitée à 130 km/h",
+      "Toute route gérée par une société concessionnaire privée"
+    ],
     answer: 1,
-    exp: "Le dépassement sur autoroute s'effectue uniquement par la gauche. Dépasser par la droite est interdit. La voie de gauche est une voie de dépassement et non une voie de circulation permanente."
+    exp: "L'autoroute est définie comme une voie routière à destination spéciale sans croisements à niveau, accessible seulement en certains points aménagés (échangeurs), et interdite à certaines catégories d'usagers. Elle peut être gratuite (autoroute de dégagement) ou à péage."
   },
   {
-    q: "Quelle est la signalisation caractéristique des panneaux d'autoroute ?",
-    choices: ["Fond vert et lettres blanches","Fond bleu et lettres blanches","Fond blanc et lettres noires","Fond rouge et lettres blanches"],
-    answer: 1,
-    exp: "Les panneaux directionnels d'autoroute ont un fond bleu avec des lettres blanches. Le fond vert correspond aux routes nationales et express, le blanc aux routes ordinaires."
+    q: "Par rapport aux autres routes, les autoroutes sont combien de fois plus sûres par kilomètre parcouru ?",
+    choices: ["2 fois plus sûres","3 fois plus sûres","5 fois plus sûres","10 fois plus sûres"],
+    answer: 2,
+    exp: "Malgré les vitesses élevées, l'autoroute est environ 5 fois plus sûre que les autres routes par kilomètre parcouru. Cela s'explique par l'absence de croisements à niveau, la séparation des sens de circulation, des accotements dégagés et une conception routière adaptée aux vitesses élevées."
   },
   {
-    q: "Un conducteur veut s'insérer sur autoroute via une bretelle d'accès. Qui a la priorité ?",
-    choices: ["Le véhicule qui s'insère, car il est sur la voie d'accélération","Les véhicules circulant déjà sur l'autoroute","La priorité est partagée entre les deux","Le véhicule le plus rapide a la priorité"],
-    answer: 1,
-    exp: "Les véhicules déjà engagés sur l'autoroute sont prioritaires. Le conducteur qui s'insère doit adapter sa vitesse sur la voie d'accélération pour trouver un créneau et s'insérer sans forcer la priorité."
+    q: "Quelle proportion des accidents sur autoroute est liée aux conditions météorologiques défavorables (pluie, neige, verglas, brouillard) ?",
+    choices: ["1 accident sur 50","1 accident sur 20","1 accident sur 8","1 accident sur 3"],
+    answer: 2,
+    exp: "Environ 1 accident sur 8 sur autoroute est lié aux intempéries. En cas de pluie, la limitation passe de 130 km/h à 110 km/h, et à 50 km/h en cas de brouillard dense (visibilité inférieure à 50 m). La distance de freinage est considérablement allongée sur sol mouillé."
   },
   {
-    q: "Que doit faire un conducteur lorsqu'il quitte l'autoroute via une bretelle de sortie ?",
-    choices: ["Freiner fortement dès l'entrée de la bretelle pour respecter la limitation","Se placer sur la voie de décélération et adapter progressivement sa vitesse","Enclencher le régulateur de vitesse","Allumer ses feux de détresse pour prévenir les autres conducteurs"],
-    answer: 1,
-    exp: "Sur la voie de décélération, le conducteur doit réduire progressivement sa vitesse pour atteindre la vitesse adaptée à la sortie. Freiner brutalement sur la voie autoroute est dangereux pour les véhicules suiveurs."
+    q: "Quelle est la longueur approximative du réseau autoroutier français ?",
+    choices: ["Environ 5 000 km","Environ 8 000 km","Environ 12 000 km","Environ 20 000 km"],
+    answer: 2,
+    exp: "Le réseau autoroutier français s'étend sur environ 12 000 km, ce qui en fait l'un des plus denses d'Europe. Il est géré en grande majorité par des sociétés concessionnaires privées sous contrat avec l'État, d'où le système de péage."
   },
   {
     q: "L'utilisation de la bande d'arrêt d'urgence (BAU) pour circuler est-elle autorisée ?",
