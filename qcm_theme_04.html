@@ -103,16 +103,16 @@
 <script>
 const questions = [
   {
-    q: "Quelle est la vitesse maximale autorisée sur autoroute par temps sec pour un conducteur ayant le permis depuis plus de 2 ans ?",
+    q: "Quelle est la vitesse maximale autorisée sur autoroute par temps sec pour un conducteur confirmé (hors période probatoire) ?",
     choices: ["110 km/h","120 km/h","130 km/h","150 km/h"],
     answer: 2,
-    exp: "La vitesse maximale est de 130 km/h par temps sec pour les conducteurs titulaires du permis depuis plus de 2 ans. Elle est réduite à 110 km/h par temps de pluie ou pour les conducteurs en période probatoire."
+    exp: "La vitesse maximale est de 130 km/h par temps sec pour les conducteurs confirmés (hors période probatoire). Elle est réduite à 110 km/h par temps de pluie, et à 110 km/h pour les conducteurs en période probatoire (3 ans voie classique, 2 ans conduite accompagnée)."
   },
   {
     q: "Quelle est la vitesse maximale autorisée sur autoroute par temps de pluie pour un conducteur confirmé ?",
     choices: ["90 km/h","100 km/h","110 km/h","130 km/h"],
     answer: 2,
-    exp: "Par temps de pluie ou mauvaise visibilité, la vitesse est limitée à 110 km/h sur autoroute pour un conducteur confirmé (plus de 2 ans de permis)."
+    exp: "Par temps de pluie ou mauvaise visibilité, la vitesse est limitée à 110 km/h sur autoroute pour un conducteur confirmé. Cette limite est aussi celle des conducteurs en période probatoire par temps sec."
   },
   {
     q: "Quelle est la vitesse minimale imposée sur la voie de gauche d'une autoroute (en dehors des encombrements) ?",
@@ -136,7 +136,7 @@ const questions = [
     q: "En cas de panne sur autoroute, que doit faire en priorité le conducteur ?",
     choices: ["Rester dans le véhicule et appeler depuis son téléphone portable","Quitter le véhicule par la gauche et marcher sur la voie lente","Mettre son gilet rétro-réfléchissant, quitter le véhicule par la droite, se mettre derrière la glissière et appeler le 15/17/18 ou 112","Allumer ses feux de détresse et attendre dans le véhicule"],
     answer: 2,
-    exp: "En cas de panne : mettre le gilet avant de sortir, quitter par la droite, mettre le triangle à 150 m minimum, se placer derrière la glissière de sécurité, appeler les secours via une borne SOS (tous les 2 km) ou le 112. Rester dans le véhicule immobilisé sur la BAU est extrêmement dangereux."
+    exp: "En cas de panne sur autoroute : mettre le gilet AVANT de sortir, quitter par la droite, se placer DERRIÈRE la glissière de sécurité, appeler le 112 ou utiliser une borne SOS. Attention : poser le triangle sur autoroute est déconseillé car dangereux. Rester dans le véhicule immobilisé sur la BAU est extrêmement dangereux."
   },
   {
     q: "À quelle fréquence les bornes SOS sont-elles implantées sur autoroute ?",
@@ -187,10 +187,10 @@ const questions = [
     exp: "Dans les tunnels, les feux de croisement sont obligatoires, même de jour. Les feux de route sont interdits dans les tunnels car ils éblouissent les autres usagers."
   },
   {
-    q: "À quelle vitesse maximale un conducteur en période probatoire (permis de moins de 2 ans) peut-il circuler sur autoroute par temps sec ?",
+    q: "À quelle vitesse maximale un conducteur en période probatoire peut-il circuler sur autoroute par temps sec ?",
     choices: ["130 km/h (comme tout le monde)","120 km/h","110 km/h","100 km/h"],
     answer: 2,
-    exp: "Les conducteurs en période probatoire sont limités à 110 km/h sur autoroute, même par temps sec (contre 130 km/h pour les conducteurs confirmés). Cette limitation s'applique pendant les 2 premières années de permis."
+    exp: "Les conducteurs en période probatoire sont limités à 110 km/h sur autoroute, même par temps sec (contre 130 km/h pour les conducteurs confirmés). La période probatoire dure 3 ans pour la voie classique et 2 ans pour la conduite accompagnée (AAC)."
   }
 ];
 
