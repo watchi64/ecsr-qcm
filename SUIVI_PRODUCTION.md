@@ -11,6 +11,8 @@
 | 📅 Dates clés de la sécurité routière | 117 | 18 | ~20-25 q | **PRODUIT 26/07** — 26 q en 6 sections, trace `qcm_dates_cles.md` |
 | 📊 Statistiques et chiffres clés (ONISR 2024) | 115 | 19 | ~20-25 q | **PRODUIT 26/07** — 22 q en 5 sections, trace `qcm_statistiques.md` |
 | ⚖️ Sanctions routières — panorama | 116 | 20 | ~50-60 q | **PRODUIT 26/07** — 60 q en 12 sections, 39 articles vérifiés API PISTE, trace `qcm_sanctions.md` |
+| 🧠 Psychologie du conducteur | 118 | 64 | ~25 q | **PRODUIT 29/07** — 28 q en 6 sections (perception, attention, temps de réaction, les 5 mobiles de la prise de risque, théories du comportement, émotions) |
+| 🎓 Pédagogie et référentiels | 119 | 65 | ~25 q | **PRODUIT 29/07** — 28 q en 6 sections (REMC, matrice GDE, TP ECSR, conduire une séance, évaluer, continuum éducatif) |
 
 ## Mapping 57 thèmes ↔ fiches SRRR
 
@@ -250,6 +252,14 @@ Au-delà du tableau plus haut, la production en masse a confirmé que **SRRR est
 | 22 | Statistiques ECF | **Toujours non recoupables** (150 décès/an aux feux, 10 000 accidents aux intersections, 30 000 intersections à feux, 788 radars, « cinq fois plus sûres »). Les explications continuent de les attribuer honnêtement au support ECF. |
 
 ## Journal
+
+- **2026-07-29** — **DEUX QCM TRANSVERSAUX AJOUTÉS, ET UN BUG D'AFFICHAGE QUI LES RENDAIT INTROUVABLES.** L'utilisateur cherchait les QCM Stats / Sanctions / Dates sans les trouver : ils n'étaient **affichés nulle part**. La page Thèmes ne construit ses sections qu'à partir d'une liste de **4 familles codées en dur** (`FAMILLES` dans `js/views/themes.js`) et la catégorie `QCM transversal` n'y figurait pas — les 3 QCM étaient donc comptés dans « Tout » mais rendus dans aucune section, filtre actif ou non. Le symptôme était visible dans les compteurs de l'interface : **Tout 109** contre 57 + 12 + 35 + 2 = 106. Corrigé en prod (`cc19afd`) : famille **« QCM transversaux »** juste après les thèmes officiels, **plus une famille filet « Autres »** qui attrape toute catégorie non prévue, pour que le bug ne puisse pas se reproduire lors d'un futur ajout. Vérifié sur un échantillon reproduisant la base : 110 entrées, 110 affichées, 0 doublon de famille.
+
+  Deux QCM transversaux créés dans la foulée, à la demande de l'utilisateur, par 2 sous-agents : **🧠 Psychologie du conducteur** (thème 118, qcm 64, 28 q / 6 sections) et **🎓 Pédagogie et référentiels** (thème 119, qcm 65, 28 q / 6 sections). Ils combattaient un vrai manque : la psychologie était dispersée sur **7 thèmes** sans point d'entrée, et la **matrice GDE n'avait que 3 questions** alors qu'elle est centrale au Titre. Les deux sont nés **avec** les règles anti-indices : parité de longueur 28/28, et **zéro question où la bonne réponse est la plus longue** — mieux que le reste de la base. Contrôlés indépendamment (intégrité, sources, ponctuation, options positionnelles, doublons avec les 1 005 questions existantes : aucun).
+
+  Deux retouches de ma part sur le QCM Pédagogie : (1) l'intitulé de la compétence globale 1 avait été **tronqué** en « responsabilités citoyennes et juridiques » pour tenir la parité de longueur → **intitulé officiel complet restauré** (« citoyennes, juridiques et sociales »), la parité étant rétablie en donnant à un leurre la formulation officielle complète de C3, plus longue (84 car.) que la bonne réponse (78) — l'heuristique « je prends la plus longue » désigne donc une mauvaise réponse ; (2) le **PNF de 1989** que le REMC a remplacé, signalé par l'agent comme son affirmation la plus fragile, est **confirmé** par plusieurs sources professionnelles de l'enseignement de la conduite — source consolidée dans l'explication.
+
+  Le piège des deux nomenclatures du REMC est désormais couvert par **3 questions**, avec les intitulés de l'autre nomenclature comme leurres. **Base : 1 061 questions, 5 243 options, 65 QCM, 0 publié.**
 
 - **2026-07-29** — **PASSE ANTI-LONGUEUR TERMINÉE, IMPORT ECF INCLUS.** Sur décision de l'utilisateur, les **50 questions ECF** dont la bonne réponse dépassait de 10 caractères ou plus le plus long de ses leurres ont été traitées à leur tour, par 3 sous-agents et sous la même contrainte vérifiable (`update qcm_options … and is_correct = false`, énoncés et corrigés ECF intouchables). Particularité : leurs options montent à **183 caractères**, la cible de longueur était donc celle de chaque bonne réponse, sans plafond fixe. **Bilan mesuré sur les 995 questions à réponse unique :**
 
