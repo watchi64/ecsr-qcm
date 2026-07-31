@@ -102,7 +102,7 @@ Sans nouvelle infraction, au bout de combien de temps retrouve-t-on la totalité
 - E. Je ne sais pas.
 
 **Reponse correcte : A**
-**Explication : 2 ans après la dernière infraction — délai porté à 3 ans si l'une des infractions était un délit ou une contravention de 4e ou 5e classe (feu rouge, alcool, téléphone…). Source : art. L223-6 du Code de la route (Légifrance, en vigueur).**
+**Explication : 2 ans après la dernière infraction, délai porté à 3 ans si l'une des infractions était un délit ou une contravention de 4e ou 5e classe (feu rouge, alcool, téléphone…). Source : art. L223-6 du Code de la route (Légifrance, en vigueur).**
 
 ---
 
@@ -160,7 +160,7 @@ Après une invalidation, quel délai faut-il attendre avant de pouvoir repasser 
 - E. Je ne sais pas.
 
 **Reponse correcte : A**
-**Explication : 6 mois — délai porté à 1 an si c'est la deuxième invalidation en moins de 5 ans. Il faut en plus être reconnu apte après un examen médical et des tests psychotechniques, à ses frais. Source : art. L223-5 du Code de la route (Légifrance, en vigueur).**
+**Explication : 6 mois, délai porté à 1 an si c'est la deuxième invalidation en moins de 5 ans. Il faut en plus être reconnu apte après un examen médical et des tests psychotechniques, à ses frais. Source : art. L223-5 du Code de la route (Légifrance, en vigueur).**
 
 ---
 

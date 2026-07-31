@@ -1,4 +1,4 @@
-# QCM — Thème 07 : Les voies réservées (questions complémentaires)
+# QCM - Thème 07 : Les voies réservées (questions complémentaires)
 
 > Complément 2026-07-26 : questions AJOUTÉES à la banque existante (import ECF conservé).
 > Articles vérifiés EN VIGUEUR via l'API Légifrance PISTE.
@@ -29,7 +29,7 @@ Dans quel cas un véhicule peut-il légalement franchir un trottoir ?
 - E. Je ne sais pas.
 
 **Réponse correcte : A**
-**Explication : Pour rejoindre ou quitter un accès carrossable (garage, cour d'immeuble, accès non ouvert à la circulation publique), en empruntant l'accès le plus proche — ou pour rejoindre une autre chaussée s'il existe un aménagement prévu à cet effet. En dehors de ces cas : 4e classe. Source : art. R412-7 I du Code de la route (Légifrance, en vigueur).**
+**Explication : Pour rejoindre ou quitter un accès carrossable (garage, cour d'immeuble, accès non ouvert à la circulation publique), en empruntant l'accès le plus proche, ou pour rejoindre une autre chaussée s'il existe un aménagement prévu à cet effet. En dehors de ces cas : 4e classe. Source : art. R412-7 I du Code de la route (Légifrance, en vigueur).**
 
 ---
 

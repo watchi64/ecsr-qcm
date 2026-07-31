@@ -1,11 +1,11 @@
-# QCM — Thème 31 : Alcool, effets et accidentologie
+# QCM - Thème 31 : Alcool, effets et accidentologie
 
-> QCM app : `qcm_id = 38` — 13 questions, 4 sections.
+> QCM app : `qcm_id = 38` : 13 questions, 4 sections.
 > Sources : securite-routiere.gouv.fr (effets), bilan ONISR 2024 (statistiques). Aucun article de loi n'est cité dans ce QCM : les seuils et sanctions relèvent du thème 28.
 
 ---
 
-## Section 1 — Ce que l'alcool change chez le conducteur
+## Section 1 - Ce que l'alcool change chez le conducteur
 
 ## Question 1
 Quel effet l'alcool a-t-il sur le champ visuel du conducteur ?
@@ -63,7 +63,7 @@ Sous l'effet de l'alcool, comment le conducteur apprécie-t-il les distances ?
 
 ---
 
-## Section 2 — Effets sur le comportement
+## Section 2 - Effets sur le comportement
 
 ## Question 5
 Quel effet explique qu'un conducteur alcoolisé se croie parfaitement capable de conduire ?
@@ -107,7 +107,7 @@ Un conducteur alcoolisé se rend-il compte de la baisse de ses capacités ?
 
 ---
 
-## Section 3 — Ce que disent les chiffres
+## Section 3 - Ce que disent les chiffres
 
 ## Question 8
 Chez quelle part des conducteurs présumés responsables d'accidents mortels l'alcool est-il en cause ?
@@ -165,7 +165,7 @@ Chez qui l'alcool au volant est-il le plus fréquent lors des accidents mortels 
 
 ---
 
-## Section 4 — Prévenir le risque
+## Section 4 - Prévenir le risque
 
 ## Question 12
 Quel est le rôle du « capitaine de soirée » ?

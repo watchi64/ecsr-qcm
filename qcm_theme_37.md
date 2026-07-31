@@ -1,11 +1,11 @@
-# QCM — Thème 37 : Véhicules d'intérêt général
+# QCM - Thème 37 : Véhicules d'intérêt général
 
-> **qcm_id** : 44 — **theme_id** : 37 — 15 questions, 4 sections
+> **qcm_id** : 44 : **theme_id** : 37 : 15 questions, 4 sections
 > Articles vérifiés via l'API Légifrance PISTE le 2026-07-28 : R311-1 (VIGUEUR), R313-27 (VIGUEUR), R313-28 (VIGUEUR), R414-2 (VIGUEUR), R432-1 (VIGUEUR), R432-2 (VIGUEUR), R432-3 (VIGUEUR).
 
 ---
 
-## Section 1 — Deux familles, deux régimes
+## Section 1 - Deux familles, deux régimes
 
 ## Question 1
 Que regroupe exactement l'expression « véhicule d'intérêt général » (VIG) ?
@@ -77,7 +77,7 @@ Quels transports de fonds le code classe-t-il parmi les véhicules d'intérêt g
 
 ---
 
-## Section 2 — Feux et avertisseurs spéciaux
+## Section 2 - Feux et avertisseurs spéciaux
 
 ## Question 6
 De quel dispositif lumineux un VIG prioritaire peut-il être équipé ?
@@ -121,7 +121,7 @@ Un tracteur agricole encombrant porte des feux spéciaux. À quel titre ?
 
 ---
 
-## Section 3 — Ce que doit faire l'usager ordinaire
+## Section 3 - Ce que doit faire l'usager ordinaire
 
 ## Question 9
 Dans un embouteillage, une ambulance arrive derrière vous, avertisseurs en marche. Que faites-vous ?
@@ -179,7 +179,7 @@ Un véhicule ministériel circule sans escorte et sans avertisseurs. Est-il prio
 
 ---
 
-## Section 4 — Les dérogations accordées en mission
+## Section 4 - Les dérogations accordées en mission
 
 ## Question 13
 À quelles conditions un VIG prioritaire échappe-t-il aux règles de circulation ?

@@ -1,12 +1,12 @@
-# QCM — Thème 50 : Assurance automobile (rôle, assurances obligatoires et facultatives)
+# QCM - Thème 50 : Assurance automobile (rôle, assurances obligatoires et facultatives)
 
 > **QCM en base** : `qcm_id = 51` (table `qcm`, projet Supabase `crpduennbqaemhfaywrz`)
-> **16 questions** — 4 sections — 4 options + « Je ne sais pas. » par question
+> **16 questions** : 4 sections : 4 options + « Je ne sais pas. » par question
 > **Articles vérifiés via l'API Légifrance PISTE** le 2026-07-28 (voir bas de page)
 
 ---
 
-## Section 1 — Le minimum légal obligatoire
+## Section 1 - Le minimum légal obligatoire
 
 ## Question 1
 Vous achetez votre première voiture. Quelle garantie devez-vous obligatoirement souscrire pour pouvoir rouler ?
@@ -64,7 +64,7 @@ Vous prêtez votre voiture à un ami qui provoque un accident. Votre responsabil
 
 ---
 
-## Section 2 — Ce que couvre la responsabilité civile
+## Section 2 - Ce que couvre la responsabilité civile
 
 ## Question 5
 Vous provoquez un accident. Quels dégâts votre responsabilité civile prend-elle en charge ?
@@ -122,7 +122,7 @@ Vous blessez un piéton qui traversait en dehors du passage protégé. Sera-t-il
 
 ---
 
-## Section 3 — Les garanties facultatives
+## Section 3 - Les garanties facultatives
 
 ## Question 9
 Que désigne le mot « franchise » dans un contrat d'assurance ?
@@ -194,7 +194,7 @@ Vous causez un accident dont vous êtes entièrement responsable. Comment évolu
 
 ---
 
-## Section 4 — Défaut d'assurance et indemnisation
+## Section 4 - Défaut d'assurance et indemnisation
 
 ## Question 14
 Vous êtes contrôlé au volant d'un véhicule non assuré. Comment cette infraction est-elle qualifiée ?
@@ -248,7 +248,7 @@ Un conducteur non assuré vous blesse gravement. Qui prend en charge votre indem
 | L421-1 | Assurances | VIGUEUR | FGAO : responsable inconnu ou non assuré | [Légifrance](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000048523697/) |
 | L324-2 | Route | ABROGE_DIFF (en vigueur jusqu'au 01/01/2029) | Défaut d'assurance : délit, 3 750 € d'amende, AFD 500 € | [Légifrance](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000033460260/) |
 
-**Non vérifiables par l'API (sources nommées à la place)** : loi Badinter n° 85-677 du 5 juillet 1985 (loi non codifiée) ; bonus-malus et vignette verte (service-public.gouv.fr, securite-routiere.gouv.fr) ; contenu des garanties facultatives (France Assureurs — contractuel, non réglementaire).
+**Non vérifiables par l'API (sources nommées à la place)** : loi Badinter n° 85-677 du 5 juillet 1985 (loi non codifiée) ; bonus-malus et vignette verte (service-public.gouv.fr, securite-routiere.gouv.fr) ; contenu des garanties facultatives (France Assureurs, contractuel, non réglementaire).
 
 ## Anomalies relevées sur la fiche SRRR
 
@@ -256,4 +256,4 @@ Un conducteur non assuré vous blesse gravement. Qui prend en charge votre indem
 - **Attestation d'assurance obsolète.** SRRR cite « non-présentation de l'attestation : 35 € » et « sous 5 jours : 135 € ». La vignette verte et l'attestation sont **supprimées depuis le 1er avril 2024**. Non repris, et corrigé en question 3.
 - **Délais FGAO (3 ans corporel / 1 an matériel)** : non confirmés par L421-1, qui renvoie à un décret. **Écartés** du QCM.
 - **« Vol non retrouvé dans 30 jours »** : clause contractuelle variable, pas une règle légale. Écartée.
-- SRRR ne mentionne pas que la RC couvre le conducteur **non autorisé** (L211-1) — ajouté en question 4.
+- SRRR ne mentionne pas que la RC couvre le conducteur **non autorisé** (L211-1), ajouté en question 4.

@@ -1,4 +1,4 @@
-# QCM — Thème 12 : Vitesse : réglementation et sanctions
+# QCM - Thème 12 : Vitesse : réglementation et sanctions
 
 > Trace de production 2026-07-26 (source de vérité : base Supabase, app ecsr-promo).
 > Articles vérifiés EN VIGUEUR via l'API Légifrance PISTE ; physique et repères pédagogiques sourcés.
@@ -43,7 +43,7 @@ Hors agglomération, quelle est la vitesse maximale sur une route ordinaire à d
 - E. Je ne sais pas.
 
 **Réponse correcte : A**
-**Explication : 80 km/h — relevée à 90 km/h uniquement sur les sections comportant au moins deux voies affectées au même sens de circulation (et signalées comme telles). Source : art. R413-2 I 3° du Code de la route (Légifrance, en vigueur).**
+**Explication : 80 km/h, relevée à 90 km/h uniquement sur les sections comportant au moins deux voies affectées au même sens de circulation (et signalées comme telles). Source : art. R413-2 I 3° du Code de la route (Légifrance, en vigueur).**
 
 ---
 
@@ -87,7 +87,7 @@ Quand la visibilité tombe sous 50 mètres (brouillard épais, forte pluie), que
 - E. Je ne sais pas.
 
 **Réponse correcte : A**
-**Explication : 50 km/h sur L'ENSEMBLE des réseaux routier ET autoroutier — autoroute comprise, sans exception. Source : art. R413-4 du Code de la route (Légifrance, en vigueur).**
+**Explication : 50 km/h sur L'ENSEMBLE des réseaux routier ET autoroutier, autoroute comprise, sans exception. Source : art. R413-4 du Code de la route (Légifrance, en vigueur).**
 
 ---
 
@@ -184,7 +184,7 @@ Un véhicule équipé de pneus à crampons antidérapants faisant saillie est li
 ### Question 13
 Circuler sans raison valable à une vitesse anormalement réduite est-il sanctionné ?
 
-- A. Oui, 2e classe — et minimum 80 km/h sur la voie de gauche d'autoroute
+- A. Oui, 2e classe, et minimum 80 km/h sur la voie de gauche d'autoroute
 - B. Non, rouler lentement n'est jamais sanctionné
 - C. Oui, mais seulement en agglomération
 - D. Oui, 4e classe et 3 points

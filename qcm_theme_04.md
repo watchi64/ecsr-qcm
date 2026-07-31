@@ -1,6 +1,6 @@
-# QCM — Thème 04 : L'alcool au volant
+# QCM - Thème 04 : L'alcool au volant
 
-> **15 questions** — Niveau ECSR / ETG
+> **15 questions** : Niveau ECSR / ETG
 > Basé sur la réglementation en vigueur (Code de la route, Codes Rousseau Tome A 2025)
 
 ---
@@ -215,4 +215,4 @@ Dans quel cas l'alcool au volant constitue-t-il une **circonstance aggravante** 
 
 ---
 
-*Sources : Code de la route — articles R234-1 et suivants (à confirmer sur Légifrance) ; Codes Rousseau Tome A 2025 ; ONISR Bilan 2024.*
+*Sources : Code de la route, articles R234-1 et suivants (à confirmer sur Légifrance) ; Codes Rousseau Tome A 2025 ; ONISR Bilan 2024.*

@@ -1,4 +1,4 @@
-# QCM — Thème 02 : Signalisation horizontale (questions complémentaires)
+# QCM - Thème 02 : Signalisation horizontale (questions complémentaires)
 
 > Complément 2026-07-26 : questions AJOUTÉES à la banque existante (import ECF conservé).
 > Articles vérifiés EN VIGUEUR via l'API Légifrance PISTE.
@@ -15,7 +15,7 @@ Que signifie un marquage au sol de couleur JAUNE ?
 - E. Je ne sais pas.
 
 **Réponse correcte : A**
-**Explication : Il s'agit d'un marquage temporaire (chantier) — et il PRIME alors sur le marquage blanc permanent — ou d'une interdiction d'arrêt/stationnement le long du trottoir. Le blanc est la couleur du marquage permanent, le bleu délimite les zones de stationnement à durée limitée. Source : instruction interministérielle sur la signalisation routière (IISR).**
+**Explication : Il s'agit d'un marquage temporaire (chantier), et il PRIME alors sur le marquage blanc permanent, ou d'une interdiction d'arrêt/stationnement le long du trottoir. Le blanc est la couleur du marquage permanent, le bleu délimite les zones de stationnement à durée limitée. Source : instruction interministérielle sur la signalisation routière (IISR).**
 
 ---
 

@@ -1,4 +1,4 @@
-# QCM — Thème 09 : Intersections gérées par une signalisation lumineuse (questions complémentaires)
+# QCM - Thème 09 : Intersections gérées par une signalisation lumineuse (questions complémentaires)
 
 > Complément 2026-07-26 : questions AJOUTÉES à la banque existante (import ECF conservé).
 > Articles vérifiés EN VIGUEUR via l'API Légifrance PISTE.
@@ -15,7 +15,7 @@ Que devez-vous faire devant un feu JAUNE FIXE ?
 - E. Je ne sais pas.
 
 **Réponse correcte : A**
-**Explication : Marquer l'arrêt — sauf si, au moment de l'allumage, vous ne pouvez plus vous arrêter dans des conditions de sécurité suffisantes (freinage brusque, véhicule collé derrière). Le jaune n'est donc pas une invitation à accélérer. Source : art. R412-31 du Code de la route (Légifrance, en vigueur).**
+**Explication : Marquer l'arrêt, sauf si, au moment de l'allumage, vous ne pouvez plus vous arrêter dans des conditions de sécurité suffisantes (freinage brusque, véhicule collé derrière). Le jaune n'est donc pas une invitation à accélérer. Source : art. R412-31 du Code de la route (Légifrance, en vigueur).**
 
 ---
 

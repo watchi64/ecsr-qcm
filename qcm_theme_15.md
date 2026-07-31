@@ -1,4 +1,4 @@
-# QCM — Thème 15 : Temps de réaction et distances de sécurité
+# QCM - Thème 15 : Temps de réaction et distances de sécurité
 
 > Trace de production 2026-07-26 (source de vérité : base Supabase, app ecsr-promo).
 > Articles vérifiés EN VIGUEUR via l'API Légifrance PISTE ; physique et repères pédagogiques sourcés.

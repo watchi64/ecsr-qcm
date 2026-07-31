@@ -1,12 +1,12 @@
-# QCM — Thème 51 : Assurance automobile — le constat amiable
+# QCM - Thème 51 : Assurance automobile - le constat amiable
 
 > **QCM en base** : `qcm_id = 52` (table `qcm`, projet Supabase `crpduennbqaemhfaywrz`)
-> **16 questions** — 4 sections — 4 options + « Je ne sais pas. » par question
+> **16 questions** : 4 sections : 4 options + « Je ne sais pas. » par question
 > **Périmètre** : remplir et transmettre le constat. Les gestes sur les lieux (protéger / alerter / secourir) relèvent du thème 52.
 
 ---
 
-## Section 1 — À quoi sert le constat amiable
+## Section 1 - À quoi sert le constat amiable
 
 ## Question 1
 Quelle est la nature du constat amiable d'accident automobile ?
@@ -64,7 +64,7 @@ Vous avez un accrochage en Belgique. Le constat français est-il utilisable ?
 
 ---
 
-## Section 2 — Remplir le recto : cases et croquis
+## Section 2 - Remplir le recto : cases et croquis
 
 ## Question 5
 Quel est le rôle des cases à cocher au centre du constat ?
@@ -122,7 +122,7 @@ Un passant a vu l'accident. Où l'inscrivez-vous sur le constat ?
 
 ---
 
-## Section 3 — Signature et pièges à éviter
+## Section 3 - Signature et pièges à éviter
 
 ## Question 9
 Vous êtes en désaccord complet avec l'autre conducteur sur les faits. Que faites-vous ?
@@ -166,7 +166,7 @@ Que remplit-on au verso du constat ?
 
 ---
 
-## Section 4 — Transmission, délais et suites
+## Section 4 - Transmission, délais et suites
 
 ## Question 12
 Sous quel délai devez-vous déclarer le sinistre à votre assureur ?
@@ -245,13 +245,13 @@ Qu'est-ce que l'e-constat auto ?
 | L113-2 (4°) | Assurances | VIGUEUR | Déclaration de sinistre : délai contractuel **jamais inférieur à 5 jours ouvrés** (2 jours ouvrés en cas de vol) ; déchéance opposable **seulement si l'assureur prouve un préjudice** | [Légifrance](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000035731302/) |
 | L211-9 | Assurances | VIGUEUR | Offre d'indemnité : 3 mois après la demande, 8 mois maximum après l'accident en cas d'atteinte à la personne | [Légifrance](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006795447/) |
 
-**Le constat amiable n'a aucune base réglementaire** : c'est un imprimé conventionnel. Aucun article du Code de la route n'a été cité à son sujet — conformément à la consigne. Sources retenues pour le contenu du formulaire : service-public.gouv.fr et France Assureurs.
+**Le constat amiable n'a aucune base réglementaire** : c'est un imprimé conventionnel. Aucun article du Code de la route n'a été cité à son sujet, conformément à la consigne. Sources retenues pour le contenu du formulaire : service-public.gouv.fr et France Assureurs.
 
 ## Anomalies relevées sur la fiche SRRR
 
 - **Erreur grave corrigée.** SRRR affirme que la non-transmission du constat « entraîne une **présomption automatique de responsabilité** ». C'est **faux**. L113-2 prévoit l'inverse : la déchéance pour déclaration tardive n'est opposable que si l'assureur **établit un préjudice**, et elle ne joue pas en cas de force majeure. La question 13 corrige explicitement ce point.
-- **Nature du délai de 5 jours mal présentée.** SRRR en fait un délai couperet. Le texte fixe un **plancher légal** que le contrat ne peut pas réduire — la formulation retenue en question 12 est « cinq jours ouvrés au minimum garantis par la loi ».
+- **Nature du délai de 5 jours mal présentée.** SRRR en fait un délai couperet. Le texte fixe un **plancher légal** que le contrat ne peut pas réduire, la formulation retenue en question 12 est « cinq jours ouvrés au minimum garantis par la loi ».
 - **Numérotation des rubriques (1-5, 6-9, 10-11, 12, 13, 14-15)** : non vérifiable et variable selon les éditions de l'imprimé. Les questions désignent les rubriques par leur **nom** (cases, croquis, témoins, observations), pas par leur numéro.
 - **Bonus-malus** (−5 % / +25 % / +12,5 %) : conforme au coefficient de réduction-majoration, mais déplacé vers le **thème 50** (garanties et cotisation) pour éviter la redite.
 - **« Disponible depuis 2014 »** pour l'e-constat : non vérifié, écarté du QCM.
-- SRRR ne mentionne pas le **report du nombre de cases cochées**, garde-fou essentiel contre les ajouts après signature — ajouté en question 6.
+- SRRR ne mentionne pas le **report du nombre de cases cochées**, garde-fou essentiel contre les ajouts après signature, ajouté en question 6.

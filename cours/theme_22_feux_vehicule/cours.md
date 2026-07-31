@@ -1,10 +1,10 @@
-# THÈME 22 — Feux obligatoires et facultatifs du véhicule
+# THÈME 22 - Feux obligatoires et facultatifs du véhicule
 
 ## 1. Définition / Introduction
 
 Les **feux du véhicule** désignent l'ensemble des dispositifs lumineux dont l'usage est réglementé par les articles **R313-1 à R313-32 du Code de la route**. Ils ont une triple fonction : **voir** (éclairer la route), **être vu** (signaler sa présence aux autres usagers), et **communiquer** (signaler ses intentions ou un danger).
 
-La maîtrise de leur utilisation est une compétence clé du REMC (compétence 1 — connaître et maîtriser son véhicule) et un enjeu majeur de sécurité routière : une part importante des accidents de nuit ou par mauvaise visibilité résulte d'une mauvaise utilisation des feux. Le conducteur doit connaître chaque feu, son fonctionnement, ses conditions d'usage, et les sanctions encourues en cas de défaut ou d'usage abusif.
+La maîtrise de leur utilisation est une compétence clé du REMC (compétence 1, connaître et maîtriser son véhicule) et un enjeu majeur de sécurité routière : une part importante des accidents de nuit ou par mauvaise visibilité résulte d'une mauvaise utilisation des feux. Le conducteur doit connaître chaque feu, son fonctionnement, ses conditions d'usage, et les sanctions encourues en cas de défaut ou d'usage abusif.
 
 ---
 
@@ -128,7 +128,7 @@ La maîtrise de leur utilisation est une compétence clé du REMC (compétence 1
 
 ---
 
-### D. Les feux de jour (DRL — Daytime Running Lights)
+### D. Les feux de jour (DRL - Daytime Running Lights)
 
 - **Obligatoires** sur tous les véhicules neufs depuis le **7 février 2011** (voitures particulières) et le **7 août 2012** (véhicules utilitaires légers) (Directive 2008/89/CE).
 - **Activation** : automatique au démarrage du moteur.
@@ -136,11 +136,11 @@ La maîtrise de leur utilisation est une compétence clé du REMC (compétence 1
 - **Limites** :
   - Allumés uniquement à l'avant ; les **feux arrière restent éteints**.
   - **Insuffisants** pour la conduite de nuit ou par mauvaise visibilité : il faut alors enclencher manuellement les feux de croisement.
-- **Risque** : ne pas oublier d'allumer les codes la nuit ou par temps couvert — la conduite peut sembler éclairée à l'avant alors que l'arrière reste invisible.
+- **Risque** : ne pas oublier d'allumer les codes la nuit ou par temps couvert, la conduite peut sembler éclairée à l'avant alors que l'arrière reste invisible.
 
 ---
 
-### E. Synthèse — quel feu, quand ?
+### E. Synthèse - quel feu, quand ?
 
 | Condition | Feux à utiliser |
 |-----------|-----------------|
@@ -160,7 +160,7 @@ La maîtrise de leur utilisation est une compétence clé du REMC (compétence 1
 - **Avant chaque trajet long** : tour rapide pour vérifier le fonctionnement de tous les feux (faire allumer, faire freiner par un tiers).
 - **Ampoule grillée** : à remplacer immédiatement ; pour beaucoup d'infractions liées à un feu défectueux, l'amende peut être réduite si le défaut est corrigé rapidement (présentation à un poste de contrôle).
 - **Phares mal réglés** : éblouissent les autres usagers ; le réglage doit être contrôlé périodiquement (souvent inclus au contrôle technique).
-- **Phares jaunis ou rayés** : perte de portée significative — un nettoyage / polissage est conseillé.
+- **Phares jaunis ou rayés** : perte de portée significative, un nettoyage / polissage est conseillé.
 - **Capteurs de pluie / luminosité** : sur véhicules récents, gèrent l'allumage automatique des feux ; ne dispensent pas le conducteur de vérifier que les feux sont bien activés.
 
 ---
@@ -169,7 +169,7 @@ La maîtrise de leur utilisation est une compétence clé du REMC (compétence 1
 
 ### RISQUES
 
-- **Défaut d'éclairage** : le véhicule devient peu ou pas visible — risque de collision par l'arrière, choc avec un piéton ou un cycliste.
+- **Défaut d'éclairage** : le véhicule devient peu ou pas visible, risque de collision par l'arrière, choc avec un piéton ou un cycliste.
 - **Mauvais usage des feux de route** : éblouissement du véhicule en sens inverse → perte de visibilité momentanée → accident frontal possible.
 - **Feux de brouillard arrière sous la pluie** : éblouissement du suiveur, masquage des feux stop → risque de carambolage.
 - **Oubli des codes la nuit avec DRL allumés** : impression trompeuse d'être éclairé alors que l'arrière du véhicule est invisible.
@@ -180,10 +180,10 @@ La maîtrise de leur utilisation est une compétence clé du REMC (compétence 1
 
 - Vérifier systématiquement le fonctionnement de **tous** les feux avant un trajet (départ en vacances, conduite de nuit).
 - Allumer les feux de croisement **dès** que la visibilité diminue (pluie, brouillard, tunnel, fin de journée).
-- Passer en feux de croisement **dès** la perception d'un véhicule (en sens inverse ou devant) susceptible d'être ébloui — sans attendre.
+- Passer en feux de croisement **dès** la perception d'un véhicule (en sens inverse ou devant) susceptible d'être ébloui, sans attendre.
 - Couper les feux de brouillard arrière **dès** la sortie de la zone de mauvaise visibilité.
 - Utiliser le clignotant **suffisamment tôt** avant la manœuvre, le **couper** immédiatement après.
-- Ne pas confondre feux de détresse et stationnement gênant — les warnings ne légitiment pas un arrêt en zone interdite.
+- Ne pas confondre feux de détresse et stationnement gênant, les warnings ne légitiment pas un arrêt en zone interdite.
 
 ### SANCTIONS
 
@@ -199,22 +199,22 @@ La maîtrise de leur utilisation est une compétence clé du REMC (compétence 1
 | Défaut de signalisation d'un véhicule arrêté sur la chaussée | _à confirmer_ | 135 € (4ème classe) | **3 points** | _lien à compléter_ |
 
 > **Sources de référence générales** :
-> - **Code de la route** — texte intégral : [Légifrance — Code de la route](https://www.legifrance.gouv.fr/codes/texte_lc/LEGITEXT000006074228/).
-> - **Montants forfaitaires** : 4ème classe — 135 € (90 € minorée sous 15 j, 375 € majorée). 2ème classe — 35 € (22 € minorée, 75 € majorée).
-> - **Service-public.gouv.fr** — page de référence sur les amendes et retraits de points : [vosdroits/F2541](https://www.service-public.gouv.fr/particuliers/vosdroits/F2541) (à valider).
-> - **Codes Rousseau Tome A** (éd. septembre 2025) — référence pédagogique pour les correspondances infraction / article du Code de la route.
+> - **Code de la route**, texte intégral : [Légifrance - Code de la route](https://www.legifrance.gouv.fr/codes/texte_lc/LEGITEXT000006074228/).
+> - **Montants forfaitaires** : 4ème classe : 135 € (90 € minorée sous 15 j, 375 € majorée). 2ème classe : 35 € (22 € minorée, 75 € majorée).
+> - **Service-public.gouv.fr**, page de référence sur les amendes et retraits de points : [vosdroits/F2541](https://www.service-public.gouv.fr/particuliers/vosdroits/F2541) (à valider).
+> - **Codes Rousseau Tome A** (éd. septembre 2025), référence pédagogique pour les correspondances infraction / article du Code de la route.
 
 ---
 
 ## 4. Points clés à retenir
 
 - Les feux ont **trois fonctions** : voir, être vu, communiquer.
-- **Feux de croisement** : portée 30 m — obligatoires de nuit et par mauvaise visibilité de jour.
-- **Feux de route** : portée ≥ 100 m — uniquement hors agglomération et hors présence d'autres véhicules. À éteindre dès qu'on croise ou qu'on dépasse.
-- **Feux de brouillard arrière** : **uniquement par brouillard ou neige** — jamais sous la pluie.
-- **Feux de jour (DRL)** : ne remplacent pas les codes la nuit ou par mauvaise visibilité — l'arrière reste éteint.
+- **Feux de croisement** : portée 30 m, obligatoires de nuit et par mauvaise visibilité de jour.
+- **Feux de route** : portée ≥ 100 m, uniquement hors agglomération et hors présence d'autres véhicules. À éteindre dès qu'on croise ou qu'on dépasse.
+- **Feux de brouillard arrière** : **uniquement par brouillard ou neige**, jamais sous la pluie.
+- **Feux de jour (DRL)** : ne remplacent pas les codes la nuit ou par mauvaise visibilité, l'arrière reste éteint.
 - **Clignotant** : à activer **avant** la manœuvre, à couper **après**.
-- **Feux de détresse** : pour signaler un danger ou un véhicule immobilisé — ne légitiment pas un stationnement irrégulier.
+- **Feux de détresse** : pour signaler un danger ou un véhicule immobilisé, ne légitiment pas un stationnement irrégulier.
 - Tout défaut d'éclairage doit être corrigé sans délai ; circuler de nuit avec un feu défectueux entraîne **4 points** de retrait.
 
 ---
@@ -229,10 +229,10 @@ La maîtrise de leur utilisation est une compétence clé du REMC (compétence 1
 | Lisibilité de la plaque arrière éclairée | 20 m de nuit |
 | Cadence des clignotants | 60 à 120 / minute |
 | Largeur de véhicule imposant des feux de gabarit | > 2,10 m |
-| Obligation des DRL — voitures neuves | depuis le 7 février 2011 |
-| Obligation des DRL — utilitaires légers neufs | depuis le 7 août 2012 |
+| Obligation des DRL, voitures neuves | depuis le 7 février 2011 |
+| Obligation des DRL, utilitaires légers neufs | depuis le 7 août 2012 |
 | Obligation du 3ème feu stop | depuis 1998 |
 | Amende forfaitaire 4ème classe | 135 € (90 € minorée / 375 € majorée) |
-| Retrait de points — circulation de nuit sans éclairage | 4 points |
-| Retrait de points — défaut de clignotant | 3 points |
-| Retrait de points — défaut de signalisation véhicule arrêté | 3 points |
+| Retrait de points, circulation de nuit sans éclairage | 4 points |
+| Retrait de points, défaut de clignotant | 3 points |
+| Retrait de points, défaut de signalisation véhicule arrêté | 3 points |

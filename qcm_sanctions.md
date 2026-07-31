@@ -1,4 +1,4 @@
-# QCM — Sanctions routières (panorama exhaustif)
+# QCM - Sanctions routières (panorama exhaustif)
 
 > Trace de production (source de vérité : base Supabase, app ecsr-promo).
 > Chaque article cité a été vérifié EN VIGUEUR via l'API Légifrance PISTE le 2026-07-26.
@@ -29,7 +29,7 @@ Quel est le montant de l'amende forfaitaire d'une contravention de 4e classe ?
 - E. Je ne sais pas.
 
 **Réponse correcte : C**
-**Explication : 135 €. Barème forfaitaire : 11 € (1re classe), 35 € (2e), 68 € (3e), 135 € (4e), 200 € (5e) — et 4 € pour les contraventions des piétons. Source : art. R49 du Code de procédure pénale (Légifrance, en vigueur).**
+**Explication : 135 €. Barème forfaitaire : 11 € (1re classe), 35 € (2e), 68 € (3e), 135 € (4e), 200 € (5e), et 4 € pour les contraventions des piétons. Source : art. R49 du Code de procédure pénale (Légifrance, en vigueur).**
 
 ---
 
@@ -71,7 +71,7 @@ Quel est le montant MAXIMAL que peut prononcer le juge pour une contravention de
 - E. Je ne sais pas.
 
 **Réponse correcte : D**
-**Explication : 750 € — à ne pas confondre avec l'amende forfaitaire de 135 €, qui est le montant « standard » payé sans passage au tribunal. Source : art. 131-13 du Code pénal (Légifrance, en vigueur).**
+**Explication : 750 €, à ne pas confondre avec l'amende forfaitaire de 135 €, qui est le montant « standard » payé sans passage au tribunal. Source : art. 131-13 du Code pénal (Légifrance, en vigueur).**
 
 ---
 
@@ -171,7 +171,7 @@ En cas de RÉCIDIVE de grand excès de vitesse, quelle peine complémentaire dev
 - E. Je ne sais pas.
 
 **Réponse correcte : A**
-**Explication : La confiscation du véhicule (si le conducteur en est propriétaire) — le juge ne peut y renoncer que par décision spécialement motivée. Source : art. L413-1 II du Code de la route (Légifrance, en vigueur).**
+**Explication : La confiscation du véhicule (si le conducteur en est propriétaire), le juge ne peut y renoncer que par décision spécialement motivée. Source : art. L413-1 II du Code de la route (Légifrance, en vigueur).**
 
 ---
 
@@ -185,7 +185,7 @@ Rouler à une vitesse inadaptée aux conditions (pluie, virage, chaussée dégra
 - E. Je ne sais pas.
 
 **Réponse correcte : B**
-**Explication : Une contravention de 4e classe (135 €) — mais SANS retrait de points : l'art. R413-17 punit le défaut de maîtrise de la vitesse sans prévoir de réduction de points. Source : art. R413-17 du Code de la route (Légifrance, en vigueur).**
+**Explication : Une contravention de 4e classe (135 €), mais SANS retrait de points : l'art. R413-17 punit le défaut de maîtrise de la vitesse sans prévoir de réduction de points. Source : art. R413-17 du Code de la route (Légifrance, en vigueur).**
 
 ---
 
@@ -215,7 +215,7 @@ Quel seuil s'applique à un conducteur en période probatoire ou en apprentissag
 - E. Je ne sais pas.
 
 **Réponse correcte : B**
-**Explication : 0,20 g/L de sang (0,10 mg/L d'air) — en pratique zéro verre. Le même seuil s'applique aux conducteurs de transport en commun et aux conducteurs soumis à l'éthylotest anti-démarrage. Source : art. R234-1 I 1° du Code de la route (Légifrance, en vigueur).**
+**Explication : 0,20 g/L de sang (0,10 mg/L d'air), en pratique zéro verre. Le même seuil s'applique aux conducteurs de transport en commun et aux conducteurs soumis à l'éthylotest anti-démarrage. Source : art. R234-1 I 1° du Code de la route (Légifrance, en vigueur).**
 
 ---
 
@@ -229,7 +229,7 @@ Conduite avec une alcoolémie entre 0,5 et 0,8 g/L : combien de points ?
 - E. Je ne sais pas.
 
 **Réponse correcte : D**
-**Explication : 6 points d'un coup — le maximum pour une contravention — plus 135 € d'amende (4e classe) et une suspension possible jusqu'à 3 ans. Source : art. R234-1 IV du Code de la route (Légifrance, en vigueur).**
+**Explication : 6 points d'un coup, le maximum pour une contravention, plus 135 € d'amende (4e classe) et une suspension possible jusqu'à 3 ans. Source : art. R234-1 IV du Code de la route (Légifrance, en vigueur).**
 
 ---
 
@@ -243,7 +243,7 @@ Conduite avec 0,80 g/L ou plus (ou en état d'ivresse manifeste) : quelles peine
 - E. Je ne sais pas.
 
 **Réponse correcte : B**
-**Explication : C'est un délit puni de 3 ans d'emprisonnement et 9 000 € d'amende (texte en vigueur, durci récemment — on lit encore souvent « 2 ans / 4 500 € » dans d'anciens supports), avec retrait de la moitié des points. Source : art. L234-1 du Code de la route (Légifrance, en vigueur).**
+**Explication : C'est un délit puni de 3 ans d'emprisonnement et 9 000 € d'amende (texte en vigueur, durci récemment, on lit encore souvent « 2 ans / 4 500 € » dans d'anciens supports), avec retrait de la moitié des points. Source : art. L234-1 du Code de la route (Légifrance, en vigueur).**
 
 ---
 
@@ -271,7 +271,7 @@ Refuser de se soumettre aux vérifications d'alcoolémie, c'est :
 - E. Je ne sais pas.
 
 **Réponse correcte : B**
-**Explication : Un délit puni de 2 ans d'emprisonnement et 4 500 € d'amende, avec retrait de la moitié des points — refuser ne « protège » donc pas du tout. Source : art. L234-8 du Code de la route (Légifrance, en vigueur).**
+**Explication : Un délit puni de 2 ans d'emprisonnement et 4 500 € d'amende, avec retrait de la moitié des points, refuser ne « protège » donc pas du tout. Source : art. L234-8 du Code de la route (Légifrance, en vigueur).**
 
 ---
 
@@ -315,7 +315,7 @@ Stupéfiants ET alcool au volant en même temps : que prévoit la loi ?
 - E. Je ne sais pas.
 
 **Réponse correcte : A**
-**Explication : Peines portées à 5 ans et 15 000 €, confiscation obligatoire du véhicule, et — dérogation unique dans le code — retrait des TROIS QUARTS des points (9 points sur 12). Source : art. L235-1 du Code de la route (Légifrance, en vigueur).**
+**Explication : Peines portées à 5 ans et 15 000 €, confiscation obligatoire du véhicule, et, dérogation unique dans le code, retrait des TROIS QUARTS des points (9 points sur 12). Source : art. L235-1 du Code de la route (Légifrance, en vigueur).**
 
 ---
 
@@ -417,7 +417,7 @@ Un passager majeur ne porte pas sa ceinture. Qui est sanctionné ?
 - E. Je ne sais pas.
 
 **Réponse correcte : A**
-**Explication : Le passager lui-même paie l'amende de 4e classe (135 €) ; le conducteur ne perd aucun point — le retrait de 3 points ne vaut que si l'infraction est commise par le conducteur. Source : art. R412-1 III et IV du Code de la route (Légifrance, en vigueur).**
+**Explication : Le passager lui-même paie l'amende de 4e classe (135 €) ; le conducteur ne perd aucun point, le retrait de 3 points ne vaut que si l'infraction est commise par le conducteur. Source : art. R412-1 III et IV du Code de la route (Légifrance, en vigueur).**
 
 ---
 
@@ -461,7 +461,7 @@ Ne pas marquer l'arrêt à un stop :
 - E. Je ne sais pas.
 
 **Réponse correcte : A**
-**Explication : 135 € (4e classe) et 4 points — la même sanction que le feu rouge — plus suspension possible. Le temps d'arrêt doit être marqué à la limite de la chaussée abordée. Source : art. R415-6 du Code de la route (Légifrance, en vigueur).**
+**Explication : 135 € (4e classe) et 4 points, la même sanction que le feu rouge, plus suspension possible. Le temps d'arrêt doit être marqué à la limite de la chaussée abordée. Source : art. R415-6 du Code de la route (Légifrance, en vigueur).**
 
 ---
 
@@ -475,7 +475,7 @@ Refuser la priorité à un piéton engagé ou manifestant l'intention de travers
 - E. Je ne sais pas.
 
 **Réponse correcte : D**
-**Explication : 6 points — le maximum possible pour une contravention — plus 135 € et suspension possible. Ce durcissement (4 → 6 points en 2018) protège les usagers les plus vulnérables. Source : art. R415-11 du Code de la route (Légifrance, en vigueur).**
+**Explication : 6 points, le maximum possible pour une contravention, plus 135 € et suspension possible. Ce durcissement (4 → 6 points en 2018) protège les usagers les plus vulnérables. Source : art. R415-11 du Code de la route (Légifrance, en vigueur).**
 
 ---
 
@@ -547,7 +547,7 @@ Quelle est la différence de sanction entre FRANCHIR et CHEVAUCHER une ligne con
 - E. Je ne sais pas.
 
 **Réponse correcte : A**
-**Explication : Franchissement : 3 points ; simple chevauchement : 1 point — les deux à 135 € (4e classe). Le chevauchement reste autorisé pour dépasser un cycliste ou un EDPM dans les conditions de l'art. R414-4. Source : art. R412-19 du Code de la route (Légifrance, en vigueur).**
+**Explication : Franchissement : 3 points ; simple chevauchement : 1 point, les deux à 135 € (4e classe). Le chevauchement reste autorisé pour dépasser un cycliste ou un EDPM dans les conditions de l'art. R414-4. Source : art. R412-19 du Code de la route (Légifrance, en vigueur).**
 
 ---
 
@@ -649,7 +649,7 @@ Combien de points compte un permis à son obtention, et combien en gagne-t-on pa
 - E. Je ne sais pas.
 
 **Réponse correcte : A**
-**Explication : 6 points au départ (la moitié du maximum), puis +2 points par an pendant 3 ans — ou +3 points par an pendant 2 ans après une conduite accompagnée (AAC). Source : art. L223-1 du Code de la route (Légifrance, en vigueur).**
+**Explication : 6 points au départ (la moitié du maximum), puis +2 points par an pendant 3 ans, ou +3 points par an pendant 2 ans après une conduite accompagnée (AAC). Source : art. L223-1 du Code de la route (Légifrance, en vigueur).**
 
 ---
 
@@ -677,7 +677,7 @@ Sans nouvelle infraction, au bout de combien de temps récupère-t-on la totalit
 - E. Je ne sais pas.
 
 **Réponse correcte : B**
-**Explication : 2 ans après le dernier retrait — porté à 3 ans si l'une des infractions était un délit ou une contravention de 4e ou 5e classe (cas du feu rouge, de l'alcool, du téléphone...). Source : art. L223-6 du Code de la route (Légifrance, en vigueur).**
+**Explication : 2 ans après le dernier retrait, porté à 3 ans si l'une des infractions était un délit ou une contravention de 4e ou 5e classe (cas du feu rouge, de l'alcool, du téléphone...). Source : art. L223-6 du Code de la route (Légifrance, en vigueur).**
 
 ---
 
@@ -719,7 +719,7 @@ La « bouée de sauvetage » des 10 ans, c'est :
 - E. Je ne sais pas.
 
 **Réponse correcte : A**
-**Explication : Les points perdus pour des contraventions des 4 premières classes sont réattribués 10 ans après, même si l'on a commis d'autres infractions entre-temps — à condition que le permis n'ait jamais été invalidé. Source : art. L223-6 dernier alinéa du Code de la route (Légifrance, en vigueur).**
+**Explication : Les points perdus pour des contraventions des 4 premières classes sont réattribués 10 ans après, même si l'on a commis d'autres infractions entre-temps, à condition que le permis n'ait jamais été invalidé. Source : art. L223-6 dernier alinéa du Code de la route (Légifrance, en vigueur).**
 
 ---
 
@@ -793,7 +793,7 @@ Le délit de fuite (ne pas s'arrêter après avoir causé un accident) est puni 
 - E. Je ne sais pas.
 
 **Réponse correcte : C**
-**Explication : 3 ans d'emprisonnement et 75 000 € d'amende — l'un des montants les plus élevés du droit routier — plus suspension du permis jusqu'à 5 ans et moitié des points. Source : art. 434-10 du Code pénal (Légifrance, en vigueur).**
+**Explication : 3 ans d'emprisonnement et 75 000 € d'amende, l'un des montants les plus élevés du droit routier, plus suspension du permis jusqu'à 5 ans et moitié des points. Source : art. 434-10 du Code pénal (Légifrance, en vigueur).**
 
 ---
 
@@ -807,7 +807,7 @@ Le refus d'obtempérer (ne pas s'arrêter à la sommation d'un agent) est puni d
 - E. Je ne sais pas.
 
 **Réponse correcte : A**
-**Explication : 2 ans d'emprisonnement et 15 000 € d'amende, moitié des points — et les peines se CUMULENT sans confusion possible avec celles des autres infractions commises pendant la conduite. Source : art. L233-1 du Code de la route (Légifrance, en vigueur).**
+**Explication : 2 ans d'emprisonnement et 15 000 € d'amende, moitié des points, et les peines se CUMULENT sans confusion possible avec celles des autres infractions commises pendant la conduite. Source : art. L233-1 du Code de la route (Légifrance, en vigueur).**
 
 ---
 
@@ -821,7 +821,7 @@ La « mise en danger délibérée de la vie d'autrui » (violation manifestement
 - E. Je ne sais pas.
 
 **Réponse correcte : A**
-**Explication : 1 an d'emprisonnement et 15 000 € d'amende — même sans aucun accident. Exemple type : slalom à grande vitesse entre les voitures. Source : art. 223-1 du Code pénal (Légifrance, en vigueur).**
+**Explication : 1 an d'emprisonnement et 15 000 € d'amende, même sans aucun accident. Exemple type : slalom à grande vitesse entre les voitures. Source : art. 223-1 du Code pénal (Légifrance, en vigueur).**
 
 ---
 
@@ -867,12 +867,12 @@ Et si l'homicide routier est commis avec DEUX circonstances ou plus (ex. : alcoo
 
 ---
 
-## Annexe — articles vérifiés (API Légifrance PISTE, 2026-07-26)
+## Annexe - articles vérifiés (API Légifrance PISTE, 2026-07-26)
 
 | Code | Article | État | Lien |
 |---|---|---|---|
 | route | R413-14 | VIGUEUR | https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000048533039/ |
-| route | R413-14-1 | introuvable (voir note) | — |
+| route | R413-14-1 | introuvable (voir note) | : |
 | route | L413-1 | VIGUEUR | https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000051877176/ |
 | route | R413-17 | VIGUEUR | https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000047794480/ |
 | route | R234-1 | VIGUEUR | https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000038954545/ |

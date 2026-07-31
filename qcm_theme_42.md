@@ -1,12 +1,12 @@
-# QCM — Thème 42 : Conduite de nuit
+# QCM - Thème 42 : Conduite de nuit
 
-> **En base** : `qcm_id = 53` (table `qcm`, `theme_id = 42`) — 15 questions, ordre 1 à 15.
+> **En base** : `qcm_id = 53` (table `qcm`, `theme_id = 42`) : 15 questions, ordre 1 à 15.
 > **Fiche de référence** : https://www.srrr.fr/themes-securite-routiere/les-risques-lies-a-la-conduite-de-nuit (contenu entièrement reformulé)
-> **Articles vérifiés via l'API Légifrance PISTE le 2026-07-28** : R313-2, R313-3, R412-12, R413-17, R416-2, R416-6, R416-9, R416-11, R234-1 — tous en état `VIGUEUR`.
+> **Articles vérifiés via l'API Légifrance PISTE le 2026-07-28** : R313-2, R313-3, R412-12, R413-17, R416-2, R416-6, R416-9, R416-11, R234-1, tous en état `VIGUEUR`.
 
 ---
 
-## Section — Voir et être vu
+## Section - Voir et être vu
 
 ## Question 1
 La nuit, sur une route sans éclairage, jusqu'à quelle distance vos feux de croisement doivent-ils au minimum éclairer ?
@@ -92,7 +92,7 @@ La nuit, quels feux votre voiture doit-elle obligatoirement montrer à l'arrièr
 
 ---
 
-## Section — Fatigue et vigilance
+## Section - Fatigue et vigilance
 
 ## Question 7
 À quel moment de la nuit la vigilance du conducteur est-elle au plus bas ?
@@ -136,7 +136,7 @@ Vous ressentez les premiers signes d'endormissement au volant. Que faites-vous ?
 
 ---
 
-## Section — Adapter sa conduite
+## Section - Adapter sa conduite
 
 ## Question 10
 La nuit, votre visibilité est limitée à la portée de vos feux. Votre vitesse doit :
@@ -180,7 +180,7 @@ Un chevreuil traverse devant vous sur une route de nuit. Quelle réaction est la
 
 ---
 
-## Section — Réglementation et sanctions
+## Section - Réglementation et sanctions
 
 ## Question 13
 Un conducteur circule de nuit sans aucun éclairage, hors zone éclairée. Que risque-t-il ?
@@ -210,7 +210,7 @@ Un conducteur en permis probatoire est contrôlé la nuit à 0,3 g d'alcool par 
 
 ---
 
-## Section — Les chiffres
+## Section - Les chiffres
 
 ## Question 15
 Par rapport au jour, la conduite de nuit se caractérise par :
@@ -231,4 +231,4 @@ Par rapport au jour, la conduite de nuit se caractérise par :
 - **Chiffres SRRR non retenus.** La fiche SRRR avance « 10 % du trafic / 46 % des décès la nuit », « 37 % des blessés graves », « 27 % des accidents mortels entre minuit et 4 h », « 75 % des piétons tués hors agglomération meurent la nuit ». Aucun de ces pourcentages n'a pu être retrouvé dans une source ONISR consultable (la page securite-routiere.gouv.fr « Conduire la nuit » n'a pas renvoyé de contenu exploitable). **La question 15 est donc rédigée en termes qualitatifs**, conformément à la consigne.
 - **Erreur SRRR sur la portée des feux.** La fiche annonce un champ visuel « limité à 50 m (feux de croisement) ou 150 m (feux de route) ». Le code impose 30 m minimum pour les feux de croisement (R313-3) et 100 m minimum pour les feux de route (R313-2). Les 150 m correspondent à la distance de **visibilité des feux de position** (R313-4), pas à leur portée d'éclairage. La question 1 rétablit les valeurs réglementaires.
 - **« Réduire la vitesse de 10 % » (SRRR)** : pas de fondement réglementaire ni de source officielle trouvée. Non reprise ; la question 10 s'appuie sur R413-17.
-- **Sanction « absence de feux de position en stationnement : 135 €, 3 points, suspension possible » (SRRR)** : non reprise. R416-9 (4e classe) porte sur les véhicules **en circulation** ; R416-11 (135 € + 4 points + suspension) sur la circulation de nuit sans éclairage. Aucun article validé ne fixe ce régime pour le seul stationnement — à arbitrer avec les Codes Rousseau si l'utilisateur veut une question sur ce point.
+- **Sanction « absence de feux de position en stationnement : 135 €, 3 points, suspension possible » (SRRR)** : non reprise. R416-9 (4e classe) porte sur les véhicules **en circulation** ; R416-11 (135 € + 4 points + suspension) sur la circulation de nuit sans éclairage. Aucun article validé ne fixe ce régime pour le seul stationnement, à arbitrer avec les Codes Rousseau si l'utilisateur veut une question sur ce point.

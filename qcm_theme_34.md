@@ -1,12 +1,12 @@
-# QCM — Thème 34 : Partage de la route avec les piétons
+# QCM - Thème 34 : Partage de la route avec les piétons
 
-> **En base** : `qcm_id = 39` (theme_id 34) — 15 questions, 4 sections.
+> **En base** : `qcm_id = 39` (theme_id 34) : 15 questions, 4 sections.
 > **Fiche source** : https://www.srrr.fr/themes-securite-routiere/le-partage-social-de-la-route-avec-les-pietons (reformulée intégralement)
-> **Articles vérifiés via l'API Légifrance PISTE** : R110-2, R412-34, R412-36, R412-37, R412-38, R412-39, R412-43, R414-4, R415-11 + R49 du code de procédure pénale — tous en `VIGUEUR`.
+> **Articles vérifiés via l'API Légifrance PISTE** : R110-2, R412-34, R412-36, R412-37, R412-38, R412-39, R412-43, R414-4, R415-11 + R49 du code de procédure pénale, tous en `VIGUEUR`.
 
 ---
 
-## Section 1 — Où le piéton a le droit de circuler
+## Section 1 - Où le piéton a le droit de circuler
 
 ## Question 1
 Une rue est bordée d'un trottoir praticable. Que doit faire le piéton ?
@@ -64,7 +64,7 @@ Un enfant de 6 ans roule à vélo. Peut-il utiliser le trottoir ?
 
 ---
 
-## Section 2 — Traverser la chaussée
+## Section 2 - Traverser la chaussée
 
 ## Question 5
 Un passage piéton se trouve à 30 mètres. Le piéton peut-il traverser sur place ?
@@ -136,7 +136,7 @@ Un piéton traverse au feu rouge et se fait verbaliser. Combien paie-t-il ?
 
 ---
 
-## Section 3 — Le conducteur face au piéton
+## Section 3 - Le conducteur face au piéton
 
 ## Question 10
 Un piéton attend au bord d'un passage protégé et vous regarde franchement. Que devez-vous faire ?
@@ -196,7 +196,7 @@ Un véhicule est arrêté juste avant un passage piéton. Que faites-vous ?
 
 ---
 
-## Section 4 — Zones apaisées et aménagements
+## Section 4 - Zones apaisées et aménagements
 
 ## Question 14
 Dans une zone de rencontre, qui est prioritaire et à quelle vitesse roule-t-on ?

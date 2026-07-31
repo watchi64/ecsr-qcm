@@ -1,4 +1,4 @@
-# QCM — Thème 53 : Approche multifactorielle de l'accident, système HVE — COMPLÉMENT
+# QCM - Thème 53 : Approche multifactorielle de l'accident, système HVE - COMPLÉMENT
 
 > **qcm_id en base** : 11
 > **Nature de ce fichier** : questions **ajoutées** aux 14 questions préexistantes (import ECF). Rien n'a été supprimé.
@@ -105,4 +105,4 @@ Quel intérêt pédagogique l'approche multifactorielle présente-t-elle pour un
 
 ## Note de vérification
 
-Les questions préexistantes (ordre 1 à 14) n'ont **pas** été modifiées. Elles n'ont pas d'explication renseignée — situation connue et volontairement laissée en l'état. Aucune d'elles ne présente d'anomalie de correction (contrôle en base : 0 question à plusieurs bonnes réponses sur l'ensemble du qcm 11).
+Les questions préexistantes (ordre 1 à 14) n'ont **pas** été modifiées. Elles n'ont pas d'explication renseignée, situation connue et volontairement laissée en l'état. Aucune d'elles ne présente d'anomalie de correction (contrôle en base : 0 question à plusieurs bonnes réponses sur l'ensemble du qcm 11).

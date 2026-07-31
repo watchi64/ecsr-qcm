@@ -1,12 +1,12 @@
-# QCM — Thème 36 : Partage de la route avec les véhicules du groupe lourd
+# QCM - Thème 36 : Partage de la route avec les véhicules du groupe lourd
 
-> **En base** : `qcm_id = 56` (theme_id 36) — 15 questions, 4 sections.
+> **En base** : `qcm_id = 56` (theme_id 36) : 15 questions, 4 sections.
 > **Fiche source** : https://www.srrr.fr/themes-securite-routiere/partage-social-de-la-route-avec-les-vehicules-du-groupe-lourd (reformulée intégralement)
-> **Articles vérifiés via l'API Légifrance PISTE** : R311-1, R313-32-1, R412-11, R412-12, R413-8, R414-2, R414-3 — tous en `VIGUEUR`.
+> **Articles vérifiés via l'API Légifrance PISTE** : R311-1, R313-32-1, R412-11, R412-12, R413-8, R414-2, R414-3, tous en `VIGUEUR`.
 
 ---
 
-## Section 1 — Le groupe lourd et ses limites
+## Section 1 - Le groupe lourd et ses limites
 
 ## Question 1
 À partir de quel poids un véhicule de marchandises entre-t-il dans le groupe lourd ?
@@ -64,7 +64,7 @@ Sur une route ordinaire hors agglomération, quelle vitesse pour un poids lourd 
 
 ---
 
-## Section 2 — Gabarit et angles morts
+## Section 2 - Gabarit et angles morts
 
 ## Question 5
 Que doivent porter les véhicules de plus de 3,5 t sur les côtés et à l'arrière ?
@@ -122,7 +122,7 @@ Vous croisez un poids lourd à moto sur une route exposée au vent. Quel effet a
 
 ---
 
-## Section 3 — Croiser, suivre, dépasser
+## Section 3 - Croiser, suivre, dépasser
 
 ## Question 9
 Sur une route étroite, un semi-remorque et une voiture ne peuvent se croiser facilement. Qui s'efface ?
@@ -194,7 +194,7 @@ Quelle règle générale fixe la distance de sécurité derrière le véhicule q
 
 ---
 
-## Section 4 — Transports en commun et accidentologie
+## Section 4 - Transports en commun et accidentologie
 
 ## Question 14
 En ville, un autobus quitte son arrêt signalé. Que devez-vous faire ?

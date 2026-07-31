@@ -1,9 +1,9 @@
-# QCM — Thème 41 : Conduite par intempéries (complément)
+# QCM - Thème 41 : Conduite par intempéries (complément)
 
 > **En base** : `qcm_id = 3` (table `qcm`, `theme_id = 41`).
-> **Total en base : 18 questions** = **10 questions ECF conservées à l'identique** (ordre 1 à 10, sans explication — état d'origine, non modifié) **+ 8 questions ajoutées** (ordre 11 à 18, décrites ci-dessous).
+> **Total en base : 18 questions** = **10 questions ECF conservées à l'identique** (ordre 1 à 10, sans explication, état d'origine, non modifié) **+ 8 questions ajoutées** (ordre 11 à 18, décrites ci-dessous).
 > **Fiche de référence** : https://www.srrr.fr/themes-securite-routiere/les-risques-lies-a-la-conduite-par-intemperies (contenu entièrement reformulé)
-> **Articles vérifiés via l'API Légifrance PISTE le 2026-07-28** : R314-1, R412-12, R413-2, R413-4, R413-17, R416-18 — tous en état `VIGUEUR`.
+> **Articles vérifiés via l'API Légifrance PISTE le 2026-07-28** : R314-1, R412-12, R413-2, R413-4, R413-17, R416-18, tous en état `VIGUEUR`.
 
 ## Sujets déjà couverts par les 10 questions ECF existantes (évités ici)
 
@@ -11,7 +11,7 @@ feux utilisables sous forte pluie · acronyme BNP · distance de freinage sur ro
 
 ---
 
-## Section — Vitesses réglementaires
+## Section - Vitesses réglementaires
 
 ## Question 11
 Il pleut. Sur une route à deux chaussées séparées limitée à 110 km/h, vous roulez au plus à :
@@ -55,7 +55,7 @@ Sous une pluie battante, rouler à 80 km/h sur une route limitée à 80 km/h est
 
 ---
 
-## Section — Distances et anticipation
+## Section - Distances et anticipation
 
 ## Question 14
 Sur autoroute sous la pluie, quel intervalle minimum vous sépare du véhicule devant ?
@@ -71,7 +71,7 @@ Sur autoroute sous la pluie, quel intervalle minimum vous sépare du véhicule d
 
 ---
 
-## Section — Usage des feux
+## Section - Usage des feux
 
 ## Question 15
 Le brouillard vous impose de ralentir fortement et une file se forme derrière vous. Vous devez :
@@ -87,7 +87,7 @@ Le brouillard vous impose de ralentir fortement et une file se forme derrière v
 
 ---
 
-## Section — Adhérence et aquaplanage
+## Section - Adhérence et aquaplanage
 
 ## Question 16
 Qu'est-ce qui favorise le plus la perte de contact des pneus avec la route sur sol mouillé ?
@@ -103,7 +103,7 @@ Qu'est-ce qui favorise le plus la perte de contact des pneus avec la route sur s
 
 ---
 
-## Section — Vent et intempéries fortes
+## Section - Vent et intempéries fortes
 
 ## Question 17
 Par vent fort sur autoroute, vous doublez un poids lourd. Quand le risque est-il le plus grand ?
@@ -135,7 +135,7 @@ Une nappe d'eau recouvre la chaussée sur plusieurs dizaines de mètres. Que fai
 
 ## Réserves et anomalies relevées
 
-- **Erreur SRRR : « l'aquaplanage se produit à partir de 90 km/h ».** Aucun seuil de vitesse réglementaire ou officiel ne fixe le déclenchement de l'aquaplanage : il dépend de la hauteur d'eau, de l'usure et de la pression des pneus, et de la charge. La question 16 traite donc les **facteurs** et non un seuil chiffré. Les 10 questions ECF déjà en base ne reprennent pas ce chiffre — mais le QCM public de SRRR le diffuse, à ne pas recopier ailleurs dans le projet.
+- **Erreur SRRR : « l'aquaplanage se produit à partir de 90 km/h ».** Aucun seuil de vitesse réglementaire ou officiel ne fixe le déclenchement de l'aquaplanage : il dépend de la hauteur d'eau, de l'usure et de la pression des pneus, et de la charge. La question 16 traite donc les **facteurs** et non un seuil chiffré. Les 10 questions ECF déjà en base ne reprennent pas ce chiffre, mais le QCM public de SRRR le diffuse, à ne pas recopier ailleurs dans le projet.
 - **Statistiques SRRR non reprises** : la répartition « 76 % conditions normales / 9 % pluie légère / 3 % pluie forte / 2 % brouillard / 1 % vent ou verglas » attribuée à l'ONISR 2024 n'a pas pu être vérifiée. Aucune question ne s'y appuie.
 - **Cohérence de style** : les 5 options des 10 questions ECF existantes se terminent par « Je ne sais pas » **sans point final**, alors que les 8 nouvelles utilisent « Je ne sais pas. » (avec point, conformément à la consigne). Différence purement cosmétique, signalée pour arbitrage.
 - **Sections** : les 10 questions ECF existantes ont `section = NULL` (non modifiées) ; les 8 nouvelles sont réparties en 5 sections nommées. Le QCM affichera donc un premier bloc sans intitulé, puis les blocs nommés. À valider visuellement dans l'app si l'utilisateur veut un affichage homogène.

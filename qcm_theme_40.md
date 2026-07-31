@@ -1,12 +1,12 @@
-# QCM — Thème 40 : Risque routier chez les 18-24 ans
+# QCM - Thème 40 : Risque routier chez les 18-24 ans
 
-> **qcm_id** : 42 — **theme_id** : 40 — 21 questions, 6 sections (15 à la production, +6 le 28/07 — voir bas de fiche)
+> **qcm_id** : 42 : **theme_id** : 40 : 21 questions, 6 sections (15 à la production, +6 le 28/07, voir bas de fiche)
 > Statistiques : Bilan ONISR 2024. Articles vérifiés via l'API Légifrance PISTE le 2026-07-28 : L223-1 (VIGUEUR), R211-3 (VIGUEUR), R223-4 (VIGUEUR), R234-1 (VIGUEUR), R413-5 (VIGUEUR).
 > Ce QCM porte sur les 18-24 ans en propre : causes, contexte, permis probatoire, prévention. La comparaison entre toutes les classes d'âge et entre sexes est traitée dans le thème 39.
 
 ---
 
-## Section 1 — L'ampleur du risque chez les 18-24 ans
+## Section 1 - L'ampleur du risque chez les 18-24 ans
 
 ## Question 1
 Combien de jeunes de 18 à 24 ans ont été tués sur les routes en 2024 ?
@@ -50,7 +50,7 @@ Les 18-24 ans pèsent environ 8 % de la population. Quelle est leur part des tu�
 
 ---
 
-## Section 2 — Les causes du sur-risque
+## Section 2 - Les causes du sur-risque
 
 ## Question 4
 Quel manque explique en grande partie les accidents des conducteurs novices ?
@@ -94,7 +94,7 @@ Comment se manifeste le sentiment d'invulnérabilité chez un jeune conducteur ?
 
 ---
 
-## Section 3 — Permis probatoire : le capital de points
+## Section 3 - Permis probatoire : le capital de points
 
 ## Question 7
 Avec combien de points le permis est-il délivré à l'issue de l'examen ?
@@ -152,7 +152,7 @@ Un conducteur novice perd trois points d'un seul coup. Que se passe-t-il ?
 
 ---
 
-## Section 4 — Les règles propres au conducteur novice
+## Section 4 - Les règles propres au conducteur novice
 
 ## Question 11
 À partir de quel taux un conducteur en période probatoire est-il en infraction ?
@@ -196,7 +196,7 @@ Le novice doit apposer le disque « A » à l'arrière. Que risque-t-il s'il l'o
 
 ---
 
-## Section 5 — Prévenir et former
+## Section 5 - Prévenir et former
 
 ## Question 14
 Après une soirée, quelle solution fait réellement baisser le risque lié à l'alcool ?

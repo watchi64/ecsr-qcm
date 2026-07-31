@@ -1,12 +1,12 @@
-# QCM — Thème 43 : Circulation en hiver, préparation d'un voyage
+# QCM - Thème 43 : Circulation en hiver, préparation d'un voyage
 
-> **En base** : `qcm_id = 62` (table `qcm`, `theme_id = 43`) — 15 questions, ordre 1 à 15.
+> **En base** : `qcm_id = 62` (table `qcm`, `theme_id = 43`) : 15 questions, ordre 1 à 15.
 > **Fiche de référence** : https://www.srrr.fr/themes-securite-routiere/la-circulation-en-hiver (contenu entièrement reformulé)
-> **Articles vérifiés via l'API Légifrance PISTE le 2026-07-28** : D314-8, R312-19, R412-6, R413-2, R413-4, R413-17, R416-7 — tous en état `VIGUEUR`.
+> **Articles vérifiés via l'API Légifrance PISTE le 2026-07-28** : D314-8, R312-19, R412-6, R413-2, R413-4, R413-17, R416-7, tous en état `VIGUEUR`.
 
 ---
 
-## Section — Équipements et loi Montagne
+## Section - Équipements et loi Montagne
 
 ## Question 1
 Dans les communes soumises à la loi Montagne, l'obligation d'équipement s'applique :
@@ -64,7 +64,7 @@ Un conducteur circule sans équipement dans une commune où la loi Montagne s'ap
 
 ---
 
-## Section — Préparer son véhicule et son voyage
+## Section - Préparer son véhicule et son voyage
 
 ## Question 5
 Le froid fait baisser la pression des pneus. Avant un trajet d'hiver, vous :
@@ -150,7 +150,7 @@ Vous chargez la voiture pour partir aux sports d'hiver. Quelle règle respectez-
 
 ---
 
-## Section — Neige, verglas, brouillard
+## Section - Neige, verglas, brouillard
 
 ## Question 11
 Il neige. Sur une autoroute normalement limitée à 130 km/h, votre vitesse maximale est :
@@ -208,7 +208,7 @@ Sur un itinéraire de montagne, où le verglas se forme-t-il en premier ?
 
 ---
 
-## Section — Adapter sa conduite
+## Section - Adapter sa conduite
 
 ## Question 15
 Vous roulez sur une chaussée enneigée. Quelle conduite adoptez-vous ?

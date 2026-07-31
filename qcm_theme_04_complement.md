@@ -1,4 +1,4 @@
-# QCM — Thème 04 : L'autoroute (questions complémentaires)
+# QCM - Thème 04 : L'autoroute (questions complémentaires)
 
 > Complément 2026-07-26 : questions AJOUTÉES à la banque existante (import ECF conservé).
 > Articles vérifiés EN VIGUEUR via l'API Légifrance PISTE.
@@ -29,7 +29,7 @@ Quelle vitesse maximale s'impose à un conducteur en période probatoire sur une
 - E. Je ne sais pas.
 
 **Réponse correcte : B**
-**Explication : 110 km/h. Le conducteur novice est limité à 110 sur autoroute à 130, 100 sur les autres autoroutes et routes à chaussées séparées, 80 sur les autres routes — et il doit apposer le disque « A » à l'arrière (2e classe s'il manque). Source : art. R413-5 du Code de la route (Légifrance, en vigueur).**
+**Explication : 110 km/h. Le conducteur novice est limité à 110 sur autoroute à 130, 100 sur les autres autoroutes et routes à chaussées séparées, 80 sur les autres routes, et il doit apposer le disque « A » à l'arrière (2e classe s'il manque). Source : art. R413-5 du Code de la route (Légifrance, en vigueur).**
 
 ---
 
@@ -59,7 +59,7 @@ Un piéton qui circule sur une autoroute commet :
 - E. Je ne sais pas.
 
 **Réponse correcte : A**
-**Explication : Une contravention de 1re classe (11 €) — l'accès de l'autoroute lui est interdit, comme aux animaux, véhicules sans moteur, cyclomoteurs, quadricycles à moteur et engins agricoles. Pour un conducteur qui enfreint ces interdictions, c'est une 2e classe. Source : art. R421-2 du Code de la route (Légifrance, en vigueur).**
+**Explication : Une contravention de 1re classe (11 €), l'accès de l'autoroute lui est interdit, comme aux animaux, véhicules sans moteur, cyclomoteurs, quadricycles à moteur et engins agricoles. Pour un conducteur qui enfreint ces interdictions, c'est une 2e classe. Source : art. R421-2 du Code de la route (Légifrance, en vigueur).**
 
 ---
 

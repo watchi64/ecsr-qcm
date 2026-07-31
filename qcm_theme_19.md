@@ -14,7 +14,7 @@ Qui prononce une sanction ADMINISTRATIVE contre un permis de conduire ?
 - E. Je ne sais pas.
 
 **Reponse correcte : A**
-**Explication : L'autorité administrative — le préfet (représentant de l'État dans le département) — dans un but de protection immédiate de la route. La sanction PÉNALE, elle, est prononcée par un juge, pour punir. Les deux peuvent se cumuler pour les mêmes faits. Source : art. L224-2 du Code de la route (Légifrance, en vigueur).**
+**Explication : L'autorité administrative, le préfet (représentant de l'État dans le département), dans un but de protection immédiate de la route. La sanction PÉNALE, elle, est prononcée par un juge, pour punir. Les deux peuvent se cumuler pour les mêmes faits. Source : art. L224-2 du Code de la route (Légifrance, en vigueur).**
 
 ---
 

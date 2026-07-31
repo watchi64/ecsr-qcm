@@ -1,6 +1,6 @@
-# QCM — Thème 47 : Aides et assistances à la conduite (+ homéostasie du risque)
+# QCM - Thème 47 : Aides et assistances à la conduite (+ homéostasie du risque)
 
-> qcm_id **40** — 14 questions — inséré en base le 2026-07-28
+> qcm_id **40** : 14 questions, inséré en base le 2026-07-28
 > Aucun numéro d'article du code de la route n'est cité dans ce QCM : les aides à la conduite relèvent de la réglementation européenne d'homologation, hors périmètre de l'API Légifrance. Sources nommées : securite-routiere.gouv.fr, documentation constructeurs, REMC.
 
 ---

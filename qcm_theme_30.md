@@ -1,11 +1,11 @@
-# QCM — Thème 30 : Alcool, diffusion et élimination
+# QCM - Thème 30 : Alcool, diffusion et élimination
 
-> QCM app : `qcm_id = 50` — 14 questions, 4 sections.
+> QCM app : `qcm_id = 50` : 14 questions, 4 sections.
 > Thème non juridique : sources securite-routiere.gouv.fr et pédagogie de la conduite (REMC). Aucun article de loi n'est cité dans ce QCM.
 
 ---
 
-## Section 1 — Le trajet de l'alcool
+## Section 1 - Le trajet de l'alcool
 
 ## Question 1
 Par quel organe la plus grande partie de l'alcool passe-t-elle dans le sang ?
@@ -63,7 +63,7 @@ Quel organe se charge d'éliminer la quasi-totalité de l'alcool bu ?
 
 ---
 
-## Section 2 — Le pic d'alcoolémie
+## Section 2 - Le pic d'alcoolémie
 
 ## Question 5
 Un conducteur boit un verre à jeun. Au bout de combien de temps son taux est-il le plus élevé ?
@@ -107,7 +107,7 @@ Une fois le pic atteint, comment le taux d'alcool évolue-t-il ?
 
 ---
 
-## Section 3 — L'élimination
+## Section 3 - L'élimination
 
 ## Question 8
 À quelle vitesse le taux d'alcool baisse-t-il dans le sang ?
@@ -165,7 +165,7 @@ Une personne qui « tient bien l'alcool » élimine-t-elle plus vite que les aut
 
 ---
 
-## Section 4 — Les fausses solutions
+## Section 4 - Les fausses solutions
 
 ## Question 12
 Un café serré en fin de soirée fait-il baisser l'alcoolémie ?

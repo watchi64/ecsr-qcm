@@ -1,11 +1,11 @@
-# QCM — Thème 25 : Vérifications de sécurité du véhicule
+# QCM - Thème 25 : Vérifications de sécurité du véhicule
 
-> QCM app : `qcm_id = 32` — 15 questions, 5 sections.
+> QCM app : `qcm_id = 32` : 15 questions, 5 sections.
 > Tous les articles cités ont été vérifiés via l'API Légifrance PISTE (état `VIGUEUR`).
 
 ---
 
-## Section 1 — Les pneumatiques
+## Section 1 - Les pneumatiques
 
 ## Question 1
 Que doit présenter un pneu sur toute sa surface de roulement ?
@@ -63,7 +63,7 @@ Une entaille profonde marque le flanc d'un de vos pneus. Que faites-vous ?
 
 ---
 
-## Section 2 — Freinage
+## Section 2 - Freinage
 
 ## Question 5
 Combien de dispositifs de freinage un véhicule doit-il posséder ?
@@ -93,7 +93,7 @@ Le voyant de frein reste allumé alors que vous roulez. Que vérifiez-vous en pr
 
 ---
 
-## Section 3 — Feux et signalisation à contrôler
+## Section 3 - Feux et signalisation à contrôler
 
 ## Question 7
 En circulation, avec quels feux l'éclairage de la plaque arrière doit-il être allumé ?
@@ -123,7 +123,7 @@ En circulation, avec quels feux l'éclairage de la plaque arrière doit-il être
 
 ---
 
-## Section 4 — Passagers et équipements de secours
+## Section 4 - Passagers et équipements de secours
 
 ## Question 9
 Où doit se trouver le gilet de haute visibilité ?
@@ -167,7 +167,7 @@ Un enfant de 4 ans peut-il voyager à l'avant, dos à la route ?
 
 ---
 
-## Section 5 — Documents et contrôle technique
+## Section 5 - Documents et contrôle technique
 
 ## Question 12
 Quels documents devez-vous présenter à toute réquisition des forces de l'ordre ?

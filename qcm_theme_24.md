@@ -1,11 +1,11 @@
-# QCM — Thème 24 : Surfaces vitrées et rétroviseurs
+# QCM - Thème 24 : Surfaces vitrées et rétroviseurs
 
-> QCM app : `qcm_id = 46` — 14 questions, 4 sections.
+> QCM app : `qcm_id = 46` : 14 questions, 4 sections.
 > Tous les articles cités ont été vérifiés via l'API Légifrance PISTE (état `VIGUEUR`).
 
 ---
 
-## Section 1 — Les vitres : transparence et état
+## Section 1 - Les vitres : transparence et état
 
 ## Question 1
 Quelle part de la lumière doit au minimum traverser le pare-brise et les vitres avant ?
@@ -77,7 +77,7 @@ Une longue fissure barre votre pare-brise juste devant vous. Que risquez-vous ?
 
 ---
 
-## Section 2 — Essuie-glaces et lave-glace
+## Section 2 - Essuie-glaces et lave-glace
 
 ## Question 6
 Quel équipement le pare-brise doit-il obligatoirement comporter ?
@@ -107,7 +107,7 @@ Votre réservoir de lave-glace est vide depuis des semaines. Est-ce un problème
 
 ---
 
-## Section 3 — Voir vers l'arrière
+## Section 3 - Voir vers l'arrière
 
 ## Question 8
 Que doit permettre le système de vision indirecte (les rétroviseurs) ?
@@ -165,7 +165,7 @@ Votre rétroviseur extérieur gauche a été arraché. Que risquez-vous ?
 
 ---
 
-## Section 4 — Angles morts et installation
+## Section 4 - Angles morts et installation
 
 ## Question 12
 Vos rétroviseurs sont parfaitement réglés. Voyez-vous tout autour de vous ?

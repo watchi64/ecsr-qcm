@@ -1,4 +1,4 @@
-# QCM — Thème 16 : Lois physiques appliquées au véhicule
+# QCM - Thème 16 : Lois physiques appliquées au véhicule
 
 > Trace de production 2026-07-26 (source de vérité : base Supabase, app ecsr-promo).
 > Articles vérifiés EN VIGUEUR via l'API Légifrance PISTE ; physique et repères pédagogiques sourcés.
@@ -101,7 +101,7 @@ Deux virages sont pris à la même vitesse : l'un large, l'autre serré. Où la 
 - E. Je ne sais pas.
 
 **Réponse correcte : A**
-**Explication : Dans le virage SERRÉ : la force centrifuge est inversement proportionnelle au rayon (Fc = mv²/R) — plus le rayon est petit, plus la force qui tend à déporter le véhicule vers l'extérieur est grande. D'où l'obligation de ralentir davantage dans les virages serrés. Source : lois physiques appliquées au véhicule.**
+**Explication : Dans le virage SERRÉ : la force centrifuge est inversement proportionnelle au rayon (Fc = mv²/R), plus le rayon est petit, plus la force qui tend à déporter le véhicule vers l'extérieur est grande. D'où l'obligation de ralentir davantage dans les virages serrés. Source : lois physiques appliquées au véhicule.**
 
 ---
 
@@ -175,7 +175,7 @@ Quels facteurs favorisent l'aquaplaning ?
 - E. Je ne sais pas.
 
 **Réponse correcte : A**
-**Explication : Une vitesse élevée, des pneus usés (sculptures peu profondes) ou sous-gonflés, et une forte épaisseur d'eau sur la chaussée (flaques, ornières). La profondeur légale minimale des sculptures est de 1,6 mm — mais l'évacuation d'eau se dégrade bien avant ce seuil. Sources : pédagogie de la conduite ; securite-routiere.gouv.fr.**
+**Explication : Une vitesse élevée, des pneus usés (sculptures peu profondes) ou sous-gonflés, et une forte épaisseur d'eau sur la chaussée (flaques, ornières). La profondeur légale minimale des sculptures est de 1,6 mm, mais l'évacuation d'eau se dégrade bien avant ce seuil. Sources : pédagogie de la conduite ; securite-routiere.gouv.fr.**
 
 ---
 

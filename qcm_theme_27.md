@@ -1,11 +1,11 @@
-# QCM — THÈME 27 : L'attention du conducteur
+# QCM - THÈME 27 : L'attention du conducteur
 
-> qcm_id `34` — 16 questions, 5 sections.
+> qcm_id `34` : 16 questions, 5 sections.
 > Sources vérifiées : articles R412-6 et R412-6-1 du code de la route (contrôlés en vigueur via l'API Légifrance PISTE), Sécurité routière (dossiers « La fatigue et la conduite »), pédagogie de la conduite (REMC).
 
 ---
 
-## Section 1 — Attention et vigilance : deux notions
+## Section 1 - Attention et vigilance : deux notions
 
 ### Question 1
 Quelle est la différence entre l'attention et la vigilance ?
@@ -49,7 +49,7 @@ Pourquoi un conducteur très expérimenté peut-il quand même être distrait ?
 
 ---
 
-## Section 2 — Les distractions au volant
+## Section 2 - Les distractions au volant
 
 ### Question 4
 Un conducteur téléphone avec un kit mains libres. De quelle distraction s'agit-il ?
@@ -107,7 +107,7 @@ Peut-on conduire une voiture avec un écouteur à l'oreille pour téléphoner ?
 
 ---
 
-## Section 3 — Fatigue et somnolence
+## Section 3 - Fatigue et somnolence
 
 ### Question 8
 Quels signes annoncent l'endormissement au volant ?
@@ -179,7 +179,7 @@ Un conducteur a dormi moins de 6 heures avant de partir. Quel est l'effet ?
 
 ---
 
-## Section 4 — Rythmes biologiques et monotonie
+## Section 4 - Rythmes biologiques et monotonie
 
 ### Question 13
 Quelles sont les heures les plus à risque d'endormissement au volant ?
@@ -209,7 +209,7 @@ Pourquoi une longue autoroute droite et déserte est-elle dangereuse ?
 
 ---
 
-## Section 5 — Obligations du conducteur
+## Section 5 - Obligations du conducteur
 
 ### Question 15
 Que dit le code de la route sur l'état du conducteur au volant ?

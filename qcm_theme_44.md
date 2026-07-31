@@ -1,6 +1,6 @@
-# QCM — Thème 44 : Systèmes de retenue (ceinture, airbag, sièges enfants)
+# QCM - Thème 44 : Systèmes de retenue (ceinture, airbag, sièges enfants)
 
-> qcm_id **58** — 14 questions — inséré en base le 2026-07-28
+> qcm_id **58** : 14 questions, inséré en base le 2026-07-28
 > Articles vérifiés via l'API Légifrance PISTE : **R412-1** (VIGUEUR), **R412-2** (VIGUEUR), **R412-3** (VIGUEUR)
 
 ---
@@ -232,5 +232,5 @@ Un passager avant met ses pieds sur la planche de bord. Quel est le risque ?
 ## Notes de production
 
 - **Écarté volontairement** : le chiffre SRRR « un choc à 50 km/h sans ceinture équivaut à une chute du 4e étage ». Le calcul physique donne environ 9,8 m, soit plutôt un 3e étage. Comparaison abandonnée faute de source officielle stable.
-- **Écarté volontairement** : « 34 fois plus de risque de décès en cas de tonneau » et « 20 % des décédés 2024 » (SRRR) — non recoupés avec le bilan ONISR.
+- **Écarté volontairement** : « 34 fois plus de risque de décès en cas de tonneau » et « 20 % des décédés 2024 » (SRRR), non recoupés avec le bilan ONISR.
 - **Erreur SRRR corrigée** : la fiche attribue à R412-2 l'obligation de placer l'enfant de moins de 10 ans à l'arrière. Cette règle figure en réalité à **R412-3**, et elle comporte plusieurs exceptions.

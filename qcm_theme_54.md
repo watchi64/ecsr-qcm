@@ -1,4 +1,4 @@
-# QCM — Thème 54 : Le continuum éducatif (formation obligatoire et facultative)
+# QCM - Thème 54 : Le continuum éducatif (formation obligatoire et facultative)
 
 > **qcm_id en base** : 55
 > **Nombre de questions** : 15
@@ -8,7 +8,7 @@
 
 ---
 
-## Section — Le principe du continuum
+## Section - Le principe du continuum
 
 ## Question 1
 Que désigne le « continuum éducatif » en sécurité routière ?
@@ -62,7 +62,7 @@ Quel est le rôle de l'enseignant de la conduite dans ce continuum ?
 
 ---
 
-## Section — Avant le permis
+## Section - Avant le permis
 
 ## Question 5
 À l'école primaire, quel dispositif sensibilise l'élève comme piéton, passager et cycliste ?
@@ -131,7 +131,7 @@ Quel âge minimal le code de la route fixe-t-il pour l'obtention du permis B ?
 
 ---
 
-## Section — Le permis et la période probatoire
+## Section - Le permis et la période probatoire
 
 ## Question 10
 Quelle est la durée du délai probatoire après une conduite accompagnée (AAC) ?
@@ -159,7 +159,7 @@ Que permet la formation complémentaire suivie après l'obtention du permis ?
 
 ---
 
-## Section — Après le permis
+## Section - Après le permis
 
 ## Question 12
 Combien de points un stage volontaire de sensibilisation permet-il de récupérer ?

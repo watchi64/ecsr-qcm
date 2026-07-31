@@ -1,11 +1,11 @@
-# QCM — Thème 29 : Estimation du taux d'alcoolémie
+# QCM - Thème 29 : Estimation du taux d'alcoolémie
 
-> QCM app : `qcm_id = 54` — 14 questions, 4 sections.
+> QCM app : `qcm_id = 54` : 14 questions, 4 sections.
 > Contenu médical et pédagogique : securite-routiere.gouv.fr, formule de Widmark, pédagogie de la conduite (REMC). Articles vérifiés via l'API Légifrance PISTE le 2026-07-28.
 
 ---
 
-## Section 1 — Unités et repères
+## Section 1 - Unités et repères
 
 ## Question 1
 Comment exprime-t-on officiellement l'alcoolémie d'un conducteur ?
@@ -49,7 +49,7 @@ Le seuil de 0,50 g/L de sang correspond à quelle valeur dans l'air expiré ?
 
 ---
 
-## Section 2 — Le verre standard
+## Section 2 - Le verre standard
 
 ## Question 4
 Quelle quantité d'alcool pur contient un verre servi dans un bar ?
@@ -107,7 +107,7 @@ Chez des amis, les verres sont servis « à la main ». Qu'en déduire ?
 
 ---
 
-## Section 3 — Calculer une estimation
+## Section 3 - Calculer une estimation
 
 ## Question 8
 Dans la formule de Widmark, par quoi divise-t-on la quantité d'alcool pur bue ?
@@ -165,7 +165,7 @@ Que vaut ce calcul face au résultat d'un contrôle des forces de l'ordre ?
 
 ---
 
-## Section 4 — Mesurer pour de vrai
+## Section 4 - Mesurer pour de vrai
 
 ## Question 12
 Quel appareil sert à établir officiellement le taux d'alcool lors d'un contrôle ?
@@ -219,6 +219,6 @@ Un conducteur ne peut pas souffler pour une raison médicale attestée. Que se p
 | L234-9 code de la route | VIGUEUR | En cas d'incapacité physique attestée par le médecin requis : analyses ou examens médicaux (prise de sang) |
 
 Données non juridiques (ordres de grandeur admis) :
-- verre standard ≈ 10 g d'alcool pur ≈ 0,20 à 0,25 g/L chez un adulte — securite-routiere.gouv.fr
+- verre standard ≈ 10 g d'alcool pur ≈ 0,20 à 0,25 g/L chez un adulte, securite-routiere.gouv.fr
 - formule de Widmark : taux = alcool pur (g) / (poids en kg × coefficient), coefficient 0,7 homme / 0,6 femme
 - les verres servis hors établissement dépassent fréquemment la dose bar

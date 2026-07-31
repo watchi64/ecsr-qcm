@@ -1,4 +1,4 @@
-# QCM — Thème 14 : Les distances d'arrêt
+# QCM - Thème 14 : Les distances d'arrêt
 
 > Trace de production 2026-07-26 (source de vérité : base Supabase, app ecsr-promo).
 > Articles vérifiés EN VIGUEUR via l'API Légifrance PISTE ; physique et repères pédagogiques sourcés.
@@ -57,7 +57,7 @@ Quelle distance parcourt-on pendant 1 seconde de temps de réaction à 90 km/h ?
 - E. Je ne sais pas.
 
 **Réponse correcte : A**
-**Explication : Environ 78 mètres — soit près de la longueur d'un terrain de football. C'est l'illustration la plus parlante du danger de la distraction à haute vitesse. Source : securite-routiere.gouv.fr.**
+**Explication : Environ 78 mètres, soit près de la longueur d'un terrain de football. C'est l'illustration la plus parlante du danger de la distraction à haute vitesse. Source : securite-routiere.gouv.fr.**
 
 ---
 
@@ -131,7 +131,7 @@ Quelle est approximativement la surface de contact entre un pneu et la chaussée
 - E. Je ne sais pas.
 
 **Réponse correcte : A**
-**Explication : L'équivalent d'une carte postale par pneu. Toute la tenue de route, le freinage et la direction passent par ces quatre petites surfaces — d'où l'importance capitale de l'état et de la pression des pneumatiques. Source : pédagogie de la conduite (Codes Rousseau / securite-routiere.gouv.fr).**
+**Explication : L'équivalent d'une carte postale par pneu. Toute la tenue de route, le freinage et la direction passent par ces quatre petites surfaces, d'où l'importance capitale de l'état et de la pression des pneumatiques. Source : pédagogie de la conduite (Codes Rousseau / securite-routiere.gouv.fr).**
 
 ---
 

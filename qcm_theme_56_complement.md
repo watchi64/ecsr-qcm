@@ -1,4 +1,4 @@
-# QCM — Thème 56 : Justifications des politiques de sécurité routière — COMPLÉMENT
+# QCM - Thème 56 : Justifications des politiques de sécurité routière - COMPLÉMENT
 
 > **qcm_id en base** : 7
 > **Nature de ce fichier** : questions **ajoutées** aux 10 questions préexistantes (import ECF). Rien n'a été supprimé.
@@ -105,7 +105,7 @@ Pourquoi évaluer une mesure demande-t-il plus qu'une comparaison avant/après ?
 
 ## ⚠️ Anomalies relevées dans les questions préexistantes (NON modifiées)
 
-### 1. Question ordre 3 — « Quelle mesure a été introduite en 1992 pour améliorer la sécurité routière ? » — AMBIGUÏTÉ CONFIRMÉE
+### 1. Question ordre 3 - « Quelle mesure a été introduite en 1992 pour améliorer la sécurité routière ? » - AMBIGUÏTÉ CONFIRMÉE
 
 Options en base :
 
@@ -127,9 +127,9 @@ Les deux propositions renvoyant à 1992, la question n'a pas de réponse unique 
 2. **Remplacer le distracteur** « Permis à points » par une mesure d'une autre année, en gardant le contrôle technique comme réponse.
 3. **Supprimer la question**, redondante avec le QCM transversal « Dates clés de la sécurité routière ».
 
-### 2. Question ordre 8 — chiffre périmé
+### 2. Question ordre 8 - chiffre périmé
 
-L'énoncé mentionne « **91 tués par million d'habitants** » pour les 18-24 ans. Les données de référence de l'équipe (Bilan ONISR 2024) donnent **97 tués par million d'habitants** pour cette tranche, contre 48 en moyenne. La bonne réponse (« Les 18-24 ans ») reste correcte, mais le chiffre de l'énoncé correspond à un millésime antérieur. **Non modifié** — signalé pour arbitrage.
+L'énoncé mentionne « **91 tués par million d'habitants** » pour les 18-24 ans. Les données de référence de l'équipe (Bilan ONISR 2024) donnent **97 tués par million d'habitants** pour cette tranche, contre 48 en moyenne. La bonne réponse (« Les 18-24 ans ») reste correcte, mais le chiffre de l'énoncé correspond à un millésime antérieur. **Non modifié**, signalé pour arbitrage.
 
 ### 3. Absence d'explications
 

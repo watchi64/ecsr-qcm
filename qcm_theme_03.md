@@ -1,4 +1,4 @@
-# QCM — Thème 03 : Stationnement, arrêt, immobilisation
+# QCM - Thème 03 : Stationnement, arrêt, immobilisation
 
 > Trace de production (source de vérité : base Supabase, app ecsr-promo).
 > Articles vérifiés EN VIGUEUR via l'API Légifrance PISTE le 2026-07-26 (dump lot3a).
@@ -103,7 +103,7 @@ Stationner dans un virage ou au sommet d'une côte où la visibilité est insuff
 - E. Je ne sais pas.
 
 **Réponse correcte : C**
-**Explication : DANGEREUX : 135 € (4e classe), retrait de 3 points et suspension possible — le seul stationnement qui retire des points. Sont visés les abords d'intersections, virages, sommets de côte et passages à niveau quand la visibilité est insuffisante. Source : art. R417-9 du Code de la route (Légifrance, en vigueur).**
+**Explication : DANGEREUX : 135 € (4e classe), retrait de 3 points et suspension possible, le seul stationnement qui retire des points. Sont visés les abords d'intersections, virages, sommets de côte et passages à niveau quand la visibilité est insuffisante. Source : art. R417-9 du Code de la route (Légifrance, en vigueur).**
 
 ---
 
@@ -145,7 +145,7 @@ Ouvrir sa portière en créant un danger pour un cycliste qui arrive, c'est :
 - E. Je ne sais pas.
 
 **Réponse correcte : A**
-**Explication : Une contravention de 1re classe (11 € d'amende forfaitaire) — étonnamment la plus petite sanction du code, malgré la gravité potentielle pour les cyclistes. L'interdiction vise tout occupant du véhicule. Attention : certains supports annoncent 135 €, c'est inexact au regard du texte en vigueur. Source : art. R417-7 du Code de la route (Légifrance, en vigueur).**
+**Explication : Une contravention de 1re classe (11 € d'amende forfaitaire), étonnamment la plus petite sanction du code, malgré la gravité potentielle pour les cyclistes. L'interdiction vise tout occupant du véhicule. Attention : certains supports annoncent 135 €, c'est inexact au regard du texte en vigueur. Source : art. R417-7 du Code de la route (Légifrance, en vigueur).**
 
 ---
 

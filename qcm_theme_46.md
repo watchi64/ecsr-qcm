@@ -1,6 +1,6 @@
-# QCM — Thème 46 : Dispositifs de sécurité active et passive
+# QCM - Thème 46 : Dispositifs de sécurité active et passive
 
-> qcm_id **41** — 13 questions — inséré en base le 2026-07-28
+> qcm_id **41** : 13 questions, inséré en base le 2026-07-28
 > Article vérifié via l'API Légifrance PISTE : **R317-23** (VIGUEUR)
 
 ---
@@ -216,6 +216,6 @@ Quelle est la première sécurité, avant tout équipement du véhicule ?
 ## Notes de production
 
 - **Écarté** : le chiffre SRRR « la ceinture sauve environ 2 500 vies par an en France (ONISR, 2023) », non recoupé dans le bilan ONISR.
-- **Écarté** : « ceinture obligatoire depuis 1973 » sans nuance — 1973 ne concernait que les places avant hors agglomération.
+- **Écarté** : « ceinture obligatoire depuis 1973 » sans nuance : 1973 ne concernait que les places avant hors agglomération.
 - **Erreur SRRR corrigée** : la fiche écrit « Gérard Wilde » ; l'auteur de la théorie de l'homéostasie du risque est **Gerald J. S. Wilde** (1982).
 - Aucun numéro d'article de réglementation européenne n'est cité : les dates (ESP novembre 2014, AEB juillet 2022) sont mentionnées sans référence de règlement, faute de vérification possible via l'API Légifrance (droit de l'UE hors périmètre du client).

@@ -1,12 +1,12 @@
-# QCM — Thème 39 : Âge et conduite (classes d'âge, sexes et risques)
+# QCM - Thème 39 : Âge et conduite (classes d'âge, sexes et risques)
 
-> **qcm_id** : 35 — **theme_id** : 39 — 17 questions, 4 sections (15 à la production, +2 le 28/07 — voir bas de fiche)
+> **qcm_id** : 35 : **theme_id** : 39 : 17 questions, 4 sections (15 à la production, +2 le 28/07, voir bas de fiche)
 > Statistiques : Bilan ONISR 2024. Articles vérifiés via l'API Légifrance PISTE le 2026-07-28 : R211-3 (VIGUEUR), R221-5 (VIGUEUR), R221-10 (VIGUEUR).
 > Ce QCM traite **toutes** les classes d'âge et la comparaison hommes/femmes. Les 18-24 ans sont traités en propre dans le thème 40.
 
 ---
 
-## Section 1 — Le bilan chiffré par âge
+## Section 1 - Le bilan chiffré par âge
 
 ## Question 1
 Combien de personnes ont été tuées sur les routes de France métropolitaine en 2024 ?
@@ -78,7 +78,7 @@ Pourquoi le nombre brut de tués ne suffit-il pas à classer les âges par nivea
 
 ---
 
-## Section 2 — Sexe et facteurs de risque
+## Section 2 - Sexe et facteurs de risque
 
 ## Question 6
 Quelle part des personnes tuées sur la route en 2024 étaient des hommes ?
@@ -122,7 +122,7 @@ Quel facteur revient le plus souvent dans les accidents mortels, tous âges conf
 
 ---
 
-## Section 3 — Vieillir au volant
+## Section 3 - Vieillir au volant
 
 ## Question 9
 Chez les conducteurs âgés, qu'est-ce qui aggrave le plus les conséquences d'un accident ?
@@ -180,7 +180,7 @@ Un stagiaire affirme : « après 70 ans, une visite médicale devient obligatoir
 
 ---
 
-## Section 4 — Âge et accès à la conduite
+## Section 4 - Âge et accès à la conduite
 
 ## Question 13
 À quel âge minimum peut-on obtenir le permis de la catégorie B ?

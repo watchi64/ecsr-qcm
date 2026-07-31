@@ -1,12 +1,12 @@
-# QCM — Thème 35 : Partage de la route avec les deux-roues et L5e
+# QCM - Thème 35 : Partage de la route avec les deux-roues et L5e
 
-> **En base** : `qcm_id = 63` (theme_id 35) — 15 questions, 4 sections.
+> **En base** : `qcm_id = 63` (theme_id 35) : 15 questions, 4 sections.
 > **Fiche source** : https://www.srrr.fr/themes-securite-routiere/le-partage-social-de-la-route-avec-les-deux-et-trois-roues-motorises (reformulée intégralement)
-> **Articles vérifiés via l'API Légifrance PISTE** : R221-8, R311-1, R412-11-3, R412-19, R412-28-1, R414-4, R414-11, R431-1, R431-1-1, R431-1-2 — tous en `VIGUEUR`.
+> **Articles vérifiés via l'API Légifrance PISTE** : R221-8, R311-1, R412-11-3, R412-19, R412-28-1, R414-4, R414-11, R431-1, R431-1-1, R431-1-2, tous en `VIGUEUR`.
 
 ---
 
-## Section 1 — Catégories et permis
+## Section 1 - Catégories et permis
 
 ## Question 1
 Un titulaire du permis B veut rouler en 125 cm³. Que lui faut-il ?
@@ -50,7 +50,7 @@ Un vélo dont l'assistance électrique se coupe à 25 km/h : quel statut réglem
 
 ---
 
-## Section 2 — Équipements de protection
+## Section 2 - Équipements de protection
 
 ## Question 4
 Un motard circule sans casque homologué. Que risque-t-il ?
@@ -94,7 +94,7 @@ Le passager d'une moto doit-il porter le casque et les gants ?
 
 ---
 
-## Section 3 — Cohabiter avec les deux-roues
+## Section 3 - Cohabiter avec les deux-roues
 
 ## Question 7
 Vous dépassez un scooter en ville. Quel écart latéral minimum devez-vous laisser ?
@@ -180,7 +180,7 @@ Aux intersections, le dépassement d'un véhicule à deux roues est-il permis ?
 
 ---
 
-## Section 4 — La circulation inter-files
+## Section 4 - La circulation inter-files
 
 ## Question 13
 Depuis 2025, sur quelles routes la circulation inter-files est-elle autorisée ?

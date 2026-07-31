@@ -1,4 +1,4 @@
-# QCM — Thème 05 : Les croisements (questions complémentaires)
+# QCM - Thème 05 : Les croisements (questions complémentaires)
 
 > Complément 2026-07-26 : questions AJOUTÉES à la banque existante (import ECF conservé).
 > Articles vérifiés EN VIGUEUR via l'API Légifrance PISTE.
@@ -73,7 +73,7 @@ Deux véhicules de MÊME catégorie ne peuvent se croiser en montagne sans march
 - E. Je ne sais pas.
 
 **Réponse correcte : A**
-**Explication : Le véhicule DESCENDANT — sauf si la manœuvre est manifestement plus facile pour le montant, par exemple s'il se trouve près d'une place d'évitement. Source : art. R414-3 III du Code de la route (Légifrance, en vigueur).**
+**Explication : Le véhicule DESCENDANT, sauf si la manœuvre est manifestement plus facile pour le montant, par exemple s'il se trouve près d'une place d'évitement. Source : art. R414-3 III du Code de la route (Légifrance, en vigueur).**
 
 ---
 

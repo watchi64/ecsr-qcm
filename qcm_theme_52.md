@@ -1,12 +1,12 @@
-# QCM — Thème 52 : Comportement en cas d'accident corporel et matériel
+# QCM - Thème 52 : Comportement en cas d'accident corporel et matériel
 
 > **QCM en base** : `qcm_id = 43` (table `qcm`, projet Supabase `crpduennbqaemhfaywrz`)
-> **18 questions** — 5 sections structurées **PROTÉGER → ALERTER → SECOURIR** (16 à la production, +2 le 28/07 sur le triangle — voir bas de fiche)
+> **18 questions** : 5 sections structurées **PROTÉGER → ALERTER → SECOURIR** (16 à la production, +2 le 28/07 sur le triangle, voir bas de fiche)
 > **Périmètre** : les gestes sur les lieux. Le remplissage du constat relève du thème 51.
 
 ---
 
-## Section 1 — Reconnaître la situation
+## Section 1 - Reconnaître la situation
 
 ## Question 1
 Qu'appelle-t-on un accident corporel ?
@@ -36,7 +36,7 @@ Dans quel ordre devez-vous agir face à un accident avec un blessé ?
 
 ---
 
-## Section 2 — PROTÉGER
+## Section 2 - PROTÉGER
 
 ## Question 3
 Vous arrivez sur un accident. Quel est votre tout premier réflexe ?
@@ -94,7 +94,7 @@ Sur autoroute, où vous mettez-vous en sécurité après avoir quitté votre vé
 
 ---
 
-## Section 3 — ALERTER
+## Section 3 - ALERTER
 
 ## Question 7
 Un blessé grave est au sol. Quel numéro appelez-vous en priorité ?
@@ -152,7 +152,7 @@ Que devez-vous indiquer en priorité au régulateur qui décroche ?
 
 ---
 
-## Section 4 — SECOURIR
+## Section 4 - SECOURIR
 
 ## Question 11
 Un blessé conscient est coincé dans sa voiture, sans danger immédiat. Que faites-vous ?
@@ -210,7 +210,7 @@ Un blessé conscient vous réclame à boire. Que faites-vous ?
 
 ---
 
-## Section 5 — Obligations et sanctions
+## Section 5 - Obligations et sanctions
 
 ## Question 15
 Vous causez un accident et repartez sans vous arrêter. Que risquez-vous ?
@@ -253,9 +253,9 @@ Vous passez devant un accident avec un blessé et poursuivez votre route sans ri
 
 ## Anomalies relevées sur la fiche SRRR
 
-- **Peines des deux délits interverties.** Le tableau SRRR donne « non-assistance : jusqu'à 75 000 € **+ 5 ans** » et « délit de fuite : 75 000 € **+ 3 ans** » — les montants sont bien identiques (75 000 €) mais SRRR présente les deux lignes de façon à laisser croire à une équivalence. Chiffres exacts retenus après lecture des textes : **223-6 → 5 ans**, **434-10 → 3 ans**. SRRR **omet** la suspension du permis jusqu'à 5 ans (434-45), ajoutée en explication de la question 15.
-- **Triangle « à 30 mètres ».** **ARBITRÉ le 28/07 : l'utilisateur confirme que les 30 m et le placement avant un virage ou un sommet de côte sont enseignés comme du code.** Deux questions ont donc été ajoutées en base (ordres 5 et 6, section PROTÉGER) : la distance de 30 m, et le placement avant le sommet de côte. Nuance conservée dans les explications : **R416-19 ne fixe aucune distance** — il impose les feux de détresse et le triangle dès que le véhicule immobilisé crée un danger, et cite justement les virages, sommets de côtes, intersections, passages à niveau et la visibilité insuffisante. Les 30 m sont la règle pratique enseignée (Codes Rousseau). La question sur l'**obligation cumulative** (feux + triangle) reste distincte.
+- **Peines des deux délits interverties.** Le tableau SRRR donne « non-assistance : jusqu'à 75 000 € **+ 5 ans** » et « délit de fuite : 75 000 € **+ 3 ans** », les montants sont bien identiques (75 000 €) mais SRRR présente les deux lignes de façon à laisser croire à une équivalence. Chiffres exacts retenus après lecture des textes : **223-6 → 5 ans**, **434-10 → 3 ans**. SRRR **omet** la suspension du permis jusqu'à 5 ans (434-45), ajoutée en explication de la question 15.
+- **Triangle « à 30 mètres ».** **ARBITRÉ le 28/07 : l'utilisateur confirme que les 30 m et le placement avant un virage ou un sommet de côte sont enseignés comme du code.** Deux questions ont donc été ajoutées en base (ordres 5 et 6, section PROTÉGER) : la distance de 30 m, et le placement avant le sommet de côte. Nuance conservée dans les explications : **R416-19 ne fixe aucune distance**, il impose les feux de détresse et le triangle dès que le véhicule immobilisé crée un danger, et cite justement les virages, sommets de côtes, intersections, passages à niveau et la visibilité insuffisante. Les 30 m sont la règle pratique enseignée (Codes Rousseau). La question sur l'**obligation cumulative** (feux + triangle) reste distincte.
 - **« Le facteur humain intervient dans plus de 90 % des accidents corporels »** : chiffre non sourcé sur la fiche, non vérifié dans le bilan ONISR. **Écarté** du QCM.
-- **Définition du « tué à 30 jours »** et du « blessé hospitalisé plus de 24 h » : conformes à la convention ONISR, mais écartées faute de place — candidates pour un QCM ONISR/accidentologie.
+- **Définition du « tué à 30 jours »** et du « blessé hospitalisé plus de 24 h » : conformes à la convention ONISR, mais écartées faute de place, candidates pour un QCM ONISR/accidentologie.
 - SRRR place le gilet **après** les feux et le triangle dans sa liste de la méthode Protéger. L'ordre pratique est l'inverse : **gilet enfilé avant de sortir**, puis balisage. Corrigé en question 5.
-- SRRR n'évoque pas la mise en sécurité **derrière la glissière** sur autoroute — ajoutée en question 6.
+- SRRR n'évoque pas la mise en sécurité **derrière la glissière** sur autoroute, ajoutée en question 6.

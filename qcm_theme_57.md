@@ -1,4 +1,4 @@
-# QCM — Thème 57 : Pressions et influences incitant à une vitesse inadaptée
+# QCM - Thème 57 : Pressions et influences incitant à une vitesse inadaptée
 
 > **qcm_id en base** : 37
 > **Nombre de questions** : 15
@@ -8,7 +8,7 @@
 
 ---
 
-## Section — Comprendre les notions
+## Section - Comprendre les notions
 
 ## Question 1
 En quoi une « pression » se distingue-t-elle d'une « influence » ?
@@ -49,7 +49,7 @@ Que précise le code de la route au sujet des vitesses maximales autorisées ?
 
 ---
 
-## Section — Les pressions
+## Section - Les pressions
 
 ## Question 4
 Comment la publicité automobile agit-elle sur le rapport à la vitesse ?
@@ -103,7 +103,7 @@ Pourquoi la pression du groupe pèse-t-elle particulièrement sur un jeune condu
 
 ---
 
-## Section — Les influences
+## Section - Les influences
 
 ## Question 8
 Vos passagers vous trouvent trop lent et vous poussent à accélérer. Que faire ?
@@ -157,7 +157,7 @@ Un véhicule vous suit de très près sur une route à double sens. Quelle réac
 
 ---
 
-## Section — Résister aux pressions
+## Section - Résister aux pressions
 
 ## Question 12
 Vous êtes en retard. Quel est l'effet réel d'une accélération sur le trajet ?

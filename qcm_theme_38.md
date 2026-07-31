@@ -1,11 +1,11 @@
-# QCM — Thème 38 : Communication entre usagers de la route
+# QCM - Thème 38 : Communication entre usagers de la route
 
-> **qcm_id** : 48 — **theme_id** : 38 — 15 questions, 4 sections
+> **qcm_id** : 48 : **theme_id** : 38 : 15 questions, 4 sections
 > Articles vérifiés via l'API Légifrance PISTE le 2026-07-28 : R412-6 (VIGUEUR), R412-9 (VIGUEUR), R412-10 (VIGUEUR), R415-11 (VIGUEUR), R416-1 (VIGUEUR), R416-2 (VIGUEUR), R416-3 (VIGUEUR), R416-19 (VIGUEUR).
 
 ---
 
-## Section 1 — Prévenir les autres de sa manœuvre
+## Section 1 - Prévenir les autres de sa manœuvre
 
 ## Question 1
 Avant de tourner à gauche ou de ralentir nettement, que doit faire le conducteur ?
@@ -63,7 +63,7 @@ Dans un giratoire à plusieurs voies, un changement de voie doit être :
 
 ---
 
-## Section 2 — Avertisseur sonore et appels de phares
+## Section 2 - Avertisseur sonore et appels de phares
 
 ## Question 5
 En agglomération, dans quel cas l'avertisseur sonore est-il autorisé ?
@@ -121,7 +121,7 @@ Que dit le code des trompes à sons multiples, des sirènes et des sifflets ?
 
 ---
 
-## Section 3 — Regard, gestes et usagers vulnérables
+## Section 3 - Regard, gestes et usagers vulnérables
 
 ## Question 9
 Un piéton au bord d'un passage vous regarde et avance d'un pas. Vous devez :
@@ -179,7 +179,7 @@ Un cycliste devant vous tend le bras vers la gauche. Comment faut-il le lire ?
 
 ---
 
-## Section 4 — Quand la communication échoue
+## Section 4 - Quand la communication échoue
 
 ## Question 13
 Un conducteur vous fait un appel de phares à une intersection. Que faut-il en conclure ?
@@ -205,7 +205,7 @@ Dans quel cas les feux de détresse sont-ils réglementairement exigés ?
 - E. Je ne sais pas.
 
 **Réponse correcte : A**
-**Explication : Quand un véhicule immobilisé sur la chaussée constitue un danger — près d'une intersection, d'un virage, d'un sommet de côte, en visibilité insuffisante, ou en cas de chute du chargement. Le I de l'article R416-19 impose alors les feux de détresse ET le triangle de présignalisation. Source : [Code de la route, article R416-19](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000030582704/).**
+**Explication : Quand un véhicule immobilisé sur la chaussée constitue un danger, près d'une intersection, d'un virage, d'un sommet de côte, en visibilité insuffisante, ou en cas de chute du chargement. Le I de l'article R416-19 impose alors les feux de détresse ET le triangle de présignalisation. Source : [Code de la route, article R416-19](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000030582704/).**
 
 ---
 

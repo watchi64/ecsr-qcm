@@ -1,11 +1,11 @@
-# QCM — Thème 23 : Transport d'une charge en sécurité
+# QCM - Thème 23 : Transport d'une charge en sécurité
 
-> QCM app : `qcm_id = 57` — 15 questions, 4 sections.
+> QCM app : `qcm_id = 57` : 15 questions, 4 sections.
 > Tous les articles cités ont été vérifiés via l'API Légifrance PISTE (état `VIGUEUR`).
 
 ---
 
-## Section 1 — Poids et responsabilité
+## Section 1 - Poids et responsabilité
 
 ## Question 1
 Où lisez-vous le poids total autorisé en charge (PTAC) de votre voiture ?
@@ -49,7 +49,7 @@ Votre voiture pèse 300 kg de plus que son PTAC. Que prévoit le Code ?
 
 ---
 
-## Section 2 — Arrimer le chargement
+## Section 2 - Arrimer le chargement
 
 ## Question 4
 Un chargement qui risque de déborder du véhicule en oscillant doit être :
@@ -93,7 +93,7 @@ Quelle est la règle de base posée par le Code sur le chargement d'un véhicule
 
 ---
 
-## Section 3 — Largeur, avant, arrière
+## Section 3 - Largeur, avant, arrière
 
 ## Question 7
 Quelle largeur votre chargement ne doit-il nulle part dépasser ?
@@ -165,7 +165,7 @@ De nuit, votre chargement dépasse sur le côté de plus de 40 cm au-delà de vo
 
 ---
 
-## Section 4 — Conduire avec une charge
+## Section 4 - Conduire avec une charge
 
 ## Question 12
 Des objets entassés vous masquent la lunette arrière. Que dit le Code ?

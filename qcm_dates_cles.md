@@ -1,4 +1,4 @@
-# QCM — Dates clés de la sécurité routière
+# QCM - Dates clés de la sécurité routière
 
 > Trace de production (source de vérité : base Supabase, app ecsr-promo).
 
@@ -91,7 +91,7 @@ Le décret du 10 juillet 1954 fixe la vitesse maximale en agglomération à :
 ---
 
 ### Question 7
-L'alcootest — dépistage de l'imprégnation alcoolique par l'air expiré — est autorisé par une loi de :
+L'alcootest, dépistage de l'imprégnation alcoolique par l'air expiré, est autorisé par une loi de :
 
 - A. 1954
 - B. 1965
@@ -272,7 +272,7 @@ L'ONISR (Observatoire national interministériel de la sécurité routière) est
 - E. Je ne sais pas.
 
 **Réponse correcte : C**
-**Explication : 24 novembre 1993. Placé auprès du délégué interministériel, il collecte et diffuse les statistiques d'accidentalité — c'est lui qui publie le bilan annuel. Source : ONISR, Les grandes dates de la sécurité routière.**
+**Explication : 24 novembre 1993. Placé auprès du délégué interministériel, il collecte et diffuse les statistiques d'accidentalité, c'est lui qui publie le bilan annuel. Source : ONISR, Les grandes dates de la sécurité routière.**
 
 ---
 
@@ -360,7 +360,7 @@ Depuis le 1er juillet 2015, quel est le taux d'alcoolémie maximal pour un condu
 - E. Je ne sais pas.
 
 **Réponse correcte : B**
-**Explication : 0,2 g/L de sang (décret du 24 juin 2015) — en pratique, zéro verre. S'applique aussi en conduite accompagnée. Le même décret interdit le port d'écouteurs/oreillettes à tous les conducteurs, cyclistes compris. Source : ONISR, Les grandes dates de la sécurité routière.**
+**Explication : 0,2 g/L de sang (décret du 24 juin 2015), en pratique, zéro verre. S'applique aussi en conduite accompagnée. Le même décret interdit le port d'écouteurs/oreillettes à tous les conducteurs, cyclistes compris. Source : ONISR, Les grandes dates de la sécurité routière.**
 
 ---
 

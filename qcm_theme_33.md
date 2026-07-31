@@ -1,13 +1,13 @@
-# QCM — Thème 33 : Les usagers vulnérables
+# QCM - Thème 33 : Les usagers vulnérables
 
-> **En base** : `qcm_id = 36` (theme_id 33) — 15 questions, 4 sections.
+> **En base** : `qcm_id = 36` (theme_id 33) : 15 questions, 4 sections.
 > **Fiche source** : https://www.srrr.fr/themes-securite-routiere/les-usagers-vulnerables-sur-la-route (reformulée intégralement)
-> **Articles vérifiés via l'API Légifrance PISTE** : R412-34, R412-43-1, R414-4, R415-11, R313-32-1 — tous en `VIGUEUR`.
+> **Articles vérifiés via l'API Légifrance PISTE** : R412-34, R412-43-1, R414-4, R415-11, R313-32-1, tous en `VIGUEUR`.
 > **Statistiques** : Bilan ONISR 2024 (3 193 tués ; piétons 456, cyclistes 224, EDPM 45, 2RM 720).
 
 ---
 
-## Section 1 — Qui sont les usagers vulnérables
+## Section 1 - Qui sont les usagers vulnérables
 
 ## Question 1
 Un stagiaire vous demande ce qui rend un usager « vulnérable » sur la route. Quelle réponse est juste ?
@@ -51,7 +51,7 @@ Où circulent normalement les EDPM (trottinettes électriques) en agglomération
 
 ---
 
-## Section 2 — Ce que disent les chiffres
+## Section 2 - Ce que disent les chiffres
 
 ## Question 4
 En 2024, sur 3 193 personnes tuées en France métropolitaine, quelle part représentent les piétons, cyclistes et usagers d'EDPM réunis ?
@@ -123,7 +123,7 @@ Combien de cyclistes ont été tués sur les routes en 2024 ?
 
 ---
 
-## Section 3 — Pourquoi ils sont vulnérables
+## Section 3 - Pourquoi ils sont vulnérables
 
 ## Question 9
 Comment évolue la gravité d'un choc pour un piéton quand la vitesse du véhicule augmente ?
@@ -181,7 +181,7 @@ Pourquoi un motard freine-t-il mal en pleine courbe ?
 
 ---
 
-## Section 4 — La part du conducteur
+## Section 4 - La part du conducteur
 
 ## Question 13
 Vous dépassez un cycliste sur une route de campagne. Quel écart latéral minimum devez-vous laisser ?

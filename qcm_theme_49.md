@@ -1,6 +1,6 @@
-# QCM — Thème 49 : L'éco-conduite
+# QCM - Thème 49 : L'éco-conduite
 
-> qcm_id **59** — 14 questions — inséré en base le 2026-07-28
+> qcm_id **59** : 14 questions, inséré en base le 2026-07-28
 > Aucun article du code de la route cité. Toutes les données chiffrées sont attribuées à l'**ADEME** ou à securite-routiere.gouv.fr, en ordres de grandeur admis.
 
 ---
@@ -233,5 +233,5 @@ Quelle est la différence entre covoiturage et autopartage ?
 
 - **Chiffre SRRR écarté** : « une conduite agressive augmente la consommation de 40 % » et « réduction possible entre 5 % et 40 % ». Fourchette trop large et non retrouvée telle quelle chez l'ADEME. Retenu : **10 à 20 %**, ordre de grandeur admis.
 - **Formulation SRRR erronée corrigée** : « la résistance de l'air augmente exponentiellement à partir de 120 km/h ». La résistance aérodynamique croît avec le **carré** de la vitesse, de façon continue, sans seuil à 120 km/h. L'énoncé a été reformulé et adossé au repère ADEME « 130 → 110 km/h ≈ 1 L/100 km de moins ».
-- **Chiffre SRRR écarté** : « le transport génère 35 % des émissions nationales de CO₂ » et « 80 % des déplacements se font en voiture » — non recoupés.
+- **Chiffre SRRR écarté** : « le transport génère 35 % des émissions nationales de CO₂ » et « 80 % des déplacements se font en voiture », non recoupés.
 - **Écarté** : l'amende ZFE de 68 € annoncée par SRRR. Le montant n'a pas pu être rattaché à un article vérifié via l'API ; à traiter séparément si l'utilisateur souhaite une question sur les zones à faibles émissions.

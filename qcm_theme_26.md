@@ -1,11 +1,11 @@
-# QCM — THÈME 26 : La vue du conducteur
+# QCM - THÈME 26 : La vue du conducteur
 
-> qcm_id `33` — 16 questions, 5 sections.
+> qcm_id `33` : 16 questions, 5 sections.
 > Sources vérifiées : arrêté du 28 mars 2022 (annexe I, groupe léger), articles R313-3, R316-3, R316-3-1, R221-10, R221-11, R412-6 du code de la route (tous contrôlés en vigueur via l'API Légifrance PISTE), campagnes Sécurité routière, pédagogie de la conduite (REMC).
 
 ---
 
-## Section 1 — L'œil, premier capteur du conducteur
+## Section 1 - L'œil, premier capteur du conducteur
 
 ### Question 1
 En conduite, quelle part des informations utiles au conducteur passe par la vue ?
@@ -35,7 +35,7 @@ Quel élément de l'œil transforme la lumière en signal nerveux ?
 
 ---
 
-## Section 2 — Vision centrale et vision périphérique
+## Section 2 - Vision centrale et vision périphérique
 
 ### Question 3
 À quoi sert surtout la vision centrale, la zone nette du regard ?
@@ -79,7 +79,7 @@ Votre élève accélère sur une longue ligne droite. Que devient son champ visu
 
 ---
 
-## Section 3 — Tache aveugle et angles morts
+## Section 3 - Tache aveugle et angles morts
 
 ### Question 6
 Qu'est-ce que la tache aveugle, appelée aussi tache de Mariotte ?
@@ -123,7 +123,7 @@ Avant de changer de file, que faites-vous en plus de regarder les rétroviseurs 
 
 ---
 
-## Section 4 — Voir la nuit
+## Section 4 - Voir la nuit
 
 ### Question 9
 Quelles cellules de la rétine permettent de voir quand la lumière est faible ?
@@ -167,7 +167,7 @@ De nuit, en feux de croisement, comment réglez-vous votre vitesse ?
 
 ---
 
-## Section 5 — Aptitude visuelle et réglementation
+## Section 5 - Aptitude visuelle et réglementation
 
 ### Question 12
 Quelle acuité visuelle des deux yeux exige-t-on pour conduire une voiture ?

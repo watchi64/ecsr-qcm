@@ -1,11 +1,11 @@
-# QCM — Matrice GDE & REMC
+# QCM - Matrice GDE & REMC
 
-> **20 questions** — Niveau TP ECSR (révision formateur)
+> **20 questions** : Niveau TP ECSR (révision formateur)
 > Basé sur : Arrêté du 13 mai 2013 (REMC) + Hatakka et al. (Matrice GDE, 2002)
 
 ---
 
-## Partie 1 — Matrice GDE (Goals for Driver Education)
+## Partie 1 - Matrice GDE (Goals for Driver Education)
 
 ## Question 1
 
@@ -119,7 +119,7 @@ Selon la GDE, un conducteur techniquement excellent mais avec une mauvaise hygi�
 
 ---
 
-## Partie 2 — REMC (Référentiel pour une Éducation à la Mobilité Citoyenne)
+## Partie 2 - REMC (Référentiel pour une Éducation à la Mobilité Citoyenne)
 
 ## Question 9
 
@@ -291,7 +291,7 @@ Comment la Compétence 4 du REMC se relie-t-elle à la Matrice GDE ?
 
 ## Mémo récapitulatif
 
-### Matrice GDE étendue — 5 niveaux × 3 dimensions
+### Matrice GDE étendue - 5 niveaux × 3 dimensions
 
 | Niveau | Contenu |
 |--------|---------|
@@ -303,7 +303,7 @@ Comment la Compétence 4 du REMC se relie-t-elle à la Matrice GDE ?
 
 **Dimensions transversales** : Connaissances / Facteurs de risque / Autoévaluation
 
-### REMC — 4 compétences
+### REMC - 4 compétences
 
 | Compétence | Intitulé |
 |------------|----------|

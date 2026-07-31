@@ -1,4 +1,4 @@
-# QCM — Thème 06 : Les dépassements
+# QCM - Thème 06 : Les dépassements
 
 > Trace de production (source de vérité : base Supabase, app ecsr-promo).
 > Articles vérifiés EN VIGUEUR via l'API Légifrance PISTE le 2026-07-26 (dump lot3a).
@@ -87,7 +87,7 @@ Quelle distance latérale minimale faut-il laisser en dépassant un cycliste ?
 - E. Je ne sais pas.
 
 **Réponse correcte : A**
-**Explication : 1 mètre en agglomération, 1,50 mètre hors agglomération — comme pour les piétons, cavaliers et engins à 2-3 roues. Non-respect : 135 € et 3 points. Source : art. R414-4 IV du Code de la route (Légifrance, en vigueur).**
+**Explication : 1 mètre en agglomération, 1,50 mètre hors agglomération, comme pour les piétons, cavaliers et engins à 2-3 roues. Non-respect : 135 € et 3 points. Source : art. R414-4 IV du Code de la route (Légifrance, en vigueur).**
 
 ---
 
@@ -115,7 +115,7 @@ Après un dépassement par la gauche, comment revenir dans sa voie ?
 - E. Je ne sais pas.
 
 **Réponse correcte : A**
-**Explication : Sans provoquer le ralentissement du véhicule dépassé — donc pas de « queue de poisson ». Sanction : 135 €, 3 points. Source : art. R414-10 du Code de la route (Légifrance, en vigueur).**
+**Explication : Sans provoquer le ralentissement du véhicule dépassé, donc pas de « queue de poisson ». Sanction : 135 €, 3 points. Source : art. R414-10 du Code de la route (Légifrance, en vigueur).**
 
 ---
 
@@ -147,7 +147,7 @@ Dans un virage ou au sommet d'une côte sans visibilité (chaussée à double se
 - E. Je ne sais pas.
 
 **Réponse correcte : A**
-**Explication : Interdit — SAUF s'il laisse libre la partie gauche d'une ligne continue, ou s'il s'agit de dépasser un deux-roues en laissant libre toute la moitié gauche de la chaussée. Sanction : 135 €, 3 points. Source : art. R414-11 du Code de la route (Légifrance, en vigueur).**
+**Explication : Interdit : SAUF s'il laisse libre la partie gauche d'une ligne continue, ou s'il s'agit de dépasser un deux-roues en laissant libre toute la moitié gauche de la chaussée. Sanction : 135 €, 3 points. Source : art. R414-11 du Code de la route (Légifrance, en vigueur).**
 
 ---
 
@@ -161,7 +161,7 @@ Peut-on dépasser à l'approche d'une intersection ?
 - E. Je ne sais pas.
 
 **Réponse correcte : A**
-**Explication : En principe non (sauf les deux-roues) — SAUF si l'on circule sur une route prioritaire, ou si l'intersection est réglée par des feux ou un agent. Sanction : 135 €, 3 points. Source : art. R414-11 du Code de la route (Légifrance, en vigueur).**
+**Explication : En principe non (sauf les deux-roues) : SAUF si l'on circule sur une route prioritaire, ou si l'intersection est réglée par des feux ou un agent. Sanction : 135 €, 3 points. Source : art. R414-11 du Code de la route (Légifrance, en vigueur).**
 
 ---
 
@@ -203,7 +203,7 @@ Un véhicule lent et encombrant (plus de 7 m de long) circule sur une route étr
 - E. Je ne sais pas.
 
 **Réponse correcte : A**
-**Explication : Réduire sa vitesse et, au besoin, s'arrêter ou se garer pour laisser passer les véhicules plus petits qui le suivent — même obligation pour faciliter le passage des véhicules d'intérêt général en intervention. Source : art. R414-9 du Code de la route (Légifrance, en vigueur).**
+**Explication : Réduire sa vitesse et, au besoin, s'arrêter ou se garer pour laisser passer les véhicules plus petits qui le suivent, même obligation pour faciliter le passage des véhicules d'intérêt général en intervention. Source : art. R414-9 du Code de la route (Légifrance, en vigueur).**
 
 ---
 

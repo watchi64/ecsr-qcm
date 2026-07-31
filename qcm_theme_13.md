@@ -1,4 +1,4 @@
-# QCM — Thème 13 : Vitesse : la signalisation et son rôle
+# QCM - Thème 13 : Vitesse : la signalisation et son rôle
 
 > Trace de production 2026-07-26 (source de vérité : base Supabase, app ecsr-promo).
 > Articles vérifiés EN VIGUEUR via l'API Légifrance PISTE ; physique et repères pédagogiques sourcés.
@@ -73,7 +73,7 @@ Que signifie un disque BLEU portant le chiffre 30 ?
 - E. Je ne sais pas.
 
 **Réponse correcte : A**
-**Explication : Une vitesse minimale OBLIGATOIRE de 30 km/h (panneau d'obligation) — et non une limitation à 30. Le même chiffre sur un disque blanc bordé de rouge signifierait au contraire l'interdiction de dépasser 30 km/h. Source : instruction interministérielle sur la signalisation routière (IISR).**
+**Explication : Une vitesse minimale OBLIGATOIRE de 30 km/h (panneau d'obligation), et non une limitation à 30. Le même chiffre sur un disque blanc bordé de rouge signifierait au contraire l'interdiction de dépasser 30 km/h. Source : instruction interministérielle sur la signalisation routière (IISR).**
 
 ---
 

@@ -1,6 +1,6 @@
-# QCM — Thème 48 : Utilisation rationnelle du véhicule (aspect mécanique) — COMPLÉMENT
+# QCM - Thème 48 : Utilisation rationnelle du véhicule (aspect mécanique) - COMPLÉMENT
 
-> qcm_id **2** — questions **13 à 18** ajoutées le 2026-07-28
+> qcm_id **2**, questions **13 à 18** ajoutées le 2026-07-28
 > **Aucune suppression** : les 12 questions du seed formateur (embrayage, freinage, boîte de vitesses, ordres 1 à 12) sont intactes. Total après ajout : **18 questions**.
 > Articles vérifiés via l'API Légifrance PISTE : **R323-1** (VIGUEUR), **R323-22** (VIGUEUR)
 
@@ -125,6 +125,6 @@ Pourquoi utiliser le frein moteur dans une longue descente ?
 
 - Les 12 questions existantes n'ont **pas** d'explication en base : anomalie connue et volontairement laissée en l'état, conformément à la consigne.
 - La question 1 du seed comporte une option de 71 caractères (« Permettre l'accouplement progressif entre le moteur et la transmission. ») : au-dessus de la limite de 70 retenue pour les nouvelles questions, mais non touchée.
-- **Chiffre SRRR écarté** : « 58 % des automobilistes n'ont aucune notion du coût annuel réel de leur véhicule » — non sourçable.
+- **Chiffre SRRR écarté** : « 58 % des automobilistes n'ont aucune notion du coût annuel réel de leur véhicule », non sourçable.
 - **Chiffres SRRR non repris** : « pneu sous-gonflé de 0,3 bar = +3 % » et « climatisation continue = +10 à 20 % ». Le principe est couvert par le thème 49 sans chiffre précis.
 - Aucun doublon avec l'existant : le seed traite embrayage / freinage / boîte de vitesses ; le complément porte sur le cycle moteur, la chaîne cinématique, le contrôle technique et la consommation.

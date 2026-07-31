@@ -1,4 +1,4 @@
-# QCM — Statistiques et chiffres clés (Bilan ONISR 2024)
+# QCM - Statistiques et chiffres clés (Bilan ONISR 2024)
 
 > Trace de production (source de vérité : base Supabase, app ecsr-promo).
 

@@ -1,4 +1,4 @@
-# QCM — Thème 55 : La fonction sociale de la réglementation en matière de sécurité routière
+# QCM - Thème 55 : La fonction sociale de la réglementation en matière de sécurité routière
 
 > **qcm_id en base** : 47
 > **Nombre de questions** : 15
@@ -8,7 +8,7 @@
 
 ---
 
-## Section — Pourquoi une règle commune
+## Section - Pourquoi une règle commune
 
 ## Question 1
 Quelle est la principale fonction sociale du code de la route ?
@@ -75,7 +75,7 @@ Que signifie « harmoniser » les comportements sur la route ?
 
 ---
 
-## Section — Protéger les plus vulnérables
+## Section - Protéger les plus vulnérables
 
 ## Question 6
 Que prévoit le code de la route envers les usagers les plus vulnérables ?
@@ -103,7 +103,7 @@ Pourquoi la réglementation protège-t-elle davantage certains usagers ?
 
 ---
 
-## Section — Faire respecter la règle
+## Section - Faire respecter la règle
 
 ## Question 8
 La sanction est-elle le but de la réglementation routière ?
@@ -144,7 +144,7 @@ Au-delà des victimes, quel autre argument justifie la réglementation ?
 
 ---
 
-## Section — Accepter ou contourner la règle
+## Section - Accepter ou contourner la règle
 
 ## Question 11
 Qu'appelle-t-on l'« acceptabilité sociale » d'une mesure de sécurité routière ?
@@ -185,7 +185,7 @@ Quel mécanisme explique qu'un conducteur juge une règle utile sans se l'appliq
 
 ---
 
-## Section — Le rôle de l'enseignant
+## Section - Le rôle de l'enseignant
 
 ## Question 14
 Pourquoi la réglementation routière évolue-t-elle au fil du temps ?

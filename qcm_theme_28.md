@@ -1,11 +1,11 @@
-# QCM — Thème 28 : Alcool, le cadre réglementaire
+# QCM - Thème 28 : Alcool, le cadre réglementaire
 
-> QCM app : `qcm_id = 49` — 14 questions, 4 sections.
+> QCM app : `qcm_id = 49` : 14 questions, 4 sections.
 > Articles vérifiés via l'API Légifrance PISTE le 2026-07-28 (état `VIGUEUR` sauf mention).
 
 ---
 
-## Section 1 — Les seuils légaux
+## Section 1 - Les seuils légaux
 
 ## Question 1
 Un conducteur a son permis depuis dix ans. À partir de quel taux d'alcool dans le sang est-il en infraction ?
@@ -49,7 +49,7 @@ En conduite accompagnée, l'accompagnateur est-il soumis aux mêmes taux que le 
 
 ---
 
-## Section 2 — Contravention ou délit
+## Section 2 - Contravention ou délit
 
 ## Question 4
 Un conducteur confirmé est contrôlé à 0,65 g/L. Que risque-t-il ?
@@ -107,7 +107,7 @@ Un conducteur est visiblement ivre, mais aucun taux n'a pu être mesuré. Que se
 
 ---
 
-## Section 3 — Contrôles et procédure
+## Section 3 - Contrôles et procédure
 
 ## Question 8
 Les forces de l'ordre peuvent-elles contrôler l'alcoolémie sans infraction ni accident ?
@@ -165,7 +165,7 @@ Après un contrôle positif à l'alcool, quelle est la durée maximale de la sus
 
 ---
 
-## Section 4 — Récidive et accidents graves
+## Section 4 - Récidive et accidents graves
 
 ## Question 12
 Que prévoit la loi en cas de récidive du délit de conduite sous l'empire de l'alcool ?
@@ -225,6 +225,6 @@ Un conducteur alcoolisé provoque un accident mortel. Quelle peine encourt-il ?
 | L224-8 code de la route | VIGUEUR | Durée de suspension : 6 mois, portée à 1 an pour alcool et stupéfiants |
 | 221-18 code pénal | VIGUEUR | **Homicide routier** : 7 ans et 100 000 € ; 10 ans et 150 000 € si 2 circonstances ou plus |
 | L234-3 code de la route | VIGUEUR | Dépistage imposé (accident corporel, infraction punie de suspension) |
-| L224-1 code de la route | ABROGE_DIFF | Rétention du permis à titre conservatoire — **abrogation à effet différé, à surveiller** |
-| L234-4 code de la route | ABROGE_DIFF | Vérifications par appareil homologué — **abrogation à effet différé, à surveiller** |
+| L224-1 code de la route | ABROGE_DIFF | Rétention du permis à titre conservatoire : **abrogation à effet différé, à surveiller** |
+| L234-4 code de la route | ABROGE_DIFF | Vérifications par appareil homologué : **abrogation à effet différé, à surveiller** |
 | 132-10 code pénal | VIGUEUR | Récidive de délit : maximum des peines doublé (donc 6 ans et 18 000 € pour L234-1) |

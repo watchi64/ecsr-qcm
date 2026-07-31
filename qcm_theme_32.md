@@ -1,11 +1,11 @@
-# QCM — Thème 32 : Substances psychoactives (hors alcool)
+# QCM - Thème 32 : Substances psychoactives (hors alcool)
 
-> QCM app : `qcm_id = 45` — 14 questions, 4 sections.
+> QCM app : `qcm_id = 45` : 14 questions, 4 sections.
 > Articles vérifiés via l'API Légifrance PISTE le 2026-07-28. Statistiques : bilan ONISR 2024. Pictogrammes : ANSM.
 
 ---
 
-## Section 1 — Médicaments et conduite
+## Section 1 - Médicaments et conduite
 
 ## Question 1
 Combien de niveaux compte le pictogramme « conduite » apposé sur les boîtes de médicaments ?
@@ -63,7 +63,7 @@ Un conducteur est somnolent à cause d'un médicament prescrit. Que dit le code 
 
 ---
 
-## Section 2 — Les stupéfiants au volant
+## Section 2 - Les stupéfiants au volant
 
 ## Question 5
 Quel effet le cannabis a-t-il typiquement sur la conduite ?
@@ -121,7 +121,7 @@ Existe-t-il un taux de stupéfiants toléré au volant, comme pour l'alcool ?
 
 ---
 
-## Section 3 — Dépistage et sanctions
+## Section 3 - Dépistage et sanctions
 
 ## Question 9
 Comment se fait le dépistage de stupéfiants lors d'un contrôle routier ?
@@ -179,7 +179,7 @@ Que risque un conducteur qui refuse de se soumettre au dépistage de stupéfiant
 
 ---
 
-## Section 4 — Cumuls et accidentologie
+## Section 4 - Cumuls et accidentologie
 
 ## Question 13
 Un conducteur est contrôlé positif aux stupéfiants et dépasse en plus le seuil d'alcool. Que risque-t-il ?
@@ -214,7 +214,7 @@ Chez quelle part des conducteurs présumés responsables d'accidents mortels les
 | Article | État | Contenu retenu |
 |---------|------|----------------|
 | L235-1 code de la route | VIGUEUR | Usage de stupéfiants = **3 ans et 9 000 €** ; **5 ans et 15 000 €** si cumul avec l'alcool ; confiscation **obligatoire** en cas de cumul ; moitié des points seul, **trois quarts** des points en cas de cumul ; suspension et annulation 5 ans max ; stage stupéfiants |
-| L235-2 code de la route | **ABROGE_DIFF** | Dépistage salivaire ; **obligatoire** après accident mortel ou corporel ; possible sur réquisition du procureur sans accident ni infraction — **abrogation à effet différé, à surveiller** |
+| L235-2 code de la route | **ABROGE_DIFF** | Dépistage salivaire ; **obligatoire** après accident mortel ou corporel ; possible sur réquisition du procureur sans accident ni infraction : **abrogation à effet différé, à surveiller** |
 | L235-3 code de la route | VIGUEUR | Refus de se soumettre = 2 ans et 4 500 € ; moitié des points |
 | R412-6 code de la route | VIGUEUR | Obligation de se tenir constamment en état d'exécuter les manœuvres ; contravention de 2e classe |
 | 221-18 code pénal | VIGUEUR | Homicide routier : 7 ans et 100 000 € (usage de stupéfiants est une circonstance visée au 3°) |

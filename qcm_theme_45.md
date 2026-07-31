@@ -1,6 +1,6 @@
-# QCM — Thème 45 : Pneumatiques (adhérence, réglementation, entretien)
+# QCM - Thème 45 : Pneumatiques (adhérence, réglementation, entretien)
 
-> qcm_id **61** — 14 questions — inséré en base le 2026-07-28
+> qcm_id **61** : 14 questions, inséré en base le 2026-07-28
 > Articles vérifiés via l'API Légifrance PISTE : **R314-1** (VIGUEUR), **R314-2** (VIGUEUR), **R314-3** (VIGUEUR)
 
 ---
@@ -233,5 +233,5 @@ Sur ce même pneu 205/55 R16 91V, que désigne la lettre V ?
 
 - **Le seuil de 1,6 mm ne figure pas dans R314-1 lui-même** : l'article exige des « sculptures apparentes sur toute la surface de roulement » et renvoie à un arrêté ministériel pour les caractéristiques précises. Le chiffre est confirmé par securite-routiere.gouv.fr et réutilisé tel quel (donnée déjà validée par l'équipe).
 - **Idem pour la règle de montage par essieu** : elle relève de l'arrêté d'application, pas du texte de R314-1. Aucun numéro d'article n'est cité à sa place.
-- **Écarté** : la sanction « refus d'assurance » avancée par SRRR — assertion non sourçable en droit.
+- **Écarté** : la sanction « refus d'assurance » avancée par SRRR, assertion non sourçable en droit.
 - **R314-2** (VIGUEUR) également vérifié : il punit la vente d'un pneu non conforme ou retaillé trop profond (4e classe). Non exploité en question mais disponible.

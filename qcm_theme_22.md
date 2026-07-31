@@ -1,11 +1,11 @@
-# QCM — Thème 22 : Feux obligatoires et facultatifs du véhicule
+# QCM - Thème 22 : Feux obligatoires et facultatifs du véhicule
 
-> QCM app : `qcm_id = 60` — 15 questions, 5 sections.
+> QCM app : `qcm_id = 60` : 15 questions, 5 sections.
 > Tous les articles cités ont été vérifiés via l'API Légifrance PISTE (état `VIGUEUR`).
 
 ---
 
-## Section 1 — Éclairer la route
+## Section 1 - Éclairer la route
 
 ## Question 1
 Vous roulez de nuit en feux de croisement. Sur quelle distance minimale doivent-ils éclairer la route par temps clair ?
@@ -49,7 +49,7 @@ Il fait nuit, vous êtes en feux de route et vous vous rapprochez du véhicule q
 
 ---
 
-## Section 2 — Être vu de l'arrière
+## Section 2 - Être vu de l'arrière
 
 ## Question 4
 De nuit et par temps clair, à quelle distance les feux de position arrière (rouges) doivent-ils être visibles ?
@@ -107,7 +107,7 @@ Un véhicule dont la largeur, chargement compris, dépasse 2,10 m doit être éq
 
 ---
 
-## Section 3 — Brouillard, neige, forte pluie
+## Section 3 - Brouillard, neige, forte pluie
 
 ## Question 8
 Il pleut très fort sur l'autoroute. Pouvez-vous allumer votre feu de brouillard arrière ?
@@ -151,7 +151,7 @@ Quand vous utilisez vos feux de brouillard, quels autres feux devez-vous allumer
 
 ---
 
-## Section 4 — Communiquer avec les autres
+## Section 4 - Communiquer avec les autres
 
 ## Question 11
 Sur autoroute, vous êtes contraint de rouler soudain très lentement. Que faites-vous ?
@@ -195,7 +195,7 @@ Vous tournez à gauche sans mettre votre clignotant. Que risquez-vous ?
 
 ---
 
-## Section 5 — Obligatoire ou facultatif ?
+## Section 5 - Obligatoire ou facultatif ?
 
 ## Question 14
 Les feux de circulation diurne (feux de jour) sont-ils imposés par le Code de la route ?

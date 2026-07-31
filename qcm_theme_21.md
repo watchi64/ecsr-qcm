@@ -56,7 +56,7 @@ Quel permis faut-il quand la somme des PTAC dépasse 4 250 kg ?
 - E. Je ne sais pas.
 
 **Reponse correcte : A**
-**Explication : 18 ans révolus — contre 17 ans pour le permis B. Source : art. R221-5 du Code de la route (Légifrance, en vigueur).**
+**Explication : 18 ans révolus, contre 17 ans pour le permis B. Source : art. R221-5 du Code de la route (Légifrance, en vigueur).**
 
 ---
 

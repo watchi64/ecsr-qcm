@@ -1,4 +1,4 @@
-# QCM — Thème 10 : Les passages à niveau
+# QCM - Thème 10 : Les passages à niveau
 
 > Trace de production (source de vérité : base Supabase, app ecsr-promo).
 > Articles vérifiés EN VIGUEUR via l'API Légifrance PISTE le 2026-07-26 (dump lot3a).
@@ -101,7 +101,7 @@ Hors agglomération, comment les balises d'approche annoncent-elles un passage �
 - E. Je ne sais pas.
 
 **Réponse correcte : A**
-**Explication : Trois balises J10 à bandes rouges : 3 bandes sous le panneau d'annonce (à ~150 m), puis 2 bandes (~100 m), puis 1 bande (~50 m) — un compte à rebours visuel jusqu'au passage. Source : signalisation routière réglementaire (IISR).**
+**Explication : Trois balises J10 à bandes rouges : 3 bandes sous le panneau d'annonce (à ~150 m), puis 2 bandes (~100 m), puis 1 bande (~50 m), un compte à rebours visuel jusqu'au passage. Source : signalisation routière réglementaire (IISR).**
 
 ---
 
@@ -159,7 +159,7 @@ Stationner à proximité immédiate d'un passage à niveau, quand la visibilité
 - E. Je ne sais pas.
 
 **Réponse correcte : A**
-**Explication : DANGEREUX : 135 €, 3 points, suspension possible — les passages à niveau figurent expressément dans la liste de l'article, avec les intersections, virages et sommets de côte. Source : art. R417-9 du Code de la route (Légifrance, en vigueur).**
+**Explication : DANGEREUX : 135 €, 3 points, suspension possible, les passages à niveau figurent expressément dans la liste de l'article, avec les intersections, virages et sommets de côte. Source : art. R417-9 du Code de la route (Légifrance, en vigueur).**
 
 ---
 
