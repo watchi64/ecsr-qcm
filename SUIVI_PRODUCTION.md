@@ -255,6 +255,14 @@ Au-delà du tableau plus haut, la production en masse a confirmé que **SRRR est
 
 ## Journal
 
+- **2026-08-01** : **CONTRESENS CORRIGE : `published` ne gouverne QUE l'examen.** J'avais adosse les politiques de lecture a ce drapeau le 30/07. Consequence : rendre les QCM accessibles a la promo a **ouvert les 65 examens**, alors que l'intention etait seulement que les eleves et les formateurs puissent voir les QCM et s'entrainer. Personne n'a d'examen a passer pour l'instant : c'est aux formateurs d'en decider, QCM par QCM.
+
+  Les deux notions sont desormais separees. En base, tout utilisateur connecte peut lire les QCM et s'entrainer, independamment de `published` ; l'application est fermee par liste blanche `user_profiles`, il n'y a pas d'exposition publique. Les 65 examens sont refermes. Verifie sous un vrai compte stagiaire : **65 QCM et 1 064 questions accessibles, 0 examen ouvert**.
+
+  Les libelles de l'interface avaient nourri le malentendu et ont ete repris pour dire ce que l'action fait vraiment : « Publier » devient **« Ouvrir l'examen »**, « Depublier » devient **« Retirer l'examen »**, « Brouillon » devient **« Examen non ouvert »**. Le stagiaire lit desormais : « L'examen n'est pas encore ouvert. L'entrainement, lui, est illimite. »
+
+  **A retenir pour la suite** : dans cette application, « S'entrainer » est offert a tous quel que soit l'etat de `published` ; seul « Passer l'examen » suit ce drapeau.
+
 - **2026-08-01** : **APRES LA PUBLICATION, LE TROISIEME VERROU.** Publier les 65 QCM et ouvrir les politiques de lecture ne suffisait toujours pas : `canSeeQcm()` dans `js/views/themes.js` renvoyait `isFounder()`, donc **l'interface n'affichait les QCM qu'au compte fondateur**. Toute la promo aurait vu une colonne vide. Le filtrage revient desormais a la RLS, qui le fait deja : un stagiaire ne recoit que les QCM publies, un formateur recoit en plus les brouillons. Verifie sur les quatre combinaisons (stagiaire/formateur x theme avec ou sans QCM). **Lecon : dans cette app, une donnee ouverte en base peut rester fermee a trois endroits differents** (politique RLS, famille d'affichage, test de role dans la vue).
 
   Deux arbitrages de l'utilisateur appliques : **seuil de reussite porte a 15/20** sur les 65 QCM (il etait a 12), et **QCM « Matrice GDE (evaluation) » enrichi de 3 a 10 questions**. Les 7 nouvelles suivent la nomenclature en trois groupes de cette evaluation ECF (base, personnel, societal) et portent sur des angles absents du QCM Pedagogie : rattachement d'une situation concrete a un niveau, desequilibre de la formation traditionnelle, usage de la matrice pour batir une progression, colonne « facteurs augmentant le risque », autoevaluation. Verifie qu'aucune contradiction n'existe avec le QCM Pedagogie, qui n'affirme jamais un nombre de niveaux.
