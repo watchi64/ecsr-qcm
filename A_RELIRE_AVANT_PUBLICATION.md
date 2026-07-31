@@ -1,32 +1,47 @@
 # À relire avant publication
 
-Liste courte et hiérarchisée. **Tu n'as pas 1 061 questions à relire** : 90 % de la base
+Liste courte et hiérarchisée. **Tu n'as pas 1 057 questions à relire** : l'essentiel de la base
 cite une source officielle. Ce fichier concentre ce qui reste.
 
-Mesure au 2026-07-30 : article de loi cité **530** (50 %), source officielle ou
-institutionnelle **431** (41 %), notion pédagogique sans texte réglementaire **79** (7 %),
-trou assumé **1**.
+Mesure au 2026-07-30, après retrait des questions invérifiables : **1 057 questions**, article
+de loi cité ou source officielle pour l'essentiel, notion pédagogique sans texte réglementaire
+pour le reste, et **plus aucun trou assumé**.
 
 ---
 
-## 1. Le seul vrai trou de la base (à trancher)
+## 1. Réglé : les affirmations invérifiables ont été retirées
 
-| Question | Où | Problème |
+Règle posée le 2026-07-30 : **une affirmation qu'on ne peut vérifier ni auprès de l'ONISR ni
+auprès d'une autre source officielle ne figure pas dans un QCM.** Mieux vaut un trou qu'une
+bêtise devant la promo. Quatre questions supprimées en conséquence :
+
+| Question supprimée | Où | Pourquoi |
 |---|---|---|
-| « Combien d'accidents par an aux intersections à feux ? » → **10 000** | QCM *Intersections gérées par une signalisation lumineuse*, question 14 (id 170) | Le chiffre vient d'un **support ECF qui l'attribue au Bilan ONISR**, sans que je l'y aie retrouvé. L'explication le dit honnêtement (« à confirmer dans le bilan »). |
+| « Combien de décès liés au non-respect des feux ? » → 150 | *Intersections à feux* | Chiffre du support ECF, introuvable au Bilan ONISR |
+| « Combien d'accidents par an aux intersections à feux ? » → 10 000 | *Intersections à feux* | Idem, présenté comme ONISR sans l'être |
+| « Combien d'intersections équipées de feux ? » → 30 000 | *Intersections à feux* | Idem |
+| « Distance moyenne entre deux aires de repos ? » → 10 km | *L'autoroute* | Aucune source officielle, et l'explication donnait elle-même 10 à 20 km, ce qui rendait la réponse unique arbitraire |
 
-**Trois issues possibles** : tu retrouves le chiffre dans le bilan et on source pour de bon ;
-tu le sais faux et on corrige ; ou on supprime la question. En attendant, c'est la seule
-question de la base dont la valeur n'est adossée à rien de vérifié.
+Une cinquième a été **conservée en retirant le chiffre douteux** : la question sur les radars aux
+feux rouges annonçait « 788 radars » dans son énoncé. Le nombre est parti, la question porte
+désormais sur le rôle du dispositif, qui est sourcé (art. R412-30).
+
+**Contrôle : plus aucune explication de la base ne porte « à confirmer », « à recouper » ou
+« support de formation ECF ».**
 
 ---
 
-## 2. Chiffres justes mais datés, à confirmer d'un coup d'œil
+
+## 2. Chiffres conservés, source vérifiée depuis
+
+Le réseau autoroutier (**~12 000 km dont ~9 000 concédés**) est confirmé par le service
+statistique du ministère des Transports (SDES : 12 379 km dont 9 158 concédées) : la source
+ASFA a été remplacée par la source officielle.
+
+Restent deux valeurs pédagogiques, honnêtement présentées comme telles :
 
 | Valeur | Où | Remarque |
 |---|---|---|
-| Réseau autoroutier **~12 000 km** | *L'autoroute*, question 7 (id 88) | Chiffres ASFA 2021, cités comme tels. Ordre de grandeur toujours bon. |
-| Aires de repos tous les **~10 km** | *L'autoroute*, question 4 (id 85) | Source ASFA / autoroutes.fr. L'ordre de grandeur réel annoncé est 10 à 20 km. |
 | **90 %** des informations passent par la vue | *La vue du conducteur*, question 1 (id 499) | Valeur de campagne Sécurité routière. La fourchette réellement admise est 80 à 90 %, ce que l'explication précise. |
 | **2 000 tr/min** au démarrage | *Évaluation C1*, question 4 (id 4) | Corrigé ECF. L'explication précise déjà que la valeur dépend du véhicule (1 500 à 2 000). |
 
