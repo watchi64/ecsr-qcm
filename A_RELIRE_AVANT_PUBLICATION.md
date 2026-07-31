@@ -1,4 +1,8 @@
-# À relire avant publication
+# À relire (publié le 2026-07-31)
+
+> **Les 65 QCM sont publiés.** Ce fichier n'est plus une condition prealable :
+> il liste ce qui reste a valider a tete reposee, pendant que la promo les utilise.
+> Les signalements des eleves prennent le relais de la relecture exhaustive.
 
 Liste courte et hiérarchisée. **Tu n'as pas 1 057 questions à relire** : l'essentiel de la base
 cite une source officielle. Ce fichier concentre ce qui reste.
