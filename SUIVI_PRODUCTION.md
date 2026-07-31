@@ -255,6 +255,12 @@ Au-delà du tableau plus haut, la production en masse a confirmé que **SRRR est
 
 ## Journal
 
+- **2026-08-01** : **APRES LA PUBLICATION, LE TROISIEME VERROU.** Publier les 65 QCM et ouvrir les politiques de lecture ne suffisait toujours pas : `canSeeQcm()` dans `js/views/themes.js` renvoyait `isFounder()`, donc **l'interface n'affichait les QCM qu'au compte fondateur**. Toute la promo aurait vu une colonne vide. Le filtrage revient desormais a la RLS, qui le fait deja : un stagiaire ne recoit que les QCM publies, un formateur recoit en plus les brouillons. Verifie sur les quatre combinaisons (stagiaire/formateur x theme avec ou sans QCM). **Lecon : dans cette app, une donnee ouverte en base peut rester fermee a trois endroits differents** (politique RLS, famille d'affichage, test de role dans la vue).
+
+  Deux arbitrages de l'utilisateur appliques : **seuil de reussite porte a 15/20** sur les 65 QCM (il etait a 12), et **QCM « Matrice GDE (evaluation) » enrichi de 3 a 10 questions**. Les 7 nouvelles suivent la nomenclature en trois groupes de cette evaluation ECF (base, personnel, societal) et portent sur des angles absents du QCM Pedagogie : rattachement d'une situation concrete a un niveau, desequilibre de la formation traditionnelle, usage de la matrice pour batir une progression, colonne « facteurs augmentant le risque », autoevaluation. Verifie qu'aucune contradiction n'existe avec le QCM Pedagogie, qui n'affirme jamais un nombre de niveaux.
+
+  **Etat : 65 QCM publies, 1 064 questions, 5 261 options, 20 illustrees, seuil 15/20.** Zero question sans bonne reponse, zero explication sans source, zero cadratin, zero option positionnelle, zero artefact de production, zero biais de longueur perceptible.
+
 - **2026-07-31** : **PUBLICATION. Les 65 QCM sont en ligne pour la promo.** 1 057 questions, 5 226 options, 20 illustrees. Verifie en simulant un vrai compte stagiaire sous RLS : il voit les 65 QCM et leurs 1 057 questions, et aucun signalement des autres. Un reglage corrige juste avant la bascule : le QCM « La signalisation verticale » etait configure pour tirer **1 question sur 15** a l'examen, reste d'un test ; remis au defaut des 63 autres (toute la banque). Le QCM « Evaluation C1 » garde son tirage de 5 sur 20, qui est un choix plausible.
 
   Rappel de ce qui rendait la publication possible : les tables QCM n'etaient lisibles que par le compte fondateur, et trois politiques de lecture des QCM publies ont ete ajoutees le 30/07. Basculer `published` seul n'aurait rien rendu visible.
