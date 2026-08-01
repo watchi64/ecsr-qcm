@@ -255,6 +255,18 @@ Au-delà du tableau plus haut, la production en masse a confirmé que **SRRR est
 
 ## Journal
 
+- **2026-08-01** : **FENETRE D'OUVERTURE DES EXAMENS, EN PRODUCTION.** Un stagiaire ne passe plus l'examen quand il le decide : il s'entraine librement, et il ne demarre que si un formateur a ouvert la fenetre. C'est la reponse durable a l'incident de la nuit, ou les 65 examens etaient restes ouverts et ou la politique d'insertion ne verifiait pas le mode.
+
+  **La base est l'autorite.** Colonne `exam_ferme_a`, deux fonctions `qcm_exam_demarrable` et `qcm_exam_remise_toleree`, politique d'insertion des tentatives qui remplace le garde-fou temporaire, et politique UPDATE reservant l'ouverture aux formateurs. L'entrainement reste libre et sans condition. Le JavaScript ne fait que de l'affichage : il evite de proposer un bouton qui echouerait.
+
+  **La fenetre gouverne le demarrage, pas la remise.** Qui a demarre a temps peut finir : la tolerance vaut le budget chrono de la passe, calcule sur les questions reellement tirees, donc exacte sans colonne supplementaire.
+
+  **Verifie sous un vrai compte stagiaire**, tout annule ensuite : fenetre ouverte acceptee, echue de 3 min dans la marge de 7 min 30 acceptee, echue de 20 min refusee, examen ferme refuse, entrainement toujours libre, et un stagiaire ne peut pas ouvrir un examen. C'est le test qui manquait, celui qui aurait attrape la faille d'origine. Trouve au passage : la regle « une seule passe » est tenue par une **contrainte d'unicite** `qcm_attempts_one_exam`, pas par une garde d'affichage.
+
+  Interface : le formateur choisit une duree a l'ouverture (30 min, 1 h, 2 h, jusqu'a ce soir, sans limite), voit un bandeau d'echeance et peut fermer a la main ; une **pastille « Examen ouvert »** dans la liste des themes sert de filet contre l'oubli d'une ouverture sans limite. Le stagiaire ne voit pas de bouton grise mais une ligne expliquant que l'examen s'ouvre quand un formateur le decide, l'entrainement restant illimite. L'etat est **relu au demarrage**, pas seulement au rendu de la fiche.
+
+  **Etat : 65 QCM accessibles en entrainement, 1 064 questions, 0 examen ouvert.** L'ouverture appartient desormais aux formateurs, theme par theme.
+
 - **2026-08-01** : **CONTRESENS CORRIGE : `published` ne gouverne QUE l'examen.** J'avais adosse les politiques de lecture a ce drapeau le 30/07. Consequence : rendre les QCM accessibles a la promo a **ouvert les 65 examens**, alors que l'intention etait seulement que les eleves et les formateurs puissent voir les QCM et s'entrainer. Personne n'a d'examen a passer pour l'instant : c'est aux formateurs d'en decider, QCM par QCM.
 
   Les deux notions sont desormais separees. En base, tout utilisateur connecte peut lire les QCM et s'entrainer, independamment de `published` ; l'application est fermee par liste blanche `user_profiles`, il n'y a pas d'exposition publique. **CETTE AFFIRMATION ETAIT FAUSSE, corrigee le 01/08** : les 65 examens n'ont PAS ete refermes ce jour-la. Ma commande de fermeture etait suivie, dans le meme appel, d'un `begin ... rollback` servant au test de verification ; le batch tournant deja dans une transaction, ce `rollback` a annule la mise a jour elle-meme. Et la verification, executee A L'INTERIEUR de cette transaction, affichait « 0 examen ouvert » juste avant que tout soit defait. Consequence : pendant une nuit, les 57 themes affichaient « Passer l'examen » a tous les stagiaires. Fermeture reellement appliquee le 01/08 a 00:37 depuis une autre conversation. **Regle a en tirer : ne jamais verifier une modification a l'interieur d'une transaction que l'on va annuler.** Une verification qui tourne dans la transaction qu'elle valide ne prouve rien.
